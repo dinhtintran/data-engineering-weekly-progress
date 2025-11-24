@@ -30,7 +30,7 @@ This repository documents my **Data Engineering Internship Journey**, including:
 
 | Week | Topic | README | Docs | Mini Project |
 |------|------------|--------|-------|---------------|
-| **Week 1** | Foundations (SQL, Python, Linux, Git) | [📄 Xem chi tiết](./week1/README.md) | [🔗 Docs](./week1/docs/) | [🛠 Mini ETL](./week1/projects/etl-basic/) |
+| **Week 1** | Foundations (SQL, Python, Linux, Git) | [📄 View details](./week1/README.md) | [🔗 Docs](./week1/docs/) | [🛠 Mini ETL](./week1/projects/etl-basic/) |
 | **Week 2** | Data Modeling + Data Warehouse | *updating* | *updating* | *updating* |
 | **Week 3** | Airflow Pipelines | *updating* | *updating* | *updating* |
 | **Week 4** | dbt Fundamentals | *updating* | *updating* | *updating* |
