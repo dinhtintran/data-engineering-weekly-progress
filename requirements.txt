@@ -1,2 +1,4 @@
 pandas
 requests
+apify-client
+python-dotenv

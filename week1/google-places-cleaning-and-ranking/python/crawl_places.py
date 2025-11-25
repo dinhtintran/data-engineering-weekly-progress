@@ -1,43 +1,62 @@
-import requests
 import json
 import time
+from apify_client import ApifyClient
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
+APIFY_TOKEN = os.getenv("APIFY_TOKEN")
+ACTOR_ID = 'compass/crawler-google-places'  # Google Maps Scraper
 
-API_KEY = ""
+def crawl_raw(query, save_path="../data/raw/raw_places1.json"):
+    client = ApifyClient(APIFY_TOKEN)
 
-def text_search(query):
-    url = "https://maps.googleapis.com/maps/api/place/textsearch/json"
-    params = {"query": query, "key": API_KEY}
-    res = requests.get(url, params=params).json()
-    return res.get("results", [])
-
-def get_place_details(place_id):
-    url = "https://maps.googleapis.com/maps/api/place/details/json"
-    params = {
-        "place_id": place_id,
-        "key": API_KEY,
-        "fields": "place_id,name,rating,user_ratings_total,geometry,formatted_address,types,reviews"
+    run_input = {
+        "searchStringsArray": [query],  # phải dùng searchStringsArray
+        "maxCrawledPlaces": 50,
+        "maxReviews": 20,
+        "scrapePlaceDetailPage": True,
+        "reviewsSort": "newest"
     }
-    res = requests.get(url, params=params).json()
-    return res.get("result", {})
 
-def crawl(query, save_path="../data/raw/raw_places.json"):
-    print(f"Searching for: {query}")
-    results = text_search(query)
+    print(f"Running Apify Google Maps Scraper with query: {query}")
+    run = client.actor(ACTOR_ID).call(run_input=run_input)
 
+    # Lấy dataset
+    dataset_id = run["defaultDatasetId"]
+    items = client.dataset(dataset_id).list_items().items
+
+    # Chuyển đổi giống Google Places API
     data = []
-    for place in results:
-        pid = place["place_id"]
-        print("Fetching details for: ", pid)
-        detail = get_place_details(pid)
+    for place in items:
+        detail = {
+            "place_id": place.get("placeId"),
+            "name": place.get("title"),
+            "rating": place.get("rating"),
+            "user_ratings_total": place.get("reviewsCount"),
+            "geometry": place.get("location"),
+            "address": place.get("address"),
+            "types": place.get("categories"),
+            "reviews": []
+        }
+        for rev in place.get("reviews", []):
+            detail["reviews"].append({
+                "author_name": rev.get("author"),
+                "rating": rev.get("rating"),
+                "text": rev.get("text"),
+                "time": rev.get("publishedAt")
+            })
         data.append(detail)
-        time.sleep(0.5)
+
+    # Tạo thư mục nếu chưa có
+    import os
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
 
     with open(save_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print(f"Saved to {save_path}")
+    print(f"Saved raw data to {save_path}")
 
 if __name__ == "__main__":
-    query = input("Type keywords to search the place: ")
-    crawl(query)
+    query = input("Type keywords to search the place (e.g. 'coffee shop, New York'): ")
+    crawl_raw(query)
