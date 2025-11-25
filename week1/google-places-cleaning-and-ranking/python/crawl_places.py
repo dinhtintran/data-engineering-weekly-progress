@@ -8,47 +8,47 @@ load_dotenv()
 APIFY_TOKEN = os.getenv("APIFY_TOKEN")
 ACTOR_ID = 'compass/crawler-google-places'  # Google Maps Scraper
 
-def crawl_raw(query, save_path="../data/raw/raw_places1.json"):
+def crawl_raw(query, save_path="../data/raw/raw_places.json"):
     client = ApifyClient(APIFY_TOKEN)
 
     run_input = {
-        "searchStringsArray": [query],  # phải dùng searchStringsArray
-        "maxCrawledPlaces": 50,
-        "maxReviews": 20,
-        "scrapePlaceDetailPage": True,
+        "searchStringsArray": [query], 
+        "maxCrawledPlaces": 25,
+        "maxReviews": 5,
+        "scrapePlaceDetailPage": False,
         "reviewsSort": "newest"
     }
 
     print(f"Running Apify Google Maps Scraper with query: {query}")
     run = client.actor(ACTOR_ID).call(run_input=run_input)
 
-    # Lấy dataset
+    # Get dataset
     dataset_id = run["defaultDatasetId"]
     items = client.dataset(dataset_id).list_items().items
 
-    # Chuyển đổi giống Google Places API
+    # Tranfer (Google Places API)
     data = []
     for place in items:
         detail = {
             "place_id": place.get("placeId"),
             "name": place.get("title"),
-            "rating": place.get("rating"),
+            "rating": place.get("totalScore"),
             "user_ratings_total": place.get("reviewsCount"),
-            "geometry": place.get("location"),
+            "geometry": place.get("placeLocation") or place.get("location"),
             "address": place.get("address"),
             "types": place.get("categories"),
             "reviews": []
         }
         for rev in place.get("reviews", []):
             detail["reviews"].append({
-                "author_name": rev.get("author"),
-                "rating": rev.get("rating"),
+                "author_name": rev.get("name"),
+                "rating": rev.get("stars"),
                 "text": rev.get("text"),
-                "time": rev.get("publishedAt")
+                "time": rev.get("publishedAtDate")
             })
         data.append(detail)
 
-    # Tạo thư mục nếu chưa có
+    # Make new folder if does not exist
     import os
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
 

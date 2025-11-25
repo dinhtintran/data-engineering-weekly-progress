@@ -1,0 +1,5352 @@
+[
+  {
+    "place_id": "ChIJj03Ix0cYQjERLtyWG7FSbSM",
+    "name": "Clb Bida 54/2",
+    "rating": 4.7,
+    "user_ratings_total": 3,
+    "geometry": {
+      "lat": 16.077545,
+      "lng": 108.2118493
+    },
+    "address": "54 Ông Ích Khiêm, Thanh Bình, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Club"
+    ],
+    "reviews": [
+      {
+        "author_name": "sang nguyencong",
+        "rating": 4,
+        "text": "Gôv",
+        "time": "2023-04-23T12:33:38.294Z"
+      },
+      {
+        "author_name": "other song tv",
+        "rating": 5,
+        "text": "Ok",
+        "time": "2023-02-21T06:59:50.707Z"
+      },
+      {
+        "author_name": "Triet",
+        "rating": 5,
+        "text": null,
+        "time": "2016-07-16T16:24:32.921Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJFbkva_YXQjERv0AKVffrDrk",
+    "name": "The Hangover Bar",
+    "rating": 4.8,
+    "user_ratings_total": 72,
+    "geometry": {
+      "lat": 16.0764283,
+      "lng": 108.2441533
+    },
+    "address": "1 Phước Trường 8, An Hải, Sơn Trà, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Cocktail bar"
+    ],
+    "reviews": [
+      {
+        "author_name": "Lisa König",
+        "rating": 5,
+        "text": "Coole kleine Bar in meiner Nachbarschaft. Der Service ist super und mein Mojito war ausgezeichnet. Gemütliche Stimmung und coole Musik.\n\nUpdate: Es gibt nun das Blanc 1664 auch als Draft beer, das finde ich spitze, denn es ist mein Lieblingsbier und nochmals besser als aus der Flasche.",
+        "time": "2025-11-06T08:44:13.109Z"
+      },
+      {
+        "author_name": "Yang Yi",
+        "rating": 5,
+        "text": "酒吧氣氛很好，老闆很熱情友善，對很多事情很有見解。在這像是回到了沒有手機的九十年代。即使下雨天也很多客人，如果你住附近，推薦過來找老闆聊聊天：D",
+        "time": "2025-10-29T14:21:26.271Z"
+      },
+      {
+        "author_name": "Ben Nottingham",
+        "rating": 5,
+        "text": null,
+        "time": "2025-08-31T09:22:51.937Z"
+      },
+      {
+        "author_name": "Tuấn Nhật Nguyễn",
+        "rating": 5,
+        "text": "enthusiastic service, comfortable space 👏✨",
+        "time": "2025-08-03T17:08:39.886Z"
+      },
+      {
+        "author_name": "Nguyễn Văn Cường",
+        "rating": 5,
+        "text": "Không gian quán đẹp, đồ uống ngon, rất phù hợp với những người muốn tìm không gian chill vào ban đêm.",
+        "time": "2025-07-25T13:55:35.716Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ_eVRYpMZQjERQLQRXV-1d4s",
+    "name": "Clb Bida 212",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0364407,
+      "lng": 108.2120329
+    },
+    "address": "212 Phan Đăng Lưu, Hoà Cường Bắc, Cẩm Lệ, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Club"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJGR2oM7oZQjER3HuI3QUlp_0",
+    "name": "KONOHA PREMIUM",
+    "rating": 3.9,
+    "user_ratings_total": 17,
+    "geometry": {
+      "lat": 16.045102,
+      "lng": 108.2227725
+    },
+    "address": "286 Đ. 2 Tháng 9, Hoà Cường Bắc, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Recreation center"
+    ],
+    "reviews": [
+      {
+        "author_name": "Son Nguyen Hoai",
+        "rating": 1,
+        "text": null,
+        "time": "2025-11-17T09:23:54.708Z"
+      },
+      {
+        "author_name": "Trà Phùng Thị",
+        "rating": 1,
+        "text": "Lần đầu check in quán, thật sự ko gian, giá cả cũng ok ko khác mấy quán khác. Nhưng mong quán xem lại cách làm việc của nhân viên, sáng nay mình chơi tầng 1 chỉ có nhân viên, thái độ làm việc của bạn nv nhìn rất mệt mỏi, thờ ơ với khách. Mình có kêu mấy lần xếp bi thì chắc có nghe nhưng lơ phải nói tới 3-4 lần mới tới mà xếp. Mong quán training lại nv",
+        "time": "2025-11-02T07:29:09.431Z"
+      },
+      {
+        "author_name": "Hoàng Hồ",
+        "rating": 5,
+        "text": "Bàn ngon cơ xịn nv nhiệt tình",
+        "time": "2025-09-14T04:00:40.534Z"
+      },
+      {
+        "author_name": "Vu Nguyen",
+        "rating": 5,
+        "text": "mình có 1 chuyến du lịch ở Đà Nẵng và mình có ghé KONOHA PREMIUM, để mà nói thì đây là 1 trải nghiệm khá ổn, phục vụ nhanh chóng, thái độ nhân viên tốt và dàn máy khá ổn điểm trừ duy nhất mình thấy ở quán là chuột không quá ổn do mình có chơi tựa game fps nên trải nghiệm game không tốt cho lắm\nThank you, see you later!",
+        "time": "2025-08-19T12:23:26.563Z"
+      },
+      {
+        "author_name": "Anh Nguyen Nhat",
+        "rating": 5,
+        "text": null,
+        "time": "2025-08-15T12:43:23.790Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJzVy4fWIXQjERqwTOTpacEWM",
+    "name": "Clb Bida Seven",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0482697,
+      "lng": 108.2381343
+    },
+    "address": "156 Ngũ Hành Sơn, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Club"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJlTe6ybwXQjERiXfEsLz5Zn4",
+    "name": "Lounge Pandora",
+    "rating": 3.7,
+    "user_ratings_total": 121,
+    "geometry": {
+      "lat": 16.0683594,
+      "lng": 108.2437668
+    },
+    "address": "7 Hà Bổng, An Hải, Sơn Trà, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Bar"
+    ],
+    "reviews": [
+      {
+        "author_name": "Bay Tran",
+        "rating": 5,
+        "text": "Thức ăn ngon, giá rẻ",
+        "time": "2025-07-18T20:07:24.587Z"
+      },
+      {
+        "author_name": "Thuy Tran",
+        "rating": 5,
+        "text": "So good. Many girl very funny. I will go back",
+        "time": "2025-07-18T14:13:24.375Z"
+      },
+      {
+        "author_name": "Hoàng Huy",
+        "rating": 5,
+        "text": null,
+        "time": "2025-07-18T13:58:51.843Z"
+      },
+      {
+        "author_name": "Nguyen Sang",
+        "rating": 5,
+        "text": "Các bạn nhân viên dễ thương và vui vẻ ❤️",
+        "time": "2025-07-18T13:58:51.004Z"
+      },
+      {
+        "author_name": "Nhii Quỳnh",
+        "rating": 5,
+        "text": null,
+        "time": "2025-07-18T13:57:26.712Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJXVX9QbcZQjERANu4BB8U_9M",
+    "name": "Câu Lạc Bộ Bida Thời Đại",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0546393,
+      "lng": 108.2094546
+    },
+    "address": "382, Nguyễn Tri Phương Q. Hải Châu, Tp. Đà Nẵng, Thạc Gián, Thanh Khê, Đà Nẵng, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJ_3baTb8ZQjERlWxm_ZmNDt0",
+    "name": "Bida quang nguyễn 468",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0529935,
+      "lng": 108.2069786
+    },
+    "address": "4 Đặng Thùy Trâm, Hòa Thuận Nam, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Playground"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJOTEBNDAYQjERQ0ilY1I4yho",
+    "name": "Simple Man Pub",
+    "rating": 4.6,
+    "user_ratings_total": 325,
+    "geometry": {
+      "lat": 16.0660183,
+      "lng": 108.2301345
+    },
+    "address": "05 Nguyễn Thông, An Hải Trung, Sơn Trà, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Bar"
+    ],
+    "reviews": [
+      {
+        "author_name": "Jan-Niklas Pieninck",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-22T04:13:12.620Z"
+      },
+      {
+        "author_name": "John Mulcahy",
+        "rating": 4,
+        "text": "Walked for an hour to get here, states open at 5, not a sign of life, 5.15, now that doesnt change, but i came in several days later, owner apologised, he had got stuck in traffic, maybe I was hasty, and i was pretty sick, used all my energy to get here, but he couldn't be more apologetic, bought me a beer and couldn't be more humble, it's currently 7pm on a wednesday, it's rainy and quiet, but think that's general in da nang...I didn't take food",
+        "time": "2025-11-20T11:57:36.587Z"
+      },
+      {
+        "author_name": "대마왕",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-08T15:53:27.755Z"
+      },
+      {
+        "author_name": "Daniel Alejandro (Danielito)",
+        "rating": 4,
+        "text": "Simpático. Te proponen colocar la música que te gusta",
+        "time": "2025-11-08T06:16:49.425Z"
+      },
+      {
+        "author_name": "Brendan Earle",
+        "rating": 5,
+        "text": "Excellent pub great food and beers as well as cocktails. Great service and trendy decor favourite so far.",
+        "time": "2025-11-07T18:47:09.063Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ6xnJ6d0ZQjERGD9nH5toR6E",
+    "name": "Robot Stadium ( chi nhánh 4 )",
+    "rating": 3.9,
+    "user_ratings_total": 99,
+    "geometry": {
+      "lat": 16.059394,
+      "lng": 108.2053458
+    },
+    "address": "178 Nguyễn Tri Phương, Thạc Gián, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Internet cafe"
+    ],
+    "reviews": [
+      {
+        "author_name": "Hiếu Phạm",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-25T02:10:45.370Z"
+      },
+      {
+        "author_name": "Tin Tin",
+        "rating": 1,
+        "text": null,
+        "time": "2025-11-15T01:11:31.963Z"
+      },
+      {
+        "author_name": "Lâm Đỗ Tùng",
+        "rating": 1,
+        "text": "Máy tệ bàn phím thì hư nút bàn phím thì mất nút ghế thì hư ngồi không bằng, máy thì yếu chơi lag kinh khủng",
+        "time": "2025-11-07T16:11:41.120Z"
+      },
+      {
+        "author_name": "Lê Anh",
+        "rating": 1,
+        "text": "Cơ sở vật rất tệ.",
+        "time": "2025-10-09T19:22:56.222Z"
+      },
+      {
+        "author_name": "Thiện Văn Huỳnh",
+        "rating": 5,
+        "text": "Dịch vụ ok nvien vui vẻ",
+        "time": "2025-10-07T17:01:22.484Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJiz7X0WwZQjER2QRmx7dwt04",
+    "name": "BIDA JOKER",
+    "rating": 3.7,
+    "user_ratings_total": 6,
+    "geometry": {
+      "lat": 16.0598697,
+      "lng": 108.1874988
+    },
+    "address": "316 Hà Huy Tập, Thanh Khê Đông, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "RV park"
+    ],
+    "reviews": [
+      {
+        "author_name": "viola zanolla",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-21T04:17:10.985Z"
+      },
+      {
+        "author_name": "Robin Suee",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-21T04:03:41.722Z"
+      },
+      {
+        "author_name": "PDA Shop",
+        "rating": 5,
+        "text": null,
+        "time": "2025-10-05T19:43:19.457Z"
+      },
+      {
+        "author_name": "Trung Lê",
+        "rating": 1,
+        "text": "Đồ ăn tốt view đẹp nhưng mình cho 1s vì thái độ của bạn mặc sơ mi của quán với khách hàng hình như là giám sát mình hỏi nhân viên thì nghe là vậy. Rất khó chịu với khách hàng và ăn nói thô tục trong môi trường chuyên nghiệp",
+        "time": "2025-07-27T16:42:14.082Z"
+      },
+      {
+        "author_name": "Hung Nguyen",
+        "rating": 1,
+        "text": null,
+        "time": "2023-12-22T13:44:02.434Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJj1VzMisYQjERqW1YxWF8NqI",
+    "name": "Clb Bida Hoàng Gia",
+    "rating": 5,
+    "user_ratings_total": 1,
+    "geometry": {
+      "lat": 16.0631865,
+      "lng": 108.2340216
+    },
+    "address": "955 Ng. Quyền, An Hải Bắc, Sơn Trà, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Khang Nguyễn",
+        "rating": 5,
+        "text": null,
+        "time": "2020-02-05T13:27:41.133Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJNfNmWz8XQjERBYZl5LT0J-s",
+    "name": "Bar & Pool",
+    "rating": 3.5,
+    "user_ratings_total": 4,
+    "geometry": {
+      "lat": 16.0622243,
+      "lng": 108.2451814
+    },
+    "address": "36 Lâm Hoành, An Hải, Sơn Trà, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Bar"
+    ],
+    "reviews": [
+      {
+        "author_name": "Spa Yuni",
+        "rating": 5,
+        "text": null,
+        "time": "2025-09-22T06:57:51.004Z"
+      },
+      {
+        "author_name": "Danni Steger",
+        "rating": 1,
+        "text": "Fake opening hours",
+        "time": "2024-05-05T23:30:11.877Z"
+      },
+      {
+        "author_name": "Tina Chiew",
+        "rating": 4,
+        "text": null,
+        "time": "2023-09-03T10:38:51.759Z"
+      },
+      {
+        "author_name": "Dennisraw",
+        "rating": 4,
+        "text": null,
+        "time": "2021-03-11T08:10:59.860Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJXdDUwzIYQjERxDBcA0prFDo",
+    "name": "Bamboo 2 Bar",
+    "rating": 4.2,
+    "user_ratings_total": 1781,
+    "geometry": {
+      "lat": 16.0649822,
+      "lng": 108.2240158
+    },
+    "address": "216 Bạch Đằng, Phước Ninh, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports bar",
+      "Bar",
+      "Bar & grill",
+      "Cocktail bar",
+      "Restaurant"
+    ],
+    "reviews": [
+      {
+        "author_name": "Barry D",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-24T10:16:29.444Z"
+      },
+      {
+        "author_name": "Eric Nghiem",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-21T12:34:12.583Z"
+      },
+      {
+        "author_name": "Stephane Kovak",
+        "rating": 4,
+        "text": "Bonne ambiance le soir",
+        "time": "2025-11-17T01:58:53.475Z"
+      },
+      {
+        "author_name": "초코볼",
+        "rating": 5,
+        "text": "여행 마지막날 방문\n3층에서 1층에서 들리는 음악감상하며\n전기줄에 가려는 졌지만, 한강보면서 분위기 좋았음.",
+        "time": "2025-11-14T15:13:35.183Z"
+      },
+      {
+        "author_name": "Minty Oates",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-13T03:49:59.196Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJRQIvVQAZQjER0_bFT5ahPg4",
+    "name": "CLB BÓNG BÀN ĐA PHƯỚC",
+    "rating": 4.8,
+    "user_ratings_total": 16,
+    "geometry": {
+      "lat": 16.0781585,
+      "lng": 108.2081467
+    },
+    "address": "Đ. Số 7, Khu đô thị Đa Phước, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Table tennis club",
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Anh Lê Đức",
+        "rating": 3,
+        "text": null,
+        "time": "2025-11-01T00:29:28.639Z"
+      },
+      {
+        "author_name": "박영숙",
+        "rating": 5,
+        "text": "Sáng nay anh chơi bóng bàn. Anh muốn ngày mai lại chơi với em như hôm nay. Chúng ta đi lúc 10 giờ nhé?",
+        "time": "2025-07-27T06:36:37.635Z"
+      },
+      {
+        "author_name": "Your Mommy",
+        "rating": 4,
+        "text": "Отличное место для игры в настольный теннис . Дешево . Но дети хозяина мешают играть , кричат возле стола это очень отвлекает от игры",
+        "time": "2025-07-26T12:51:06.538Z"
+      },
+      {
+        "author_name": "dung Duong",
+        "rating": 5,
+        "text": null,
+        "time": "2025-07-08T13:16:11.340Z"
+      },
+      {
+        "author_name": "Thiên Thái",
+        "rating": 5,
+        "text": null,
+        "time": "2025-06-08T02:26:54.624Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJld1EaysYQjER6s9oAbKV3CE",
+    "name": "Clb Bida Hưng Phát",
+    "rating": 3,
+    "user_ratings_total": 2,
+    "geometry": {
+      "lat": 16.0648372,
+      "lng": 108.2335791
+    },
+    "address": "909 Ng. Quyền, An Hải Bắc, Sơn Trà, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Panel Vip",
+        "rating": 1,
+        "text": null,
+        "time": "2022-08-11T01:08:39.001Z"
+      },
+      {
+        "author_name": "Intro Video",
+        "rating": 5,
+        "text": "Nhân viên vui vẻ, chất lượng bàn bida khá tốt",
+        "time": "2019-04-16T06:26:17.655Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ_dLvTlIYQjERkZnR7qyI-TM",
+    "name": "Clb Bida Quý",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0696489,
+      "lng": 108.1997076
+    },
+    "address": "45 Lê Quang Sung, Chính Gián, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJQwRmgbcZQjERwR4YVPKJ02Y",
+    "name": "Clb Bida 117",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0542126,
+      "lng": 108.2115856
+    },
+    "address": "118 Lê Đình Lý, Bình Thuận, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJzy547MMZQjEREb0UR-do7nQ",
+    "name": "Clb Bida 185",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0459966,
+      "lng": 108.2213564
+    },
+    "address": "185 Núi Thành, Hoà Cường Bắc, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJhb51M-4ZQjERSUlqTpM49Ck",
+    "name": "Clb Bida 567",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0311606,
+      "lng": 108.2228346
+    },
+    "address": "567 Núi Thành, Hoà Cường Nam, Hải Châu, Đà Nẵng, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJjZYlVdQZQjERz0WYuW74C5U",
+    "name": "Câu lạc bộ Bida A.Huynh cơ sở 3",
+    "rating": 4.8,
+    "user_ratings_total": 11,
+    "geometry": {
+      "lat": 16.0794071,
+      "lng": 108.1627391
+    },
+    "address": "342 Kinh D. Vương, Hoà Minh, Liên Chiểu, Đà Nẵng 50000, Vietnam",
+    "types": [
+      "Club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Thuy Ngoc",
+        "rating": 5,
+        "text": "Nv phục vụ tốt nhiệt tình dễ thương, quán sạch sẽ, sẽ tiếp tục ủng hộ quán lâu dài",
+        "time": "2025-10-28T09:35:57.416Z"
+      },
+      {
+        "author_name": "Phuc Nguyenthihong",
+        "rating": 5,
+        "text": null,
+        "time": "2025-09-16T08:37:41.561Z"
+      },
+      {
+        "author_name": "Tâm Hồng",
+        "rating": 5,
+        "text": "trãi nghiệm quá ok, quán rộng rãi thoáng mát, nv nhiệt tình, bàn đánh mướt...sẽ quay lại nhiều lần",
+        "time": "2025-07-26T06:34:42.675Z"
+      },
+      {
+        "author_name": "Hạnh Dương",
+        "rating": 5,
+        "text": "Nhân viên xinh gái phục vụ nhiệt tình , không gian rộng rãi thoáng mát",
+        "time": "2025-06-02T08:40:33.891Z"
+      },
+      {
+        "author_name": "ThanhThao Le",
+        "rating": 5,
+        "text": "cứ gọi là okkk 😍😍😍",
+        "time": "2025-06-02T08:22:22.643Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJTb9kX4kZQjERH6b_UVRYJ58",
+    "name": "Clb Bida Nu",
+    "rating": 3.3,
+    "user_ratings_total": 3,
+    "geometry": {
+      "lat": 16.0245826,
+      "lng": 108.2078151
+    },
+    "address": "24 Lê Đại Hành, Khuê Trung, Cẩm Lệ, Đà Nẵng 500000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Đông Nguyễn",
+        "rating": 1,
+        "text": null,
+        "time": "2024-04-22T04:12:38.359Z"
+      },
+      {
+        "author_name": "Danabuy Viet Nam",
+        "rating": 4,
+        "text": "Ổn giá hơi cao",
+        "time": "2023-02-22T03:23:16.783Z"
+      },
+      {
+        "author_name": "phan nguyen",
+        "rating": 5,
+        "text": null,
+        "time": "2021-04-20T04:12:28.783Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJx-Gg2jkYQjERBlB-zWZ9QCc",
+    "name": "Clb Bida Green",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0759911,
+      "lng": 108.2176728
+    },
+    "address": "6 Nguyễn Thị Minh Khai, Thạch Thang, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJocVX484ZQjERuz1C9B_uNwA",
+    "name": "Clb Billiards 106",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0558567,
+      "lng": 108.222091
+    },
+    "address": "106 Đ. 2 Tháng 9, Bình Thuận, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Billiards supply store"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJ_0-ds1IYQjERJyQaI1aVHv8",
+    "name": "Câu Lạc Bộ Bida Thời Đại",
+    "rating": 3,
+    "user_ratings_total": 1,
+    "geometry": {
+      "lat": 16.0659828,
+      "lng": 108.2011039
+    },
+    "address": "90 Điện Biên Phủ, Chính Gián, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Van Nghiem Nguyen",
+        "rating": 3,
+        "text": "Ok",
+        "time": "2019-08-04T03:03:14.690Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ9dnYPgAZQjERHJ0nXNFKBmI",
+    "name": "LEVEL POOL BILLIARDS",
+    "rating": 3,
+    "user_ratings_total": 2,
+    "geometry": {
+      "lat": 16.0741129,
+      "lng": 108.2141109
+    },
+    "address": "376 Đống Đa, Thanh Bình, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Billiards supply store"
+    ],
+    "reviews": [
+      {
+        "author_name": "Tuất Nguyễn Cao",
+        "rating": 1,
+        "text": "Tiền h thì đắt ngang peri nv xếp bi thì không có cơ thì khỏi phải nói luôn quá tệ",
+        "time": "2025-11-15T17:57:44.747Z"
+      },
+      {
+        "author_name": "jaden KWON",
+        "rating": 5,
+        "text": "다이 좋앙",
+        "time": "2025-08-20T00:08:33.123Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJYRQISxkXQjERD2hDD7iKeMo",
+    "name": "Emma's bar Da Nang",
+    "rating": 4.9,
+    "user_ratings_total": 447,
+    "geometry": {
+      "lat": 16.0479781,
+      "lng": 108.2450191
+    },
+    "address": "36-38 An Thượng 8, Bắc Mỹ An, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Bar",
+      "Cider bar",
+      "Cocktail bar",
+      "Karaoke bar",
+      "Live music bar"
+    ],
+    "reviews": [
+      {
+        "author_name": "Christopher Frieler",
+        "rating": 5,
+        "text": "Cozy little Cocktail bar, somewhat hidden in a side street. Serves tasty classic Cocktails. There were only few guests, so Emma was a little distracted doing other stuff. But the Cocktails were good.",
+        "time": "2025-11-13T15:44:02.572Z"
+      },
+      {
+        "author_name": "Eddie",
+        "rating": 5,
+        "text": "Great music, great hang out.",
+        "time": "2025-11-01T10:28:29.205Z"
+      },
+      {
+        "author_name": "Minh Nhat",
+        "rating": 5,
+        "text": "This place just amazing, we got stuck by the storm in octorber, come here everydays to party. Gud vibes gud people, they all friendly and also cheap if you guys plan for big party. Sure gonna come again when we come da nang!!! Thanks chị Emma vì trải nghiệm tuyệt vời trong mấy ngày mưa bão ở ĐN.",
+        "time": "2025-10-28T06:30:00.190Z"
+      },
+      {
+        "author_name": "Jack B",
+        "rating": 5,
+        "text": "One of the best spots in the area, good vibes, great staff",
+        "time": "2025-10-26T17:28:37.478Z"
+      },
+      {
+        "author_name": "O B Wan",
+        "rating": 4,
+        "text": "One of the coziest bars around! The regulars are extremely friendly and invited us to play some cards and 8ball at the pool table. The staff are nice and kinda attentive (when not outside smoking) but had 2 mistakes on 2 different occasions we've been there when handling the money/change. Either didn't pay enough attention or didn't care since when I ordered a pint of draft beer the tap ran out midway but the worker just said \"OK its out, small glass OK?\" And already started pouring, then charged full (for small glass) while it was about 3/4 full. Staff must get better training",
+        "time": "2025-10-14T10:21:49.067Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJIatxUFQZQjERrU9XriNW0VY",
+    "name": "AK Billiards Club",
+    "rating": 2.6,
+    "user_ratings_total": 5,
+    "geometry": {
+      "lat": 16.0610082,
+      "lng": 108.2355837
+    },
+    "address": "07 An Trung Đông 3, An Hải Bắc, Sơn Trà, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Billiards supply store"
+    ],
+    "reviews": [
+      {
+        "author_name": "Thanh Mẫn Lê",
+        "rating": 1,
+        "text": "nhân viên thái độ đuổi bàn đánh 1 người lơ xếp bi gậy lỏ bàn lỏ nói chung rất tệ",
+        "time": "2025-11-07T14:13:17.092Z"
+      },
+      {
+        "author_name": "Tiên Đinh",
+        "rating": 5,
+        "text": "Mik có để quên cái vòng tràn hạt đỏ khi đi tới quán chs tuần trc k bik nhân viên quán có giữ lại k ạ",
+        "time": "2025-07-28T00:07:58.076Z"
+      },
+      {
+        "author_name": "Regina",
+        "rating": 1,
+        "text": "on the first floor - smell of cigarettes (they just throw cigarettes on the floor)\non the second floor - it smell of sweat, choose your favorite floor:)\nPrice 50 for 1 hour",
+        "time": "2025-05-18T15:01:26.065Z"
+      },
+      {
+        "author_name": "カネ岡村",
+        "rating": 5,
+        "text": "素敵ところだ！",
+        "time": "2024-12-22T11:35:44.287Z"
+      },
+      {
+        "author_name": "Chí Vỹ Đẹp chai",
+        "rating": 1,
+        "text": "Nhân viên thân thiện quá chửi khéo khách lun anh nhân viên ngày 26/7 lúc 19:28 phút",
+        "time": "2024-07-26T12:32:23.577Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJaeunILEZQjERH8uIS1h7WE0",
+    "name": "Clb Bida Thống Nhất",
+    "rating": 1,
+    "user_ratings_total": 1,
+    "geometry": {
+      "lat": 16.0636645,
+      "lng": 108.2032089
+    },
+    "address": "32 Nguyễn Tri Phương, Chính Gián, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Hùng Hoàng Mạnh",
+        "rating": 1,
+        "text": null,
+        "time": "2020-05-11T12:34:27.756Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ0XHTJ0gYQjERm562BWlrUAA",
+    "name": "Câu lạc bộ bida Q7",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0739213,
+      "lng": 108.2138786
+    },
+    "address": "131 Hào Nam - Đống đa, Quận Đống Đa, Thanh Bình, Hải Châu, Đà Nẵng, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJ8aTuLO4ZQjERF5cZV90ZMrw",
+    "name": "Clb Bida 600",
+    "rating": 3.3,
+    "user_ratings_total": 4,
+    "geometry": {
+      "lat": 16.0305729,
+      "lng": 108.2225566
+    },
+    "address": "600 Núi Thành, Hoà Cường Nam, Hải Châu, Đà Nẵng, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Kieu Hieu",
+        "rating": 5,
+        "text": "dẫn con cháu đi chơi  mà muốn ở lại chớ ko muốn về",
+        "time": "2024-03-13T06:45:10.239Z"
+      },
+      {
+        "author_name": "TTùng Hoàng",
+        "rating": 4,
+        "text": "Giá rẻ ,ok",
+        "time": "2022-06-21T13:51:48.149Z"
+      },
+      {
+        "author_name": "hoài lê văn",
+        "rating": 3,
+        "text": null,
+        "time": "2021-05-07T07:23:40.571Z"
+      },
+      {
+        "author_name": "Trọng Hà Nguyễn",
+        "rating": 1,
+        "text": "Tại đây phù hợp với hssv sinh hịat môn thể thao bida này .giá cả hợp lý phụ vụ tạm ổn...",
+        "time": "2021-01-13T02:32:11.795Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJmcIMTBwZQjERjuUlHqVhsR0",
+    "name": "Câu Lạc Bộ Bida TC",
+    "rating": 3.8,
+    "user_ratings_total": 6,
+    "geometry": {
+      "lat": 16.0654401,
+      "lng": 108.173935
+    },
+    "address": "358F+5HF, Hoàng Thị Loan, Hoà Minh, Liên Chiểu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Phi Long",
+        "rating": 3,
+        "text": null,
+        "time": "2025-08-27T09:40:46.961Z"
+      },
+      {
+        "author_name": "Vân anh trần",
+        "rating": 5,
+        "text": null,
+        "time": "2025-03-24T02:50:25.547Z"
+      },
+      {
+        "author_name": "Tuan Vo Van Anh",
+        "rating": 5,
+        "text": "Trải nghiệm chơi bida ở đây thật tuyệt!",
+        "time": "2025-03-18T07:39:27.297Z"
+      },
+      {
+        "author_name": "Duy Bùi vũ",
+        "rating": 4,
+        "text": "Vui vẻ, giá cả phải chăng!",
+        "time": "2023-02-07T01:33:50.012Z"
+      },
+      {
+        "author_name": "Long Nguyễn",
+        "rating": 5,
+        "text": null,
+        "time": "2023-01-26T09:16:37.975Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJew196U4ZQjERAEuYLsfZv0w",
+    "name": "CLB Bida Thành Trúc",
+    "rating": 3.8,
+    "user_ratings_total": 9,
+    "geometry": {
+      "lat": 16.0364721,
+      "lng": 108.2111813
+    },
+    "address": "225 Phan Đăng Lưu, Khuê Trung, Cẩm Lệ, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Fitness center"
+    ],
+    "reviews": [
+      {
+        "author_name": "Thị Ngọc Huế Ngô",
+        "rating": 4,
+        "text": "Tốt",
+        "time": "2024-10-18T03:41:17.401Z"
+      },
+      {
+        "author_name": "Lê Hòa",
+        "rating": 4,
+        "text": "CLB này bàn và cơ tốt, nói chung là tốt.",
+        "time": "2023-11-03T03:15:42.232Z"
+      },
+      {
+        "author_name": "Lâm",
+        "rating": 5,
+        "text": null,
+        "time": "2022-04-14T16:41:21.931Z"
+      },
+      {
+        "author_name": "Conan1111 11",
+        "rating": 1,
+        "text": "Bàn kém chất lượng",
+        "time": "2022-04-01T04:50:20.258Z"
+      },
+      {
+        "author_name": "Trung",
+        "rating": 4,
+        "text": "Ok",
+        "time": "2021-10-30T06:40:51.038Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJufDwGDwYQjERL0K0KTebEu4",
+    "name": "Clb Bida Win",
+    "rating": 5,
+    "user_ratings_total": 1,
+    "geometry": {
+      "lat": 16.0824809,
+      "lng": 108.2204121
+    },
+    "address": "28 Đống Đa, Thuận Phước, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Billiards supply store"
+    ],
+    "reviews": [
+      {
+        "author_name": "Cá Heo",
+        "rating": 5,
+        "text": null,
+        "time": "2020-12-17T18:02:03.560Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJo0553qoZQjER3fMpGH3GEFU",
+    "name": "Clb Bida 555",
+    "rating": 4,
+    "user_ratings_total": 1,
+    "geometry": {
+      "lat": 16.0652243,
+      "lng": 108.1930818
+    },
+    "address": "255 Bế Văn Đàn, Thanh Khê Đông, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Nam Lê",
+        "rating": 4,
+        "text": "Ok",
+        "time": "2021-12-09T11:49:39.950Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJham0sjkYQjERKj5Di4I5MBA",
+    "name": "Câu Lạc Bộ Bida 149",
+    "rating": 3,
+    "user_ratings_total": 2,
+    "geometry": {
+      "lat": 16.0777694,
+      "lng": 108.216995
+    },
+    "address": "149 Đống Đa, Thạch Thang, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Nam Nguyễn giang",
+        "rating": 1,
+        "text": "Bàn thì xấu giá thì quá cao 1 tiếng 80k",
+        "time": "2023-10-31T17:33:26.287Z"
+      },
+      {
+        "author_name": "tuan nguyen ngoc",
+        "rating": 5,
+        "text": null,
+        "time": "2023-05-28T15:46:17.564Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJjeNuWQAZQjERd2w4JRRhCBU",
+    "name": "Billiard Đỗ Nhân",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0461523,
+      "lng": 108.1766805
+    },
+    "address": "05 Tổ 18, Bình Phụng, Thăng Phú, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJVWliFOkZQjERzBKelCzpMM0",
+    "name": "Câu Lạc Bộ Billiards 27",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.037459,
+      "lng": 108.2216313
+    },
+    "address": "27 Đường Phan Đăng Lưu, Phường Hòa Cường Nam, Quận Hải Châu, Thành Phố Đà Nẵng, Vietnam",
+    "types": [
+      "Pool hall"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJCW5xU4AXQjERkKfdAxj1kdY",
+    "name": "Billiard Mỹ Khê",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0647595,
+      "lng": 108.2405638
+    },
+    "address": "14 Mỹ Khê 6, An Hải, Sơn Trà, Đà Nẵng 550000, Vietnam",
+    "types": [],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJef7GGNoZQjERWjcop20mbFI",
+    "name": "Bida 224",
+    "rating": 2.3,
+    "user_ratings_total": 12,
+    "geometry": {
+      "lat": 16.0777507,
+      "lng": 108.2165394
+    },
+    "address": "224 Đống Đa, Thuận Phước, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Nhật Trương",
+        "rating": 5,
+        "text": null,
+        "time": "2025-09-11T09:30:17.957Z"
+      },
+      {
+        "author_name": "Hiệp Văn",
+        "rating": 1,
+        "text": null,
+        "time": "2025-03-30T13:43:15.281Z"
+      },
+      {
+        "author_name": "Tùng Hoàng",
+        "rating": 1,
+        "text": "Nhân viên thái độ",
+        "time": "2024-03-27T04:21:57.456Z"
+      },
+      {
+        "author_name": "Phuong Ngo",
+        "rating": 1,
+        "text": "Nhân viên rất thái độ , cô chủ thì nói chuyện nhẹ nhàng nhưng mà nhân viên rất láo , máy tính sai ăn gian của khách mà nói giọng mẹ thiên hạ ? K hề có 1 lời xin lỗi , tính gian của mình rất nhiều lần r nhưng mà quay lại vẫn y vậy , k có 1 lời xin lỗi khách , quá tệ , nào đổi nhân viên r quay lại sau 🙂 nhân viên còn nhăn cả chủ thì k biết do chủ quá hiền hay nhân viên quá láo 😂",
+        "time": "2024-03-27T04:18:48.726Z"
+      },
+      {
+        "author_name": "Gia Khải",
+        "rating": 5,
+        "text": null,
+        "time": "2024-03-10T11:41:25.339Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJcTRm9zcYQjER43-jjfmWzqA",
+    "name": "But Tung Billiards Club",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0756667,
+      "lng": 108.2147925
+    },
+    "address": "11, Cao Thang Street, Thanh Binh Ward, Hai Chau District, 9 Cao Thắng, Thanh Bình, Hải Châu, Đà Nẵng, Vietnam",
+    "types": [
+      "Sports activity location"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJZ5U6yq0ZQjERQ6WpIdkvryI",
+    "name": "CLB Bida Thanh Khê",
+    "rating": 4.5,
+    "user_ratings_total": 4,
+    "geometry": {
+      "lat": 16.0707707,
+      "lng": 108.1904707
+    },
+    "address": "09 Hà Đông 1, Xuân Hà, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Gym"
+    ],
+    "reviews": [
+      {
+        "author_name": "Phạm Đỗ Minh Trí",
+        "rating": 4,
+        "text": null,
+        "time": "2024-08-14T23:17:40.480Z"
+      },
+      {
+        "author_name": "Duy Đặng",
+        "rating": 5,
+        "text": null,
+        "time": "2023-02-20T11:15:21.398Z"
+      },
+      {
+        "author_name": "minh le quy",
+        "rating": 5,
+        "text": "Ok",
+        "time": "2022-09-04T06:26:33.208Z"
+      },
+      {
+        "author_name": "Vlog Nguyễn Cao Kỳ",
+        "rating": 4,
+        "text": "100đ",
+        "time": "2022-05-18T12:51:55.642Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ_Y7TClUYQjERYjQvosOWf3A",
+    "name": "Clb Bida 46",
+    "rating": 4,
+    "user_ratings_total": 1,
+    "geometry": {
+      "lat": 16.0692688,
+      "lng": 108.1917181
+    },
+    "address": "46 Hà Huy Tập, Xuân Hà, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club",
+      "Club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Danny Vu",
+        "rating": 4,
+        "text": "Quán mới - bàn ok!",
+        "time": "2022-07-07T04:44:25.877Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJL0DqDXwXQjERAlxO4_qXSC8",
+    "name": "Clb Bida 191",
+    "rating": 4,
+    "user_ratings_total": 2,
+    "geometry": {
+      "lat": 16.0554415,
+      "lng": 108.2429925
+    },
+    "address": "191 Nguyễn Văn Thoại, Bắc Mỹ Phú, Sơn Trà, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Lý Hữu",
+        "rating": 5,
+        "text": "Ok",
+        "time": "2025-01-09T06:49:16.482Z"
+      },
+      {
+        "author_name": "Quốc Đại",
+        "rating": 3,
+        "text": "Quán đánh không sướng lắm",
+        "time": "2023-12-06T11:35:46.663Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ-4xuamUXQjERXpe8IHaS6XI",
+    "name": "Vertigo",
+    "rating": 4.3,
+    "user_ratings_total": 359,
+    "geometry": {
+      "lat": 16.0477362,
+      "lng": 108.2451425
+    },
+    "address": "81 Ngô Thì Sĩ, Bắc Mỹ An, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports bar",
+      "Restaurant"
+    ],
+    "reviews": [
+      {
+        "author_name": "Quazar",
+        "rating": 5,
+        "text": "Nice place to drink and eat. Good food",
+        "time": "2025-11-22T00:12:40.160Z"
+      },
+      {
+        "author_name": "Nguyễn thị thuý Vân",
+        "rating": 5,
+        "text": "Đồ ăn ngon , pizza làm tại chỗ, rẻ, must try",
+        "time": "2025-11-13T02:15:37.576Z"
+      },
+      {
+        "author_name": "Karl Da Nang",
+        "rating": 5,
+        "text": "Good place. New vibes",
+        "time": "2025-11-11T06:36:15.625Z"
+      },
+      {
+        "author_name": "Функен Функевич",
+        "rating": 1,
+        "text": "Staff in the food place not nice….",
+        "time": "2025-11-10T19:13:08.013Z"
+      },
+      {
+        "author_name": "Richard Kingman",
+        "rating": 5,
+        "text": "Nice place to vist",
+        "time": "2025-11-10T14:39:47.464Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ9zP2xisYQjERPfjzao6vHjg",
+    "name": "Câu Lạc Bộ Bida Clup Kool",
+    "rating": 3.3,
+    "user_ratings_total": 4,
+    "geometry": {
+      "lat": 16.067455,
+      "lng": 108.2339563
+    },
+    "address": "107 Nguyễn Công Trứ, An Hải, Sơn Trà, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "SoNa Nguyen",
+        "rating": 4,
+        "text": "Đẹp",
+        "time": "2022-12-23T06:51:29.737Z"
+      },
+      {
+        "author_name": "Hường Trịnh",
+        "rating": 2,
+        "text": null,
+        "time": "2022-04-11T15:30:39.280Z"
+      },
+      {
+        "author_name": "ho hai vu hai vu",
+        "rating": 4,
+        "text": null,
+        "time": "2020-03-08T09:36:18.303Z"
+      },
+      {
+        "author_name": "Nguyên Phạm",
+        "rating": 3,
+        "text": null,
+        "time": "2019-05-24T03:32:05.903Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJh0_2yawZQjERMvrgIsihrOA",
+    "name": "Bida Thành Tâm",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0658477,
+      "lng": 108.1977455
+    },
+    "address": "170 Điện Biên Phủ, Chính Gián, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJrc1GJjQYQjERUSft8Zvb_yc",
+    "name": "Câu Lạc Bộ Bida 379",
+    "rating": 4.4,
+    "user_ratings_total": 5,
+    "geometry": {
+      "lat": 16.0695936,
+      "lng": 108.2178308
+    },
+    "address": "37 Pasteur, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Ai Nguyen",
+        "rating": 5,
+        "text": null,
+        "time": "2024-11-27T04:22:23.758Z"
+      },
+      {
+        "author_name": "호호",
+        "rating": 5,
+        "text": "건너편 쌀국수집 아저씨가 추천해준 커피숍\n한국인 1도 없고, 현지인들만 가는곳인거 같아요\nvietnam white coffee 먹어보세요 !!!!\n연유가 들어가서 달달하고 맛있어요 땀 줄줄 흘리고 지쳐서 들어갔다가 커피 먹고 힘났어용 ㅋㅋ 물론 아메리카노도 맛있고, 직원들이 친절합니다\n화장실도 베트남 치고 깨끗해서 굿 !!",
+        "time": "2023-08-15T08:24:04.353Z"
+      },
+      {
+        "author_name": "Thien Robert",
+        "rating": 3,
+        "text": null,
+        "time": "2023-04-02T12:32:38.585Z"
+      },
+      {
+        "author_name": "Nguyên Trần",
+        "rating": 4,
+        "text": null,
+        "time": "2022-05-16T07:53:54.557Z"
+      },
+      {
+        "author_name": "Thịnh Ngô",
+        "rating": 5,
+        "text": null,
+        "time": "2020-09-19T06:36:55.853Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJjRCiEQAZQjERXoI7T1WcWxs",
+    "name": "Mini Cues Billiard Shop",
+    "rating": 5,
+    "user_ratings_total": 7,
+    "geometry": {
+      "lat": 16.0498685,
+      "lng": 108.2183487
+    },
+    "address": "587 Hoàng Diệu, Bình Thuận, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Billiards supply store"
+    ],
+    "reviews": [
+      {
+        "author_name": "Trung Nguyen",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-21T07:52:52.219Z"
+      },
+      {
+        "author_name": "Tố Uyên Võ Thị",
+        "rating": 5,
+        "text": "Shop nhiều mẫu mã, giá cả ok. Chủ shop với nhân viên thân thiện",
+        "time": "2025-11-01T11:03:09.918Z"
+      },
+      {
+        "author_name": "Nhung Nguyễn",
+        "rating": 5,
+        "text": "Chủ shop này siu dễ thương , bán gậy siu rẻ nữa , mua hàng có thể quay đầu được luôn ạ ❤️ mn mua gậy có thể tham khảo quán này nha",
+        "time": "2025-10-19T08:08:48.527Z"
+      },
+      {
+        "author_name": "Tyler",
+        "rating": 5,
+        "text": "Very friendly and helpful staff! Products were genuine and affordable, would visit again!",
+        "time": "2025-10-04T06:33:11.250Z"
+      },
+      {
+        "author_name": "Bảo Trâm Nguyễn Ngọc",
+        "rating": 5,
+        "text": "Shop nhiệt tình lắm nha",
+        "time": "2025-10-01T03:34:55.194Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJtZTqpxEZQjERBB5jdU-8Ze0",
+    "name": "Hoàng Long Billard",
+    "rating": 3.2,
+    "user_ratings_total": 9,
+    "geometry": {
+      "lat": 16.0729101,
+      "lng": 108.1727123
+    },
+    "address": "50 Kinh Dương Vương, Thanh Khê Tây, Liên Chiểu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Bình Nguyễn",
+        "rating": 5,
+        "text": null,
+        "time": "2025-06-04T17:24:41.879Z"
+      },
+      {
+        "author_name": "lê nhật hoàng",
+        "rating": 5,
+        "text": "Nhân viên thân thiện, vui vẻ, hoà đồng",
+        "time": "2025-06-04T17:20:54.980Z"
+      },
+      {
+        "author_name": "Hưng Lâm",
+        "rating": 1,
+        "text": "Bida 28k/h chỉ có lip mà,pool thì 50k/h để bảng giảm giá lùa gà vô đánh xong kêu chỉ lip giảm giá thoi,còn pool thì ko giảm . Quán ni 1sao ko nên tới chs",
+        "time": "2025-05-03T10:35:50.391Z"
+      },
+      {
+        "author_name": "Tài De",
+        "rating": 1,
+        "text": "Ưu đãi còn 28k 1h chỉ có lip k ghi rõ lừa khách hàng",
+        "time": "2025-05-03T10:35:27.628Z"
+      },
+      {
+        "author_name": "việt lâm nguyễn",
+        "rating": 1,
+        "text": "bàn vải xấu, ghi chương trình không rõ ràng làm khách hiểu nhầm. Nên né nha mọi người",
+        "time": "2025-05-03T10:35:18.718Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJGcg-CKcZQjERiyke92g13Ls",
+    "name": "Clb billiard 199",
+    "rating": 4.3,
+    "user_ratings_total": 3,
+    "geometry": {
+      "lat": 16.0362544,
+      "lng": 108.2120725
+    },
+    "address": "199 Phan Đăng Lưu, Hoà Cường Bắc, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Dreamingday",
+        "rating": 5,
+        "text": "시설 깔끔하고 저렴해요. 아주 만족 ^^",
+        "time": "2025-06-19T15:29:47.832Z"
+      },
+      {
+        "author_name": "J K",
+        "rating": 5,
+        "text": null,
+        "time": "2024-12-23T12:09:49.233Z"
+      },
+      {
+        "author_name": "Hoang Love",
+        "rating": 3,
+        "text": "quán sạch sẽ nhưng nhân viên không thân thiện cho lắm chỉ thấy ngồi 1 đóng",
+        "time": "2024-04-26T19:17:49.541Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJwbFJLMQZQjER7XxLJhl43_w",
+    "name": "Billiard No.957",
+    "rating": 5,
+    "user_ratings_total": 2,
+    "geometry": {
+      "lat": 16.049648,
+      "lng": 108.2204917
+    },
+    "address": "160 Núi Thành, Bình Thuận, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Văn Chiến",
+        "rating": 5,
+        "text": "Tốt",
+        "time": "2020-04-29T10:21:01.391Z"
+      },
+      {
+        "author_name": "Nguyen Binh",
+        "rating": 5,
+        "text": "Điểm giải trí thú vị, nhân viên nhiệt tình, cơ sở vật chất đẹp, chất lượng, có phục vụ thứ ăn, bia và nước giải khát",
+        "time": "2019-10-31T15:11:24.137Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJvUyQo5IZQjERjV6XGxhSxls",
+    "name": "Dan Billiards",
+    "rating": 3,
+    "user_ratings_total": 4,
+    "geometry": {
+      "lat": 16.0313428,
+      "lng": 108.2128622
+    },
+    "address": "26J7+G4Q, Nguyễn Hành, Khuê Trung, Cẩm Lệ, Đà Nẵng 550000, Vietnam",
+    "types": [],
+    "reviews": [
+      {
+        "author_name": "Ngọc Mai",
+        "rating": 1,
+        "text": null,
+        "time": "2025-03-10T12:46:21.495Z"
+      },
+      {
+        "author_name": "nltduy",
+        "rating": 1,
+        "text": "Shop này mình bank đúng nội dung bạn tự xưng là nhân viên ghi, khi lần đầu mình bank sai nội dung là lỗi do mình nhưng lần 2 mình ghi đúng nội dung thì lại bảo ghi sai tiếp và gửi mình nội dung khác",
+        "time": "2025-03-04T15:38:46.395Z"
+      },
+      {
+        "author_name": "Thy Bảo",
+        "rating": 5,
+        "text": null,
+        "time": "2024-05-28T08:16:47.819Z"
+      },
+      {
+        "author_name": "nguyen hung",
+        "rating": 5,
+        "text": null,
+        "time": "2023-11-11T10:32:33.906Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJdwwwfFoXQjERW6mXtIdB8LU",
+    "name": "Shamrock Sports Bar",
+    "rating": 4.6,
+    "user_ratings_total": 728,
+    "geometry": {
+      "lat": 16.0509546,
+      "lng": 108.2463602
+    },
+    "address": "11 An Thượng 32, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports bar",
+      "Dart bar",
+      "Irish pub",
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Perlie Jeverola",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-24T13:20:08.678Z"
+      },
+      {
+        "author_name": "Mylène Desbiens",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-23T19:55:34.513Z"
+      },
+      {
+        "author_name": "Fourteen14",
+        "rating": 5,
+        "text": "Great place to watch the football overseas",
+        "time": "2025-11-23T17:33:40.640Z"
+      },
+      {
+        "author_name": "Harry Caldwell",
+        "rating": 5,
+        "text": "Great bar",
+        "time": "2025-11-23T16:53:20.027Z"
+      },
+      {
+        "author_name": "Wil WD",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-23T16:52:30.110Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJB8MhM5AZQjERZe67xptnen8",
+    "name": "BIDA- ATP CLub Billards",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0550864,
+      "lng": 108.220399
+    },
+    "address": "01 Núi Thành, Bình Thuận, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Club"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJGz2AaU8YQjERVxPTCcpyWls",
+    "name": "Louis Club",
+    "rating": 4.5,
+    "user_ratings_total": 16,
+    "geometry": {
+      "lat": 16.0755877,
+      "lng": 108.2064327
+    },
+    "address": "453 Nguyễn Tất Thành, Xuân Hà, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [],
+    "reviews": [
+      {
+        "author_name": "Phong cách xe của tôi 01",
+        "rating": 1,
+        "text": "Nv k nhiệt tình",
+        "time": "2025-03-13T03:35:58.697Z"
+      },
+      {
+        "author_name": "trí tôn",
+        "rating": 5,
+        "text": "quản lí dễ thương nhiệt tình",
+        "time": "2024-09-18T06:31:49.112Z"
+      },
+      {
+        "author_name": "Hưng Lê",
+        "rating": 5,
+        "text": "quán tốt",
+        "time": "2024-09-18T06:29:55.644Z"
+      },
+      {
+        "author_name": "Linh Trần",
+        "rating": 5,
+        "text": "Dịch vụ tuyệt vời, không gian thoáng mát + nhân viên dễ thương",
+        "time": "2024-09-14T03:44:28.074Z"
+      },
+      {
+        "author_name": "Chuyen22 Ban",
+        "rating": 5,
+        "text": "Mê chị quản lý",
+        "time": "2024-09-03T20:40:58.589Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJjR3UjD4ZQjERqkxLkYTr4wU",
+    "name": "Speed bowl",
+    "rating": 3,
+    "user_ratings_total": 57,
+    "geometry": {
+      "lat": 16.0348318,
+      "lng": 108.2291333
+    },
+    "address": "6 Nại Nam, Hoà Cường Bắc, Hải Châu, Đà Nẵng, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Tom G.",
+        "rating": 1,
+        "text": "the pricing model is ridiculous: charges per player, per game.\nCharge per hour + per lane so it's more transparent and is like any other country (example: 1 lane = 240k /h). it's ok to charge extra for shoes and cleaning. billiard costs 50k-120k / hour + per table, no matter how many people play. why can't you do the same? makes life easier for everyone and more people would play. #makebowlinggreatagain",
+        "time": "2025-10-30T08:24:39.244Z"
+      },
+      {
+        "author_name": "Kiều Trinh",
+        "rating": 5,
+        "text": "Tôi thấy ở đây vui .",
+        "time": "2025-10-26T12:37:08.713Z"
+      },
+      {
+        "author_name": "Việt Hương Marketing",
+        "rating": 5,
+        "text": null,
+        "time": "2025-10-10T04:20:04.780Z"
+      },
+      {
+        "author_name": "Avinash kumar",
+        "rating": 1,
+        "text": "Giving 1 start because of staff behavior",
+        "time": "2025-10-09T10:47:36.241Z"
+      },
+      {
+        "author_name": "Максим Гришин",
+        "rating": 1,
+        "text": "The price list states that the price is 75,000 vnd per game, without specifying that the price is not per line, but per player. If you come here with a group of 5 people, be prepared to pay 5*75,000 vnd per game\n\nВ прейскуранте пишут про цену 75000 vnd за одну игру, не уточняя, что цена не за дорожку, а за игрока. Придете сюда компанией из 5 человек, будьте готовы заплатить 5*75000 vnd каждую игру",
+        "time": "2025-10-04T14:22:58.843Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ-e3gl7oZQjER_5egVYFlMG4",
+    "name": "Billiards Rô.7 Club",
+    "rating": 4.7,
+    "user_ratings_total": 3,
+    "geometry": {
+      "lat": 16.0766843,
+      "lng": 108.1668079
+    },
+    "address": "238 Kinh Dương Vương, Thanh Khê Tây, Liên Chiểu, Đà Nẵng, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Đoàn Nguyễn Văn",
+        "rating": 5,
+        "text": null,
+        "time": "2025-05-17T01:48:08.633Z"
+      },
+      {
+        "author_name": "tran tan nhan",
+        "rating": 4,
+        "text": null,
+        "time": "2023-01-08T12:15:50.303Z"
+      },
+      {
+        "author_name": "Hai Bích",
+        "rating": 5,
+        "text": "Quán có máy lạnh. Băng đánh khá ổn",
+        "time": "2019-10-03T12:57:18.576Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJKQKISioYQjER7xXZSlPXWCg",
+    "name": "Bida Thanh Niên",
+    "rating": 3.6,
+    "user_ratings_total": 25,
+    "geometry": {
+      "lat": 16.0669014,
+      "lng": 108.2350154
+    },
+    "address": "200 Nguyễn Công Trứ, An Hải Bắc, Sơn Trà, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "phước nguyễn",
+        "rating": 5,
+        "text": null,
+        "time": "2025-10-01T08:52:50.680Z"
+      },
+      {
+        "author_name": "Tú Uyên",
+        "rating": 5,
+        "text": null,
+        "time": "2025-09-30T19:57:46.266Z"
+      },
+      {
+        "author_name": "Mktdinhlong99",
+        "rating": 4,
+        "text": "Quán bình thường chơi đc ít nhân viên tự xếp bi. Cả nhà cứ thử chs trải nghiệm nha, có vẻ quán này nhiều bàn phăng hơn lỗ",
+        "time": "2025-08-06T13:25:20.597Z"
+      },
+      {
+        "author_name": "Nguyễn Hữu Thiên",
+        "rating": 1,
+        "text": "Thái độ rất tệ. Mình có để quên đồ nhờ quán hỗ trợ check camera nhưng nhận lại thái độ “sáng chừ hỏi 10 lần rồi”, “mã camera thằng kia giữ”. Ủa? Chủ quán bida nhưng k có mã camera? Làm ăn không biết giàu bao nhiêu nhưng thái độ rất rất tệ. Hỗ trợ khách thì có mất chi của quán đâu. Mình cũng đâu khẳng định quán lấy. Mình chỉ xin camera đoạn đi về để xem đồ để ở đâu thôi. Không bao giờ quay lại. RẤT TỆ!",
+        "time": "2023-11-25T05:32:31.405Z"
+      },
+      {
+        "author_name": "Phước Lộc Nguyễn",
+        "rating": 1,
+        "text": "thái độ nhân viên k tốt, lần đầu trãi nghiệm dịch vụ",
+        "time": "2023-10-12T09:26:23.251Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ16iBHiAYQjERx3SAUOyZVKw",
+    "name": "Corona Billiard Club",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0851098,
+      "lng": 108.2366295
+    },
+    "address": "28 Trần Thánh Tông, An Hải, Sơn Trà, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Club"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJIZoZCgAZQjERpGAIqWPYbZo",
+    "name": "DLT Billiards Club",
+    "rating": 5,
+    "user_ratings_total": 3,
+    "geometry": {
+      "lat": 16.0546503,
+      "lng": 108.1601692
+    },
+    "address": "86 Hoàng Văn Thái, Hoà Minh, Liên Chiểu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "555 Digitalsmart",
+        "rating": 5,
+        "text": null,
+        "time": "2025-10-04T02:10:26.092Z"
+      },
+      {
+        "author_name": "Hoang Tran",
+        "rating": 5,
+        "text": "Bàn ở đây tạm ổn, tuy nhiên không gian khá bí bách, tuýp khách ở đây thường vào nói chuyện khá ồn ào, cà ná đánh khá nhiều làm bi thường k sạch dẫn đến khó đánh, nói chung tạm ổn trong tầm giá",
+        "time": "2025-08-13T18:31:14.718Z"
+      },
+      {
+        "author_name": "Tan Vo Van",
+        "rating": 5,
+        "text": "Nhân viên nhiệt tình, bàn bida mượt, đa dạng mẫu cơ để chơi.",
+        "time": "2024-06-18T06:22:11.851Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJNfQj-foZQjERR1CHhyp1cmY",
+    "name": "CLB Bida Thống Nhất - Billiards Club",
+    "rating": 4.2,
+    "user_ratings_total": 5,
+    "geometry": {
+      "lat": 16.0510808,
+      "lng": 108.2129486
+    },
+    "address": "301 Nguyễn Tri Phương, Bình Thuận, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Billiards supply store"
+    ],
+    "reviews": [
+      {
+        "author_name": "xuan khoa",
+        "rating": 4,
+        "text": "Tốt",
+        "time": "2025-10-08T17:35:22.072Z"
+      },
+      {
+        "author_name": "Hoàng Trần",
+        "rating": 3,
+        "text": null,
+        "time": "2023-12-06T12:32:06.487Z"
+      },
+      {
+        "author_name": "Xít Phát",
+        "rating": 5,
+        "text": "Ok",
+        "time": "2021-10-31T23:35:50.939Z"
+      },
+      {
+        "author_name": "AnhVũ",
+        "rating": 5,
+        "text": "Đep",
+        "time": "2021-03-03T07:22:54.375Z"
+      },
+      {
+        "author_name": "nghia huynh",
+        "rating": 4,
+        "text": null,
+        "time": "2019-11-22T03:44:03.536Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJA2xXLuwXQjERXS7hrbe2B0E",
+    "name": "CLB Bida Bắc Mỹ An- Đặc sản Đà Thành",
+    "rating": 4.8,
+    "user_ratings_total": 13,
+    "geometry": {
+      "lat": 16.0432958,
+      "lng": 108.2437411
+    },
+    "address": "49 Bà Huyện Thanh Quan, Bắc Mỹ An, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club",
+      "Adult entertainment club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Demen Vlogs",
+        "rating": 5,
+        "text": "Quán giá quá rẻ chỉ 25k/1h rất phù hợp cho các bạn Sinh viên, nhân viên...không gian CLB thông thoáng, không ồn ào, không có mùi thuốc lá như chỗ khác.\nRất hợp với túi tiền để vừa giải trí và tập luyện nâng cao trình độ.",
+        "time": "2023-08-22T07:44:32.792Z"
+      },
+      {
+        "author_name": "Văn An Trần",
+        "rating": 5,
+        "text": null,
+        "time": "2023-04-21T09:14:50.508Z"
+      },
+      {
+        "author_name": "Thanh Song",
+        "rating": 5,
+        "text": null,
+        "time": "2022-10-07T14:18:17.373Z"
+      },
+      {
+        "author_name": "Abogo Villas",
+        "rating": 5,
+        "text": null,
+        "time": "2021-06-01T04:33:14.959Z"
+      },
+      {
+        "author_name": "Vân Trúc",
+        "rating": 5,
+        "text": "Sản phẩm tốt, vừa cí nhiều đặc sản ngon, ngoài ra còn bán các loại tạp hoá",
+        "time": "2019-10-09T15:03:43.130Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJiwWQ4MoZQjERV1EMzjPesKc",
+    "name": "Clb Bida & Cà Phê Sao",
+    "rating": 4.1,
+    "user_ratings_total": 59,
+    "geometry": {
+      "lat": 16.0628975,
+      "lng": 108.2169215
+    },
+    "address": "139 Triệu Nữ Vương, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Cafe"
+    ],
+    "reviews": [
+      {
+        "author_name": "Xuân Diệu Hồ",
+        "rating": 5,
+        "text": null,
+        "time": "2025-06-30T17:29:50.009Z"
+      },
+      {
+        "author_name": "Quang Nhật",
+        "rating": 5,
+        "text": "tốt",
+        "time": "2025-05-22T05:20:23.443Z"
+      },
+      {
+        "author_name": "Huy Bui",
+        "rating": 5,
+        "text": "Mình chơi thường xuyên ở đây. 4 năm rồi. Quán quá chất lượng",
+        "time": "2025-02-27T23:59:08.608Z"
+      },
+      {
+        "author_name": "Joe White",
+        "rating": 4,
+        "text": "A little shabby but good tables and balls , it was cheap and better than most popular pool rooms for locals",
+        "time": "2025-02-11T07:47:29.951Z"
+      },
+      {
+        "author_name": "Hồng Nguyễn Tấn",
+        "rating": 4,
+        "text": "Phòng rộng, bàn hơi lì, ám mùi thuốc lá.",
+        "time": "2024-10-24T23:27:58.499Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJX_D85jUYQjERTwCA4HYWyHs",
+    "name": "Bida Pro",
+    "rating": 4.4,
+    "user_ratings_total": 13,
+    "geometry": {
+      "lat": 16.0695576,
+      "lng": 108.2151993
+    },
+    "address": "30 Đ. Chi Lăng, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Hoàng Trần",
+        "rating": 5,
+        "text": null,
+        "time": "2025-06-28T12:45:09.815Z"
+      },
+      {
+        "author_name": "Dinh cong tien Hung",
+        "rating": 5,
+        "text": null,
+        "time": "2023-09-20T03:18:44.664Z"
+      },
+      {
+        "author_name": "Quoc Hoang",
+        "rating": 4,
+        "text": null,
+        "time": "2023-07-09T19:00:44.492Z"
+      },
+      {
+        "author_name": "Red Nguyen",
+        "rating": 4,
+        "text": "Bàn và cơ tạm ổn,buổi trưa quán có điều hòa nhưng ko mở,nóng quá 🥵",
+        "time": "2023-02-21T08:08:07.285Z"
+      },
+      {
+        "author_name": "Quân Minh",
+        "rating": 5,
+        "text": "mk từng chơi ở quán này vài lần vào cuối năm 2019. quán có bàn tốt chơi rất thích phục vụ nhiệt tình có rất nhiều người chơi. vào lúc đó mk có nc vài lần vs một bạn nữ tên Ly sn2003 ko bt đến bây h có còn làm ở đó hay ko, mong cộng đồng mạng tìm giúp em ạh. em xin cảm ơn ạh☺️☺️",
+        "time": "2022-05-12T02:06:54.642Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJxxOqKngZQjER2f1xUFlJUaU",
+    "name": "Fly Billiards Club",
+    "rating": 4.3,
+    "user_ratings_total": 3,
+    "geometry": {
+      "lat": 16.0581867,
+      "lng": 108.2060776
+    },
+    "address": "216 Nguyễn Tri Phương, Thạc Gián, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool hall"
+    ],
+    "reviews": [
+      {
+        "author_name": "Triển Nguyễn",
+        "rating": 4,
+        "text": "Khá thoải mái và vui vẻ",
+        "time": "2023-07-25T17:19:16.887Z"
+      },
+      {
+        "author_name": "Ducvu Nguyen",
+        "rating": 4,
+        "text": "Quan tâm.khach hàng",
+        "time": "2023-02-08T16:14:26.069Z"
+      },
+      {
+        "author_name": "Khoa Đoàn",
+        "rating": 5,
+        "text": null,
+        "time": "2023-01-29T11:46:50.384Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJKSycfpIZQjERtx7RsGPObFs",
+    "name": "Bida 238. 240 Xô Viết Nghệ Tĩnh",
+    "rating": 3.8,
+    "user_ratings_total": 137,
+    "geometry": {
+      "lat": 16.0320529,
+      "lng": 108.2137038
+    },
+    "address": "238 Xô Viết Nghệ Tĩnh, Khuê Trung, Cẩm Lệ, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Nhân Phan",
+        "rating": 5,
+        "text": null,
+        "time": "2025-07-04T16:00:49.419Z"
+      },
+      {
+        "author_name": "Tran Van Tam",
+        "rating": 5,
+        "text": null,
+        "time": "2024-12-04T01:25:51.973Z"
+      },
+      {
+        "author_name": "Van Nhan",
+        "rating": 4,
+        "text": "Ok, sạch sẽ, đẹp",
+        "time": "2024-01-13T01:53:49.011Z"
+      },
+      {
+        "author_name": "Red Nguyen",
+        "rating": 5,
+        "text": "Bàn tạm ổn,đầu tư cơ xịn hơn chút lag ok\nNhân viên dễ thương, phục vụ nhiệt tình",
+        "time": "2023-07-26T17:19:40.870Z"
+      },
+      {
+        "author_name": "Thaihuyen Thai",
+        "rating": 5,
+        "text": "Quan thoảng mây phục vụ tốt",
+        "time": "2022-10-16T09:37:31.601Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJh-vpyPEXQjER4LuUnU6DUvE",
+    "name": "One Up Billiards - Bida One Up",
+    "rating": 4.5,
+    "user_ratings_total": 26,
+    "geometry": {
+      "lat": 16.0875007,
+      "lng": 108.2386251
+    },
+    "address": "44-46 Khúc Hạo, Mân Thái, Sơn Trà, Đà Nẵng, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "vanbeo vo",
+        "rating": 1,
+        "text": "hôm mình đánh chỉ có 2 bàn, 4-5 bạn nhân viên, gọi xếp bi không ai nghe phải tự xếp, bạn thì ngồi làm việc riêng, bạn thì đánh bên bàn khác, cách phục vụ vậy thì nên coi lại slogan quán ạ",
+        "time": "2025-10-07T09:44:17.863Z"
+      },
+      {
+        "author_name": "Si Ngoc",
+        "rating": 5,
+        "text": "Nhân viên dễ thương, hỗ trợ nhiệt tình. Bố trí gọn gàng, ánh sáng hài hòa.",
+        "time": "2025-08-19T19:46:15.789Z"
+      },
+      {
+        "author_name": "Thư Mai",
+        "rating": 5,
+        "text": "Dịch vụ rất ok",
+        "time": "2024-11-21T11:13:26.581Z"
+      },
+      {
+        "author_name": "Thàh Quang",
+        "rating": 5,
+        "text": null,
+        "time": "2024-11-20T15:15:50.801Z"
+      },
+      {
+        "author_name": "Hiếu Minh",
+        "rating": 5,
+        "text": "10 điểm k có nhưng",
+        "time": "2024-11-20T15:15:36.769Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJrcUQCskZQjER7fcsp_Y1msc",
+    "name": "Billiards New Faifo Club",
+    "rating": 2.6,
+    "user_ratings_total": 19,
+    "geometry": {
+      "lat": 16.0569313,
+      "lng": 108.2169973
+    },
+    "address": "346 Đường Hoàng Diệu, Phước Ninh, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Khôi Huỳnh",
+        "rating": 1,
+        "text": "Có cái đòn thịt để quên mà mới có 3 ngày đã mất. Quán chắc có giấu chuột nên gặm nhanh quá! Chúc quán cả năm chơi với chuột",
+        "time": "2025-02-05T12:06:10.222Z"
+      },
+      {
+        "author_name": "Thu Dinh",
+        "rating": 1,
+        "text": "Phục vụ kém, nhân viên báo giá 40k/1h mà tính tiền 80k/1h,bàn tệ,bi tệ,quán dơ,hô thuốc lá khuyên mn đừng đến",
+        "time": "2025-01-24T15:05:06.408Z"
+      },
+      {
+        "author_name": "Tin Tin",
+        "rating": 1,
+        "text": "Quán thì đắt,nhân viên đưa giá lừa khách!Mới vào hỏi nhân viên bảo 40k/1h xong ra tính tiền lại báo 80k/1h.Quán thì nóng bàn thì tệ mà còn làm ăn không đàng hoàng",
+        "time": "2025-01-24T14:02:22.746Z"
+      },
+      {
+        "author_name": "Thống Nguyễn",
+        "rating": 1,
+        "text": "Quán tệ hơn chữ tệ lần đầu k có lần 2 bi lỗ 80k/h quá mắc",
+        "time": "2024-11-12T16:38:21.578Z"
+      },
+      {
+        "author_name": "Ngọc Quân Nguyễn",
+        "rating": 1,
+        "text": "Quá tệ, bàn không chất lượng, ko xứng đáng với giá tiền bỏ ra, nên để tiền đi từ thiện hơn là vào đây",
+        "time": "2024-11-12T16:36:39.076Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJg1dl4MoZQjERh2P7PxInpBk",
+    "name": "Sao Billard",
+    "rating": 5,
+    "user_ratings_total": 3,
+    "geometry": {
+      "lat": 16.0629659,
+      "lng": 108.2168537
+    },
+    "address": "106 Triệu Nữ Vương, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Châu Toàn",
+        "rating": 5,
+        "text": "sạch sẽ vui",
+        "time": "2025-10-18T09:58:26.317Z"
+      },
+      {
+        "author_name": "Khang (Najsu)",
+        "rating": 5,
+        "text": null,
+        "time": "2024-05-13T13:55:09.284Z"
+      },
+      {
+        "author_name": "Quang Yên Nguyễn",
+        "rating": 5,
+        "text": null,
+        "time": "2023-07-20T04:45:10.414Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJrzEZOwAXQjERzcZJU-GbjRU",
+    "name": "THIÊN PHÚ CLUB BILLIARD",
+    "rating": 5,
+    "user_ratings_total": 3,
+    "geometry": {
+      "lat": 16.0408986,
+      "lng": 108.239739
+    },
+    "address": "29 Mỹ An 25, Bắc Mỹ An, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Country club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Thảo",
+        "rating": 5,
+        "text": "BÀN ĐÁNH ÊM. ĂN NHẬU THOẢI MÁI. GIÁ RẺ. SẠCH SẼ. OK👍🏻",
+        "time": "2025-09-25T13:40:05.289Z"
+      },
+      {
+        "author_name": "Tuấn Hoàng",
+        "rating": 5,
+        "text": "BÀN MƯỢT. GIÁ CẢ HỢP LÝ. SẠCH SẼ.\nĐANG CÓ TRƯƠNG TRÌNH GIẢM GIÁ 20% 👍🏻",
+        "time": "2025-09-25T13:38:06.503Z"
+      },
+      {
+        "author_name": "Văn Vinh Trần",
+        "rating": 5,
+        "text": "Quán sạch sẽ thoải mái bàn đánh mượt",
+        "time": "2025-02-23T07:03:12.265Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ0cafthPvbUwR0HtyAkJjRSc",
+    "name": "SLY Cyber & Billiards",
+    "rating": 4.1,
+    "user_ratings_total": 65,
+    "geometry": {
+      "lat": 16.0642229,
+      "lng": 108.2082626
+    },
+    "address": "65-67 Phan Thanh, Thạc Gián, Thanh Khê, Đà Nẵng 50000, Vietnam",
+    "types": [
+      "Internet cafe"
+    ],
+    "reviews": [
+      {
+        "author_name": "khoa lê",
+        "rating": 5,
+        "text": "ca khuya phục vụ nhiệt tình rất tốt",
+        "time": "2025-11-23T17:04:50.549Z"
+      },
+      {
+        "author_name": "Nhan Cao",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-23T02:08:52.485Z"
+      },
+      {
+        "author_name": "a themg",
+        "rating": 5,
+        "text": "Nhân viên xinh :)) máy mạnh",
+        "time": "2025-11-21T11:40:56.465Z"
+      },
+      {
+        "author_name": "Hân Gia",
+        "rating": 1,
+        "text": "bảo vệ chửi khách???\nquán nên xem lại",
+        "time": "2025-11-20T08:14:20.278Z"
+      },
+      {
+        "author_name": "Huyền Thanh",
+        "rating": 5,
+        "text": "Quán đồ ăn ngon sạch sẽ nhân viên dễ thươngg , nhiệt tình máy móc oke sẽ quay lại",
+        "time": "2025-11-09T06:26:21.020Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJv0POSAAZQjERDVSwQsk91r0",
+    "name": "Hoàng Gia Billiards",
+    "rating": 3,
+    "user_ratings_total": 4,
+    "geometry": {
+      "lat": 16.0447527,
+      "lng": 108.2149404
+    },
+    "address": "98 Tiểu La, Bình Thuận, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Playground"
+    ],
+    "reviews": [
+      {
+        "author_name": "An Nguyen",
+        "rating": 1,
+        "text": "nv buổi sáng thái độ k tốt, khách kêu nhiều lần k nghe",
+        "time": "2025-05-09T14:08:22.975Z"
+      },
+      {
+        "author_name": "Huu Phuc Ma",
+        "rating": 5,
+        "text": "quán bida chỗ để xe rộng, bàn bida thay ra đều , nhân viên nhiệt tình",
+        "time": "2024-12-11T01:44:03.590Z"
+      },
+      {
+        "author_name": "Long Vạn bảo",
+        "rating": 1,
+        "text": null,
+        "time": "2024-12-05T17:39:48.333Z"
+      },
+      {
+        "author_name": "Khang Duy",
+        "rating": 5,
+        "text": null,
+        "time": "2024-05-08T12:41:15.842Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ8ypRwaoZQjER1t-OkvOxpaM",
+    "name": "Quán Cafe & Billiards Ngọc Tuấn",
+    "rating": 4.1,
+    "user_ratings_total": 169,
+    "geometry": {
+      "lat": 16.0654799,
+      "lng": 108.1921521
+    },
+    "address": "113 Hà Huy Tập, Thanh Khê Đông, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Cafe"
+    ],
+    "reviews": [
+      {
+        "author_name": "Linh Mỹ",
+        "rating": 5,
+        "text": "Ún cà hê chilll nhức nách , ún xong lên làm vài cơ r về",
+        "time": "2025-10-24T11:40:24.205Z"
+      },
+      {
+        "author_name": "Yunie",
+        "rating": 5,
+        "text": "Cf ngon, nguyên chất, nv nhiệt tình, châm trà liên tục, hết trà có liền",
+        "time": "2025-10-24T11:36:56.074Z"
+      },
+      {
+        "author_name": "Thanh Tran Quang",
+        "rating": 3,
+        "text": null,
+        "time": "2025-08-28T05:11:50.294Z"
+      },
+      {
+        "author_name": "Khac quang Dang",
+        "rating": 5,
+        "text": null,
+        "time": "2025-06-15T09:07:25.056Z"
+      },
+      {
+        "author_name": "Giao",
+        "rating": 4,
+        "text": "Quán cà phê này nằm ngay mặt đường, với không gian mở hướng ra phố, mang lại cảm giác thoáng đãng và dễ chịu. Từ bên trong, bạn có thể nhìn thấy dòng xe cộ qua lại, những người đi đường, và cả không gian xanh mát bên ngoài với cây cối và đèn trang trí đỏ rực rỡ. Vị trí này rất phù hợp cho những ai thích vừa nhâm nhi cà phê, vừa ngắm nhìn nhịp sống thường nhật của thành phố.Không gian bên trong quán được thiết kế đơn giản nhưng ấm cúng. Sàn lát gạch sáng màu tạo cảm giác sạch sẽ, kết hợp với trần nhà sơn màu nâu gỗ, mang lại sự gần gũi, mộc mạc. Quán có cả khu vực trong nhà và ngoài trời, với cửa kính lớn giúp ánh sáng tự nhiên tràn vào, làm không gian thêm phần sinh động.",
+        "time": "2025-03-27T15:58:39.261Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJHyrjsUsZQjERPuZIKa_ciDM",
+    "name": "Billiards Hùng Núi",
+    "rating": 4.5,
+    "user_ratings_total": 2,
+    "geometry": {
+      "lat": 16.0772571,
+      "lng": 108.165451
+    },
+    "address": "285 Kinh Dương Vương, Hoà Minh, Liên Chiểu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "hoang anh le",
+        "rating": 5,
+        "text": null,
+        "time": "2023-12-08T18:34:53.751Z"
+      },
+      {
+        "author_name": "Tran vu Gia minh",
+        "rating": 4,
+        "text": "Tạm ổn",
+        "time": "2023-03-12T14:34:14.915Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJZ96U5dcZQjERc-0E5fGPZ7w",
+    "name": "BADI Billiards Club- Câu lạc bộ bida chuyên nghiệp, sang trọng tại Đà Nẵng",
+    "rating": 4.5,
+    "user_ratings_total": 10,
+    "geometry": {
+      "lat": 16.0594387,
+      "lng": 108.1745834
+    },
+    "address": "122 Tôn Đức Thắng, Hoà Minh, Liên Chiểu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Mạnh Nguyễn",
+        "rating": 5,
+        "text": "Dịch vụ trãi nghiệm tốt",
+        "time": "2025-07-10T03:49:06.915Z"
+      },
+      {
+        "author_name": "T D",
+        "rating": 1,
+        "text": null,
+        "time": "2025-01-27T01:26:35.991Z"
+      },
+      {
+        "author_name": "Kara Kayn",
+        "rating": 5,
+        "text": null,
+        "time": "2024-07-12T14:23:16.445Z"
+      },
+      {
+        "author_name": "Long Nguyễn",
+        "rating": 5,
+        "text": null,
+        "time": "2023-03-28T10:19:13.332Z"
+      },
+      {
+        "author_name": "HỒ VĂN TRỌNG",
+        "rating": 5,
+        "text": "Ok",
+        "time": "2023-03-04T10:12:23.117Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJPSLSaqEXQjERRbFufPH8qog",
+    "name": "AV8 Billiards",
+    "rating": 4,
+    "user_ratings_total": 5,
+    "geometry": {
+      "lat": 16.0531344,
+      "lng": 108.2396766
+    },
+    "address": "25, 27 Châu Thị Vĩnh Tế, Đà Nẵng, 550000, Vietnam",
+    "types": [
+      "Pool hall"
+    ],
+    "reviews": [
+      {
+        "author_name": "Yoway Buorn",
+        "rating": 5,
+        "text": null,
+        "time": "2025-01-27T05:31:53.306Z"
+      },
+      {
+        "author_name": "nhat nam dang huu",
+        "rating": 1,
+        "text": null,
+        "time": "2024-03-03T09:21:49.122Z"
+      },
+      {
+        "author_name": "Эдуард Абрамов",
+        "rating": 5,
+        "text": "Good",
+        "time": "2023-10-22T10:20:43.763Z"
+      },
+      {
+        "author_name": "Ngô Quốc Trưởng",
+        "rating": 4,
+        "text": null,
+        "time": "2023-10-01T08:38:17.403Z"
+      },
+      {
+        "author_name": "phú nguyễn",
+        "rating": 5,
+        "text": "Đẹp ạ",
+        "time": "2023-09-09T11:51:55.992Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJQ6-0VdAZQjERtGBiT2S9SB8",
+    "name": "Câu Lạc Bộ Billiards Bình Minh",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.0577685,
+      "lng": 108.1720388
+    },
+    "address": "3 Nam Trân, Hoà Minh, Liên Chiểu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJH4CjHgAZQjERnXZTzxPH_wo",
+    "name": "TRIÊU DƯƠNG BILLIARDS CLUB",
+    "rating": 3.7,
+    "user_ratings_total": 15,
+    "geometry": {
+      "lat": 16.0654707,
+      "lng": 108.1974037
+    },
+    "address": "181 - 183-185 Điện Biên Phủ, Chính Gián, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [],
+    "reviews": [
+      {
+        "author_name": "hien bich",
+        "rating": 5,
+        "text": "Mọi người ghé Trãi nghiệm lại nhé , quán cãi thiện nhiều hơn về dịch vụ rồi ạ",
+        "time": "2025-09-26T16:05:03.391Z"
+      },
+      {
+        "author_name": "Nhật Huy Nguyễn",
+        "rating": 5,
+        "text": "bàn đánh đã nha ,không gian thoải mái mát mẻ nhân vui vẻ nhiệt tình nhất là các chị nữ nha, với lại các dịp lễ tết có chương trình khuyến mãi combo tặng rất đã mọi người nên đến trải nghiệm nha",
+        "time": "2025-09-02T16:28:21.379Z"
+      },
+      {
+        "author_name": "Duyên Nguyễn",
+        "rating": 5,
+        "text": null,
+        "time": "2025-07-14T07:55:37.505Z"
+      },
+      {
+        "author_name": "Hong nguyen",
+        "rating": 5,
+        "text": "Quán đã thay đổi về mọi mặt , trải nghiệm happy\ncho quán 5*****sẻ ủng hộ thường xuyên.",
+        "time": "2025-06-21T14:17:09.774Z"
+      },
+      {
+        "author_name": "tusang lam",
+        "rating": 5,
+        "text": "Không gian sạch sẽ .Nhân viên nhiệt tình. Với dịch vụ và không gian, mức giá ở đây hoàn toàn hợp lý",
+        "time": "2025-06-21T06:49:37.803Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJhYoU5FUZQjERtVdveqFY0eM",
+    "name": "Bida 79 - CLB Bida Libre & 3C Đà Nẵng",
+    "rating": 4.6,
+    "user_ratings_total": 5,
+    "geometry": {
+      "lat": 16.0711759,
+      "lng": 108.199154
+    },
+    "address": "398 Trần Cao Vân, Xuân Hà, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Phước Nguyễn",
+        "rating": 5,
+        "text": null,
+        "time": "2025-07-08T12:23:34.100Z"
+      },
+      {
+        "author_name": "Tuan Tran Quoc",
+        "rating": 5,
+        "text": null,
+        "time": "2025-07-05T10:56:16.794Z"
+      },
+      {
+        "author_name": "Tomy Dao",
+        "rating": 4,
+        "text": "Hơi nhỏ\nKhông gian hơi cũ nhưng mát mẻ\nNhân viên vui vẻ",
+        "time": "2024-12-30T10:32:27.903Z"
+      },
+      {
+        "author_name": "Trieu Ngoc Thanh Hoang",
+        "rating": 4,
+        "text": "Tạm ổn",
+        "time": "2023-10-22T11:35:41.743Z"
+      },
+      {
+        "author_name": "Cường Lê",
+        "rating": 5,
+        "text": "Rất tốt",
+        "time": "2023-07-09T11:23:33.201Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJYfxazKwZQjERstDmYuXeQoE",
+    "name": "Bida Quý - TỔNG ĐẠI LÝ BILLIARDS MIỀN TRUNG",
+    "rating": 3.8,
+    "user_ratings_total": 17,
+    "geometry": {
+      "lat": 16.06583,
+      "lng": 108.1978342
+    },
+    "address": "168 Điện Biên Phủ, Chính Gián, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Wholesaler",
+      "Outlet mall"
+    ],
+    "reviews": [
+      {
+        "author_name": "out hang",
+        "rating": 4,
+        "text": "Cống ở đây rác nhiều mà ko dọn, hôi ghê. Phong thủy ko tốt",
+        "time": "2024-08-31T14:18:34.911Z"
+      },
+      {
+        "author_name": "David",
+        "rating": 5,
+        "text": "Bought a new cue here. Great value and good service.",
+        "time": "2024-02-05T04:41:59.727Z"
+      },
+      {
+        "author_name": "At Luong",
+        "rating": 4,
+        "text": null,
+        "time": "2022-01-28T17:27:38.914Z"
+      },
+      {
+        "author_name": "Bảo Lê",
+        "rating": 5,
+        "text": null,
+        "time": "2022-01-07T12:43:42.132Z"
+      },
+      {
+        "author_name": "Tuấn Lê Anh",
+        "rating": 1,
+        "text": "Làm ăn nói chuyện kiểu khó ưa",
+        "time": "2021-03-01T07:29:41.467Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJz6w4aksYQjERI8BlgRz-mfc",
+    "name": "Club Billiards Tiger",
+    "rating": null,
+    "user_ratings_total": 0,
+    "geometry": {
+      "lat": 16.066296,
+      "lng": 108.2093802
+    },
+    "address": "37 Lý Thái Tổ, Thạc Gián, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Bowling alley",
+      "Pool billard club"
+    ],
+    "reviews": []
+  },
+  {
+    "place_id": "ChIJs0lmIv4XQjERlzYAF4NqnF8",
+    "name": "Nhân Bida Club",
+    "rating": 5,
+    "user_ratings_total": 90,
+    "geometry": {
+      "lat": 16.0413515,
+      "lng": 108.2411643
+    },
+    "address": "350 Ngũ Hành Sơn, Bắc Mỹ An, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Playground"
+    ],
+    "reviews": [
+      {
+        "author_name": "Gia Hây",
+        "rating": 5,
+        "text": null,
+        "time": "2024-10-13T17:45:21.838Z"
+      },
+      {
+        "author_name": "Nam Hoang",
+        "rating": 5,
+        "text": "rộng rãi thoáng mát. view xịn . có khuyến mãi",
+        "time": "2024-10-07T14:24:17.313Z"
+      },
+      {
+        "author_name": "Tấn Tài Mai",
+        "rating": 5,
+        "text": "Tôi đã đến chơi ở quán. Thoáng mát tuyệt vời. Có dịp du lịch lại Đà Nẵng tôi sẽ đến quán",
+        "time": "2024-10-07T13:10:53.150Z"
+      },
+      {
+        "author_name": "Cường Phạm quốc",
+        "rating": 5,
+        "text": "Clb chuyên nghiệp.ok",
+        "time": "2024-10-07T13:09:52.349Z"
+      },
+      {
+        "author_name": "Tiến Nguyễn Đình",
+        "rating": 5,
+        "text": "Quán quá tuyệt vời. Nhân Viên Nhiệt tình chu đáo. Hẹn du lịch Đà Nẵng sẻ gặp lại",
+        "time": "2024-10-07T13:07:33.643Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJCYL_JQAZQjERyZcywA3lEds",
+    "name": "BiDa Cafe 66 Võ Văn Tần",
+    "rating": 4.6,
+    "user_ratings_total": 14,
+    "geometry": {
+      "lat": 16.0672032,
+      "lng": 108.202769
+    },
+    "address": "66 Võ Văn Tần, Chính Gián, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Nguyễn Nghĩa",
+        "rating": 5,
+        "text": "cf ngon",
+        "time": "2025-08-20T04:37:15.620Z"
+      },
+      {
+        "author_name": "Nam Hoàng",
+        "rating": 5,
+        "text": null,
+        "time": "2025-07-14T02:44:54.908Z"
+      },
+      {
+        "author_name": "Huỳnh Đình Bình",
+        "rating": 5,
+        "text": null,
+        "time": "2024-05-24T13:34:19.723Z"
+      },
+      {
+        "author_name": "Nguyễn Đức Tiến",
+        "rating": 4,
+        "text": null,
+        "time": "2024-05-08T03:04:04.076Z"
+      },
+      {
+        "author_name": "Quốc Anh",
+        "rating": 1,
+        "text": "Quán nhân viên thái độ với khách, đuổi khéo khách về khi khách còn muốn chơi tiếp. 👏👏\n👎👎👎👎👎\nGần nhà có được quán chơi oke mà làm như vậy, không muốn quay lại luôn",
+        "time": "2024-04-01T16:14:42.167Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ2-LoRzsZQjERmDwxJvOb400",
+    "name": "King Billiards Club 54 đường 30/4, Đà Nẵng",
+    "rating": 1.5,
+    "user_ratings_total": 11,
+    "geometry": {
+      "lat": 16.0407464,
+      "lng": 108.2191357
+    },
+    "address": "54 Đ. 30/4, Hoà Cường Bắc, Hải Châu, Đà Nẵng 70000, Vietnam",
+    "types": [
+      "Entertainment agency"
+    ],
+    "reviews": [
+      {
+        "author_name": "Quang Pham Quang",
+        "rating": 1,
+        "text": null,
+        "time": "2025-11-16T23:49:06.337Z"
+      },
+      {
+        "author_name": "Minh Ngo",
+        "rating": 1,
+        "text": "Quán siêu tệ.nhân viên rất tệ.xin wifi mà thu 10k.thái độ cọc cằn,còn khoe hình xăm tưởng mình ngầu🤮",
+        "time": "2025-07-02T15:21:40.912Z"
+      },
+      {
+        "author_name": "Việt Anh Lê Hữu",
+        "rating": 1,
+        "text": "Nv thái độ ko được vui",
+        "time": "2025-07-02T15:17:50.095Z"
+      },
+      {
+        "author_name": "nguyễn minh ngọc",
+        "rating": 1,
+        "text": "thái độ nv tệ , cơ khách đang đánh mà cầm đi lấy đánh ngon ơ . Đi nhiều lần r mà thái độ nv càng ngày càng tệ ko thay đổi 👎🏻",
+        "time": "2024-12-24T11:04:20.733Z"
+      },
+      {
+        "author_name": "Linh Trần Ngọc",
+        "rating": 1,
+        "text": "Tệ",
+        "time": "2024-11-15T03:12:16.393Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJfVHySj4ZQjERC5YRJ1Qw2nA",
+    "name": "Zion Billiards",
+    "rating": 4.9,
+    "user_ratings_total": 42,
+    "geometry": {
+      "lat": 16.0544669,
+      "lng": 108.2203178
+    },
+    "address": "01 Núi Thành, Bình Thuận, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Supermarket"
+    ],
+    "reviews": [
+      {
+        "author_name": "Nguyen Van Dai",
+        "rating": 2,
+        "text": "Điều hoà ko mát, đi vào nhân viên ko đến bật đèn lấy bi mà phải kêu mới đến mở. Chỉ thấy 1 nhân viên, đánh xong hết ván cũng k thấy nhân viên ở đâu để đến xếp bi. Chất lượng bàn bi + dịch vụ ngày càng đi xuống.",
+        "time": "2025-07-14T09:38:48.657Z"
+      },
+      {
+        "author_name": "Yến Nguyễn",
+        "rating": 5,
+        "text": "Nhân viên nhiệt tình\nCombo giờ chơi hợp lí siêu hời",
+        "time": "2024-12-24T11:00:49.271Z"
+      },
+      {
+        "author_name": "Hùng Nguyễn",
+        "rating": 5,
+        "text": "quán dánh rất đã",
+        "time": "2024-12-19T13:48:34.496Z"
+      },
+      {
+        "author_name": "Jon Sn0w",
+        "rating": 5,
+        "text": null,
+        "time": "2024-12-13T16:28:42.891Z"
+      },
+      {
+        "author_name": "Triều Trần",
+        "rating": 5,
+        "text": "Quán chơi vui vẻ, lần sau đến Đà Nẵng sẽ ghé tiếp",
+        "time": "2024-12-13T13:10:16.263Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ87YekLYZQjERjLzWlmXO22s",
+    "name": "TNT Billiards Club",
+    "rating": 4.8,
+    "user_ratings_total": 8,
+    "geometry": {
+      "lat": 16.058567,
+      "lng": 108.2106017
+    },
+    "address": "25-27 Trần Tống, Thạc Gián, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "KP",
+        "rating": 4,
+        "text": null,
+        "time": "2023-09-16T05:28:19.236Z"
+      },
+      {
+        "author_name": "hoa tùng nguyễn",
+        "rating": 5,
+        "text": null,
+        "time": "2023-05-02T07:23:49.646Z"
+      },
+      {
+        "author_name": "An Nguyễn",
+        "rating": 5,
+        "text": null,
+        "time": "2023-04-28T13:38:07.756Z"
+      },
+      {
+        "author_name": "Bảo Nhật Yến Thái",
+        "rating": 5,
+        "text": null,
+        "time": "2023-03-13T16:23:06.604Z"
+      },
+      {
+        "author_name": "Nguyễn Đình Phúc",
+        "rating": 5,
+        "text": "Rất ok",
+        "time": "2022-11-14T13:45:55.391Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJxTEmqgoXQjERbtDfUgD6kB8",
+    "name": "RÙA Billiards",
+    "rating": 3.9,
+    "user_ratings_total": 10,
+    "geometry": {
+      "lat": 16.0709796,
+      "lng": 108.2003689
+    },
+    "address": "241 Trần Cao Vân, Xuân Hà, Đà Nẵng, 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "nguyễn sơn",
+        "rating": 1,
+        "text": null,
+        "time": "2025-08-31T12:44:06.865Z"
+      },
+      {
+        "author_name": "trần công bảo",
+        "rating": 1,
+        "text": "Nhân viên hht khách nhờ nhân viên xếp bi thì ngồi trong nhìn ra xong lơ như chưa thấy gì xong rủ nhau bấm điện thoại tiếp coi như chưa thấy gì trong đã nhắc nhiều lần(2 nam-1 nữ)",
+        "time": "2025-08-17T15:10:34.662Z"
+      },
+      {
+        "author_name": "Dũng Paragames",
+        "rating": 5,
+        "text": null,
+        "time": "2025-04-22T13:17:10.902Z"
+      },
+      {
+        "author_name": "Uy Nguyễn Chơn",
+        "rating": 4,
+        "text": null,
+        "time": "2024-10-19T16:04:40.666Z"
+      },
+      {
+        "author_name": "P30.Nguyễn Tuấn Nam",
+        "rating": 5,
+        "text": "Nhiều bàn, có gậy carbon",
+        "time": "2024-08-12T09:55:46.928Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJu50ldVUYQjERvPJDoxqadEs",
+    "name": "ST Billiards Star",
+    "rating": 5,
+    "user_ratings_total": 2,
+    "geometry": {
+      "lat": 16.0691912,
+      "lng": 108.1917185
+    },
+    "address": "46 Hà Huy Tập, P, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club",
+      "Pool hall"
+    ],
+    "reviews": [
+      {
+        "author_name": "Hà Nguyễn",
+        "rating": 5,
+        "text": null,
+        "time": "2024-07-24T13:50:06.500Z"
+      },
+      {
+        "author_name": "Tuân Đỗ",
+        "rating": 5,
+        "text": "Ngay sát nhà luôn, nay đi đánh bi a thấy giá rẻ bất ngờ, phù hợp học sinh, sinh viên",
+        "time": "2023-12-18T04:48:11.654Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJDVUvH1UYQjERbaS7yQ8vof8",
+    "name": "Clb Billiard Điểm Hẹn",
+    "rating": 5,
+    "user_ratings_total": 6,
+    "geometry": {
+      "lat": 16.0680836,
+      "lng": 108.1929463
+    },
+    "address": "304 Thái Thị Bôi, Chính Gián, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Phi Hùng Trần",
+        "rating": 5,
+        "text": null,
+        "time": "2025-06-03T17:51:08.402Z"
+      },
+      {
+        "author_name": "thuý kiều nguyễn",
+        "rating": 5,
+        "text": "Clb rất thân thiện,bàn xịn",
+        "time": "2025-02-12T04:48:36.274Z"
+      },
+      {
+        "author_name": "Lê Vũ",
+        "rating": 5,
+        "text": "Quán chơi khá tốt. Oke. Nhân viên phục vụ nhiệt tình. Có nhiều kèo giao lưu 3c lỗ. Khá là vui.",
+        "time": "2024-06-22T04:12:28.339Z"
+      },
+      {
+        "author_name": "Phan Vinh",
+        "rating": 5,
+        "text": "Kiếm được quán đánh oke ghê",
+        "time": "2024-06-19T08:20:12.660Z"
+      },
+      {
+        "author_name": "Thinh Võ Ngọc Quốc",
+        "rating": 5,
+        "text": "Quán chơi bàn rất oke. Nhân viên phục vụ tốt. Đặc biệt là bàn Mr.sung bida lỗ và bàn 3c rất oke. Sẽ ghé lại thường xuyên.",
+        "time": "2024-06-19T08:13:46.518Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJawwXLFgXQjERNC_9BBX77AE",
+    "name": "Billiards Club 6789",
+    "rating": 4.8,
+    "user_ratings_total": 9,
+    "geometry": {
+      "lat": 16.0288469,
+      "lng": 108.2405083
+    },
+    "address": "3 Bùi Tá Hán, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng, Vietnam",
+    "types": [
+      "Pool hall"
+    ],
+    "reviews": [
+      {
+        "author_name": "huyen trinh",
+        "rating": 5,
+        "text": null,
+        "time": "2024-08-19T11:55:26.088Z"
+      },
+      {
+        "author_name": "Hoa Nguyen",
+        "rating": 5,
+        "text": "Dịch vụ tốt, chủ rất thân thiện",
+        "time": "2024-08-01T02:30:29.928Z"
+      },
+      {
+        "author_name": "Thu Lệ",
+        "rating": 5,
+        "text": null,
+        "time": "2023-01-26T15:06:55.296Z"
+      },
+      {
+        "author_name": "Huy Tran",
+        "rating": 4,
+        "text": null,
+        "time": "2022-08-23T13:13:15.260Z"
+      },
+      {
+        "author_name": "Thông Lê",
+        "rating": 5,
+        "text": null,
+        "time": "2022-07-30T12:13:56.846Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ686Bl5QXQjERESUxtIy08cs",
+    "name": "BIDA XÙ",
+    "rating": 4.9,
+    "user_ratings_total": 17,
+    "geometry": {
+      "lat": 16.0542032,
+      "lng": 108.2396982
+    },
+    "address": "60 Nguyễn Văn Thoại, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Phúc Lê Đình (L.Đ.P)",
+        "rating": 3,
+        "text": null,
+        "time": "2025-02-04T02:27:51.423Z"
+      },
+      {
+        "author_name": "Nhi Quỳnh",
+        "rating": 5,
+        "text": "Ko phụ phí chơi đêm, quán rộng rãi, bàn tốt",
+        "time": "2023-11-03T06:55:52.932Z"
+      },
+      {
+        "author_name": "Thiện Nguyên văn",
+        "rating": 5,
+        "text": null,
+        "time": "2023-08-15T09:55:56.309Z"
+      },
+      {
+        "author_name": "Long Quoc",
+        "rating": 5,
+        "text": "Không gian thoáng, mát, Dịch vụ tốt, giá cả hợp lý",
+        "time": "2023-08-14T03:27:07.528Z"
+      },
+      {
+        "author_name": "Đào Long",
+        "rating": 5,
+        "text": "Ok",
+        "time": "2023-08-13T03:44:15.393Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJJQu1jxgXQjERMuxFpKhdm-0",
+    "name": "Galaxy Entertainment Center",
+    "rating": 4.6,
+    "user_ratings_total": 104,
+    "geometry": {
+      "lat": 16.0458208,
+      "lng": 108.2417508
+    },
+    "address": "230 Châu Thị Vĩnh Tế, Bắc Mỹ An, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Ngọc toàn Dương",
+        "rating": 1,
+        "text": "Quán bida thiếu văn minh cực kỳ, mình gọi xếp bi mà nhân viên lơ đi đến mức khách khác phải gọi xếp bi giùm, lúc đến bàn mình thì cố tình lơ tiếp đợi bàn bên cạnh bắn xong thì lại xếp bi cho họ trong khi mình gọi rất to và gần, khi mình nhắc thì lại khó chịu, la hét, trách ngược lại. Không biết đây là văn hóa phục vụ của mình, hay cố tình khinh khách nữa, lần thứ 3 mình gặp chuyện như vậy rồi 🙂",
+        "time": "2025-11-13T06:47:04.813Z"
+      },
+      {
+        "author_name": "Duyên Mỹ",
+        "rating": 1,
+        "text": "đi music box ở đây thì bth lúc ra chơi bi a thì lúc đấy cũng 5-6g sáng vẫn phụ thu 10k mặc dù kh nhiều nhưng 75k 1t thêm phụ thu nữa là 85 nỉ thì cũ nhân viên thì kh biết còn trong ca làm không nhưng chả ai xếp bi nói chung là trải nghiệm tệ kh xứng đáng giá tiền",
+        "time": "2025-11-05T09:51:47.834Z"
+      },
+      {
+        "author_name": "Phượng Nguyễn",
+        "rating": 1,
+        "text": "Lúc trước đi một lần ở Kbox là có ấn tượng tốt với quán, chú dễ thương, nhân viên take care nhiệt tình. Nay đi lại thấy nhân viên vẫn nhiệt tình nhưng mà lúc vào đã thấy nhân viên thu ngân nữ tối nay thái độ rất hời hợt, không quan tâm và chỉ dẫn khách hàng. Vào phòng thì bị lỗi mic, phải mất một thời gian đầu để gọi nhân viên rồi fix mic các thứ, không hát hay làm được gì. Thế mà lúc ra thanh toán hỏi nhân viên thì chỉ cười trừ? Không một lời giải thích thoả đáng. Thế tính ra mấy chục phút đầu tụi em phải bỏ tiền ra để xem và đợi nhân viên fix lỗi ạ? Không là bao nhiêu nhưng mà thái độ làm việc, cách ứng xử và xử lý ở đây rất khó chịu. Mong quán có thể cải thiện được tình trạng này, đừng để làm ảnh hưởng đến nhiều khách hàng sau và sau nữa!",
+        "time": "2025-10-18T16:37:27.663Z"
+      },
+      {
+        "author_name": "Nguyễn Thị Trà My",
+        "rating": 3,
+        "text": "Nay tụi em có trải nghiệm kbox bên mình, đầu tiên vào thì mọi thứ rất là ok, nhân viên take care nhiệt tình, lúc đầu mic phòng em bị lỗi thì tụi e có gọi nhân viên lên và anh sửa mic cũng khá lâu, trong lúc chờ tụi em cũng k có hát hò được gì ạ, sau lúc hát xong tụi em có tính đánh bida nữa nhưng lúc xuống tính tiền em có nói với bạn nvien thu ngân là về việc sửa mic lâu v thì ntn? Bạn nhân viên chỉ cười và k hề có 1 câu trả lời nào cho tụi e, k dc thì bảo k dc hay là như nào đó tụi e đều ok nma đây chỉ cười r thôi, thế thôi tụi e tính tiền đi về, trải nghiệm dịch vụ ok nhưng thái độ nhân viên làm tụi e k hài lòng, mong bên mình sẽ cải thiện lại việc này ạ.",
+        "time": "2025-10-18T16:22:31.182Z"
+      },
+      {
+        "author_name": "Huy Tran",
+        "rating": 5,
+        "text": "10 điểm tuyệt vời.",
+        "time": "2025-10-03T13:37:40.417Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJYek03X0ZQjERQbmXAmOLygM",
+    "name": "VYAN Billiards Club",
+    "rating": 5,
+    "user_ratings_total": 2,
+    "geometry": {
+      "lat": 16.0368872,
+      "lng": 108.214
+    },
+    "address": "88-90 Huỳnh Tấn Phát, Hoà Cường Bắc, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Sasko Zarevski",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-21T03:04:26.534Z"
+      },
+      {
+        "author_name": "Huy Phan Quang",
+        "rating": 5,
+        "text": null,
+        "time": "2023-12-05T04:54:14.174Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJvZjY03oZQjEROjoQqfGhmM8",
+    "name": "Billiards Thịnh Phát 2",
+    "rating": 4.7,
+    "user_ratings_total": 3,
+    "geometry": {
+      "lat": 16.070825,
+      "lng": 108.1551082
+    },
+    "address": "67 Đ. Ngô Thì Nhậm, Hoà Khánh Nam, Liên Chiểu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Đức Thắng Nguyễn",
+        "rating": 5,
+        "text": "Bàn oke , phục vụ oke , giá cả phải chăng",
+        "time": "2024-03-26T03:28:46.085Z"
+      },
+      {
+        "author_name": "Đức Lê",
+        "rating": 5,
+        "text": null,
+        "time": "2023-07-30T12:56:40.111Z"
+      },
+      {
+        "author_name": "Đức Bảo Hồ",
+        "rating": 4,
+        "text": "Nhân viên vui vẻ",
+        "time": "2023-06-26T21:52:44.708Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJI988I_UXQjERqa-b3EMVFcc",
+    "name": "BiDa Tyler",
+    "rating": 3.8,
+    "user_ratings_total": 36,
+    "geometry": {
+      "lat": 16.086374,
+      "lng": 108.2398477
+    },
+    "address": "458 Ng. Quyền, Mân Thái, Sơn Trà, Đà Nẵng, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Nguyễn",
+        "rating": 3,
+        "text": "Nóng nực. Bàn cũ. Phục vụ kém.",
+        "time": "2024-08-11T13:41:07.451Z"
+      },
+      {
+        "author_name": "Tris Lee",
+        "rating": 5,
+        "text": "Quán toàn bàn bida băng, giá rẻ",
+        "time": "2022-08-09T03:02:37.473Z"
+      },
+      {
+        "author_name": "Thảo Phương Nguyễn",
+        "rating": 5,
+        "text": null,
+        "time": "2022-07-18T08:36:10.384Z"
+      },
+      {
+        "author_name": "Bảo",
+        "rating": 1,
+        "text": null,
+        "time": "2021-11-24T06:39:16.550Z"
+      },
+      {
+        "author_name": "Đặng Thị Ngọc Hân 4/7",
+        "rating": 5,
+        "text": null,
+        "time": "2020-12-29T16:45:42.440Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJbwAAiYsZQjERP0d39kKFKio",
+    "name": "Hứa - Billiards & Coffee",
+    "rating": 3.1,
+    "user_ratings_total": 7,
+    "geometry": {
+      "lat": 16.062916,
+      "lng": 108.2217427
+    },
+    "address": "34 Hoàng Văn Thụ, Phước Ninh, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Trung Son Phan",
+        "rating": 4,
+        "text": "Quán có rất nhiều bàn, chất lượng tốt",
+        "time": "2025-07-07T09:49:56.997Z"
+      },
+      {
+        "author_name": "Tiến Lộc Cutting",
+        "rating": 5,
+        "text": "Quá ok",
+        "time": "2025-03-13T16:16:59.134Z"
+      },
+      {
+        "author_name": "Jamie Moore",
+        "rating": 5,
+        "text": "Great place for a few games of pool. Despite the language barrier the staff were great and very helpful. Good prices and great setup!",
+        "time": "2025-02-05T13:52:32.220Z"
+      },
+      {
+        "author_name": "Anh Ngô Nguyên",
+        "rating": 1,
+        "text": "nhân viên xếp bi cực kì thái độ , với cái giá 70k/1h mà thái độ thế thì hoàn toàn quá tệ",
+        "time": "2024-06-20T07:54:50.148Z"
+      },
+      {
+        "author_name": "Bin Nguyễn",
+        "rating": 1,
+        "text": null,
+        "time": "2024-06-07T11:30:51.062Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ-wkhA30ZQjERhtInWM4ziy8",
+    "name": "Bida Min",
+    "rating": 4.2,
+    "user_ratings_total": 42,
+    "geometry": {
+      "lat": 16.0453941,
+      "lng": 108.2226388
+    },
+    "address": "262 Đ. 2 Tháng 9, Hoà Cường Bắc, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Hiếu Nguyễn",
+        "rating": 1,
+        "text": "nhân viên quay hủ bắt khách chờ sếp bi",
+        "time": "2025-10-05T16:33:45.702Z"
+      },
+      {
+        "author_name": "Hội Nguyễn Quốc",
+        "rating": 1,
+        "text": "khách bảo sếp bi nv ngồi quay hũ",
+        "time": "2025-10-05T16:17:43.823Z"
+      },
+      {
+        "author_name": "Thanh Hải Hồ",
+        "rating": 5,
+        "text": null,
+        "time": "2024-12-24T00:20:45.105Z"
+      },
+      {
+        "author_name": "26.Đức Nhật",
+        "rating": 5,
+        "text": "Đồ ăn ngon giá cả hợp lí , không gian thoáng mát sạch sẽ , chương trình ca nhạc hấp dẫn vui nhộn",
+        "time": "2024-08-22T16:32:26.521Z"
+      },
+      {
+        "author_name": "Kiet Nguyen",
+        "rating": 5,
+        "text": null,
+        "time": "2023-09-22T05:45:21.919Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ_XGsHwAZQjERqLMcGZayJkY",
+    "name": "Space - X Billiards",
+    "rating": 3.8,
+    "user_ratings_total": 11,
+    "geometry": {
+      "lat": 16.0382736,
+      "lng": 108.2100382
+    },
+    "address": "246a Nguyễn Hữu Thọ, Khuê Trung, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Tài Nguyễn Minh",
+        "rating": 1,
+        "text": "Nhân viên thái độ chỉ lo chơi với những bàn khách quen, quán an ninh kém thường xuyên mất mũ bảo hiểm, quán nhiều trẻ trâu la hét",
+        "time": "2025-06-20T10:46:13.790Z"
+      },
+      {
+        "author_name": "Linh Hồ",
+        "rating": 4,
+        "text": null,
+        "time": "2025-05-27T17:00:43.587Z"
+      },
+      {
+        "author_name": "Ivan Khomiakov",
+        "rating": 4,
+        "text": "Норм бильярдная с пулом. Из минусов: можно курить и для некурящих становится тяжеловато находиться в помещении. Из плюсов: жизнерадостный персонал, бегающий вприпрыжку и играющий в бильярд)",
+        "time": "2025-02-04T10:18:54.240Z"
+      },
+      {
+        "author_name": "Trân Bảo",
+        "rating": 2,
+        "text": "Nhân viên thái độ , quán ok",
+        "time": "2024-12-20T11:31:58.501Z"
+      },
+      {
+        "author_name": "minh vương nguyễn đức",
+        "rating": 5,
+        "text": null,
+        "time": "2024-11-20T04:07:38.582Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ9yIOUPgZQjERYHFYYRfmnTg",
+    "name": "Minh Vương Billards Club",
+    "rating": 3,
+    "user_ratings_total": 10,
+    "geometry": {
+      "lat": 16.0741129,
+      "lng": 108.2141109
+    },
+    "address": "376 Đống Đa, Thanh Bình, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Ngọc Na Huỳnh",
+        "rating": 1,
+        "text": "nhu lòn",
+        "time": "2025-11-14T15:49:16.057Z"
+      },
+      {
+        "author_name": "Hung Nguyen",
+        "rating": 1,
+        "text": null,
+        "time": "2025-06-24T04:04:14.273Z"
+      },
+      {
+        "author_name": "Lê Thanh Thường",
+        "rating": 5,
+        "text": "Giải trí lành mạnh, hội tụ đam mê\n\nThoáng, đặc biệt không bị ngột khói thuốc lá 👍💐",
+        "time": "2023-06-14T13:16:33.959Z"
+      },
+      {
+        "author_name": "Minh Thảo",
+        "rating": 5,
+        "text": null,
+        "time": "2023-04-04T02:05:00.606Z"
+      },
+      {
+        "author_name": "Nguyen Duy Lam",
+        "rating": 5,
+        "text": "Đông vui",
+        "time": "2023-01-20T13:45:32.364Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJr6I9g-wZQjEROg8mBFSftxc",
+    "name": "Billiards Club Serie A",
+    "rating": 3.4,
+    "user_ratings_total": 7,
+    "geometry": {
+      "lat": 16.0358873,
+      "lng": 108.2164258
+    },
+    "address": "121 Phan Đăng Lưu, Hoà Cường Nam, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool hall"
+    ],
+    "reviews": [
+      {
+        "author_name": "Vũ Nguyễn",
+        "rating": 4,
+        "text": "Không gian thoáng, rộng rãi",
+        "time": "2024-09-11T04:30:30.346Z"
+      },
+      {
+        "author_name": "Musxima Colosseum",
+        "rating": 4,
+        "text": null,
+        "time": "2022-02-23T14:46:43.101Z"
+      },
+      {
+        "author_name": "Tài Phạm Minh",
+        "rating": 3,
+        "text": null,
+        "time": "2021-12-29T03:52:41.393Z"
+      },
+      {
+        "author_name": "Huy Phan Quang",
+        "rating": 5,
+        "text": null,
+        "time": "2021-11-10T14:07:17.766Z"
+      },
+      {
+        "author_name": "hoài lê văn",
+        "rating": 1,
+        "text": null,
+        "time": "2021-05-07T07:22:54.755Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJE3mMSUUXQjERysqtr3--cB0",
+    "name": "Billiards Club 68 - Hà Bổng",
+    "rating": 4,
+    "user_ratings_total": 9,
+    "geometry": {
+      "lat": 16.0660745,
+      "lng": 108.2442613
+    },
+    "address": "62 Hà Bổng, An Hải, Sơn Trà, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Chichie Fadziera",
+        "rating": 1,
+        "text": "Bad ! No one at the counter. Empty and there’s one boy with glasses so ignorant. We called so many time but no response. What kind of attitude and business is this? Lol Art on the wall sums the attitude.",
+        "time": "2025-11-23T07:11:16.915Z"
+      },
+      {
+        "author_name": "Moksiy",
+        "rating": 5,
+        "text": null,
+        "time": "2025-06-17T08:30:31.567Z"
+      },
+      {
+        "author_name": "mArIn Life with Beach",
+        "rating": 4,
+        "text": "エアコンが整っており、喫煙者がいてもタバコの煙はそこまで気になりません。\n\nドリンクは冷蔵庫から好きなものを選んで店員に申告するスタイル（多分）。\nビールからソフトドリンクまで種類は豊富でした。\n\n台もキューも使いやすかったです。\n\nビーチ近くの繁華街にあるので、前後の予定を組みやすいのもありがたいです。\n\n内壁のアートがストリート系で、雰囲気は人を選ぶかも。\n\nありがとうございました！",
+        "time": "2024-12-08T02:11:52.473Z"
+      },
+      {
+        "author_name": "Hop Tran",
+        "rating": 1,
+        "text": "Mình ở gần nên chơi nhiều nhưng thái độ của nhân viên mập khiến bạn bè của mình và bản thân không chấp nhận được thái độ với khách chậm chạp gọi lúc nào 2-3 tiếng mới trả lời",
+        "time": "2024-12-04T16:06:16.973Z"
+      },
+      {
+        "author_name": "Nhật Huy Trần",
+        "rating": 5,
+        "text": null,
+        "time": "2024-03-07T14:13:37.027Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJUX7of2MZQjERYZ5GN3bjr0s",
+    "name": "Arena Bida Club",
+    "rating": 3.7,
+    "user_ratings_total": 48,
+    "geometry": {
+      "lat": 16.0663089,
+      "lng": 108.1932296
+    },
+    "address": "322 Điện Biên Phủ, Chính Gián, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Tài Thanh Phan",
+        "rating": 1,
+        "text": null,
+        "time": "2025-11-19T07:44:10.934Z"
+      },
+      {
+        "author_name": "Phi Long",
+        "rating": 1,
+        "text": "Cùi bắp.  Nv phục vụ Nữ khó ưa",
+        "time": "2025-09-26T09:45:47.546Z"
+      },
+      {
+        "author_name": "ĐĐC Gaming",
+        "rating": 1,
+        "text": "Nhân viên thái độ",
+        "time": "2025-08-13T14:47:41.864Z"
+      },
+      {
+        "author_name": "Angel McCowan",
+        "rating": 4,
+        "text": "Dịch vụ nhanh chóng, nhân viên luôn tươi cười. Trang trí quán hiện đại và sang trọng.",
+        "time": "2025-07-25T19:42:33.298Z"
+      },
+      {
+        "author_name": "Thuận Thanh",
+        "rating": 1,
+        "text": "thái độ nhân viên rất tệ\nbàn thì dỡ khỏi nói luôn",
+        "time": "2025-07-14T18:13:23.622Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJTyrq8EcZQjER_sjn_LCyOXw",
+    "name": "CROWN Billiard & Coffee Center",
+    "rating": 4,
+    "user_ratings_total": 24,
+    "geometry": {
+      "lat": 16.0471837,
+      "lng": 108.1796204
+    },
+    "address": "Hoà An, Cẩm Lệ District, Da Nang 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Thắng Bác",
+        "rating": 4,
+        "text": "Thái độ nhân viên lịch sự, nhẹ nhàng, rất dễ chịu.",
+        "time": "2025-07-23T15:34:11.985Z"
+      },
+      {
+        "author_name": "Tran Tuan Minh",
+        "rating": 3,
+        "text": null,
+        "time": "2025-01-31T12:10:00.634Z"
+      },
+      {
+        "author_name": "Đạo Phạm",
+        "rating": 5,
+        "text": null,
+        "time": "2024-12-14T03:18:44.436Z"
+      },
+      {
+        "author_name": "Huan Hoang",
+        "rating": 4,
+        "text": null,
+        "time": "2024-08-22T16:16:15.130Z"
+      },
+      {
+        "author_name": "Sang Quyền",
+        "rating": 4,
+        "text": "Bàn ổn.\nHơi ồn ào quá mức (không phải ồn ào kiểu vui vẻ)\nNhân viên nhiệt tình, biết cư xử",
+        "time": "2024-02-27T04:56:32.732Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJPZZTfgAXQjER8I66VfTfXOs",
+    "name": "99 CLUB BILLIARD",
+    "rating": 5,
+    "user_ratings_total": 2,
+    "geometry": {
+      "lat": 16.0408986,
+      "lng": 108.239739
+    },
+    "address": "29 Mỹ An 25, Bắc Mỹ An, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Tài Nguyễn thành",
+        "rating": 5,
+        "text": null,
+        "time": "2024-09-09T18:36:48.956Z"
+      },
+      {
+        "author_name": "My Le",
+        "rating": 5,
+        "text": "Quán vừa có bida lỗ và bida phăng, nhân viên nhiệt tình, muốn chơi gì cũng đc",
+        "time": "2024-08-19T06:15:27.760Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ2UXCQAAXQjER8xI6j89lZ5Y",
+    "name": "N9NE BILLIARDS CLUB - POOL & LIBRE",
+    "rating": 5,
+    "user_ratings_total": 424,
+    "geometry": {
+      "lat": 16.0429346,
+      "lng": 108.2414141
+    },
+    "address": "02 Nguyễn Bá Lân, Bắc Mỹ An, Ngũ Hành Sơn, Đà Nẵng 50000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Huy Vi Anh",
+        "rating": 5,
+        "text": "thu ngân tóc vàng dth ghê nhiệt tình nữa",
+        "time": "2025-11-24T16:53:06.465Z"
+      },
+      {
+        "author_name": "Thanh Hải Lê (Nobi)",
+        "rating": 1,
+        "text": "T k hiểu vì sao t đi chơi trả tiền bình thường chứ t có đi ăn trộm ăn quỵt đâu mà sao nhân viên thu ngân ca khuya tỏ thái độ thế nhờ. Nói chuyện với khách thì trống không, mặt thì như muốn chửi khách tới nơi á. T thề danh dự là t k bao giờ đến quán một lần nào nữa.",
+        "time": "2025-11-22T19:05:38.246Z"
+      },
+      {
+        "author_name": "Bảo Trần",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-21T16:09:52.773Z"
+      },
+      {
+        "author_name": "Hoàng Hà",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-20T10:27:11.532Z"
+      },
+      {
+        "author_name": "thi dh",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-19T14:35:17.789Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJtURdRAAZQjER87wDwAsU9FY",
+    "name": "HD Billiards Club Đà Nẵng",
+    "rating": 3.9,
+    "user_ratings_total": 19,
+    "geometry": {
+      "lat": 16.0567423,
+      "lng": 108.2208699
+    },
+    "address": "20A Nguyễn Thiện Thuật, Phước Ninh, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Quanh Quang",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-21T02:55:23.692Z"
+      },
+      {
+        "author_name": "Hoà Nguyễn",
+        "rating": 1,
+        "text": "nhân viên giả điếc lơ khách",
+        "time": "2025-11-15T06:50:53.420Z"
+      },
+      {
+        "author_name": "Minh Thắng Lê",
+        "rating": 4,
+        "text": "không gian tốt để tập luyện, nhân viên năng lượng, còn lại mình thấy tạm ổn",
+        "time": "2025-11-08T07:57:46.929Z"
+      },
+      {
+        "author_name": "Khang Minh",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-08T07:53:14.403Z"
+      },
+      {
+        "author_name": "Khanh Nguyenvantuan",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-07T10:56:49.426Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJPwzxrh8ZQjER7dVjAwmc00k",
+    "name": "SV Pool Billiard - 202 Trần Hưng Đạo",
+    "rating": 4.3,
+    "user_ratings_total": 26,
+    "geometry": {
+      "lat": 16.0565436,
+      "lng": 108.2321018
+    },
+    "address": "202 Đ. Trần Hưng Đạo, An Hải, Sơn Trà, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Dũng Phan",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-24T04:00:29.509Z"
+      },
+      {
+        "author_name": "Ponpes Putri",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-22T02:14:15.751Z"
+      },
+      {
+        "author_name": "Parth Patel",
+        "rating": 5,
+        "text": null,
+        "time": "2025-07-26T01:18:45.667Z"
+      },
+      {
+        "author_name": "Nhật Trần",
+        "rating": 1,
+        "text": null,
+        "time": "2025-07-15T04:50:37.620Z"
+      },
+      {
+        "author_name": "Brian Huynh",
+        "rating": 4,
+        "text": "Awesome spot to chill out.",
+        "time": "2025-03-13T12:31:18.894Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJwZx0KwAZQjER2amruBxtBro",
+    "name": "Alpes Billiards Club",
+    "rating": 5,
+    "user_ratings_total": 22,
+    "geometry": {
+      "lat": 16.0500898,
+      "lng": 108.2140833
+    },
+    "address": "512-514 Nguyễn Tri Phương, Bình Thuận, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Minh Phúc Nguyễn",
+        "rating": 5,
+        "text": "chúc mấy bạn nvien 20/10 vui vẻ",
+        "time": "2025-10-20T14:13:22.066Z"
+      },
+      {
+        "author_name": "Nguyễn thịnh",
+        "rating": 5,
+        "text": "tốt",
+        "time": "2025-10-19T15:38:06.353Z"
+      },
+      {
+        "author_name": "Thạnh - UEH Nguyễn",
+        "rating": 5,
+        "text": "Quán xịn, nhân viên thân thiện, 10 điểm nhaa",
+        "time": "2025-07-20T13:16:41.742Z"
+      },
+      {
+        "author_name": "Kien Võ",
+        "rating": 5,
+        "text": null,
+        "time": "2025-07-14T12:42:42.810Z"
+      },
+      {
+        "author_name": "Vy Nguyễn",
+        "rating": 5,
+        "text": "Nhân viên siu nhiệt tình ạ",
+        "time": "2025-06-27T13:33:11.738Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJw8T90uoXQjERIXvRQm4ChuA",
+    "name": "Billiards Center Pool Caroom",
+    "rating": 4.6,
+    "user_ratings_total": 46,
+    "geometry": {
+      "lat": 16.049176,
+      "lng": 108.2434871
+    },
+    "address": "Mai Thúc Lân, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Fitness center",
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Cover music",
+        "rating": 5,
+        "text": "cạnh đường lớn có chổ đậu đổ xe , dịch vụ tốt",
+        "time": "2025-10-23T07:14:43.061Z"
+      },
+      {
+        "author_name": "Shop Người Lớn Phút 89",
+        "rating": 4,
+        "text": "Quán đông khách!",
+        "time": "2025-09-04T14:50:41.089Z"
+      },
+      {
+        "author_name": "Trần Văn Bản",
+        "rating": 5,
+        "text": null,
+        "time": "2025-07-12T11:13:06.222Z"
+      },
+      {
+        "author_name": "이성근",
+        "rating": 5,
+        "text": "관리상태 좋음",
+        "time": "2025-06-19T13:31:47.508Z"
+      },
+      {
+        "author_name": "Root다섯뿌리",
+        "rating": 3,
+        "text": "담배연기에 질식",
+        "time": "2025-05-22T04:12:29.245Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJq6jS4xYZQjEREkYaV_pAfss",
+    "name": "MTV Billiards",
+    "rating": 3.5,
+    "user_ratings_total": 95,
+    "geometry": {
+      "lat": 16.0495863,
+      "lng": 108.2213355
+    },
+    "address": "02 Nguyễn Văn Trỗi, Bình Thuận, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Anh Tuấn",
+        "rating": 1,
+        "text": "Nhân viên khá khó chịu vào đánh gọi nước lơ đãng không quan tâm",
+        "time": "2025-11-17T10:08:08.275Z"
+      },
+      {
+        "author_name": "Trương Bảo Lâm",
+        "rating": 1,
+        "text": "nhân viên(nam)  không chịu xếp bi, kêu mà không có tai hay sao mà không xếp? tính tiền còn lề mề, kêu mấy lần mới chịu bấm bill, kêu mất 10p thì mất gần 10k r, làm ăn kiểu gì kì vậy? thái độ nhân viên (nam)cực kỳ kém",
+        "time": "2025-11-01T17:41:03.038Z"
+      },
+      {
+        "author_name": "Thái An",
+        "rating": 1,
+        "text": "nhan vien qua te",
+        "time": "2025-10-28T08:44:07.933Z"
+      },
+      {
+        "author_name": "Đức Nguyễn",
+        "rating": 1,
+        "text": null,
+        "time": "2025-10-27T16:58:29.579Z"
+      },
+      {
+        "author_name": "Quang Pham",
+        "rating": 1,
+        "text": "bàn thì lỏ nhân viên thì trốn",
+        "time": "2025-10-17T15:41:11.024Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJo_dgV-IXQjERKojNz9xfyPs",
+    "name": "Billiards Club 68 - Đỗ Bá",
+    "rating": 4.5,
+    "user_ratings_total": 28,
+    "geometry": {
+      "lat": 16.0518949,
+      "lng": 108.2461096
+    },
+    "address": "18 Đỗ Bá, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Anh Khoa Nguyễn",
+        "rating": 1,
+        "text": null,
+        "time": "2025-11-02T14:25:59.678Z"
+      },
+      {
+        "author_name": "Phuong Vo",
+        "rating": 5,
+        "text": "Giá chơi đêm chỉ 1 người giá ntn vậy ạ",
+        "time": "2025-09-24T17:41:11.120Z"
+      },
+      {
+        "author_name": "Hùng Vĩ CBSV",
+        "rating": 5,
+        "text": "Bida ở đây giá rẻ, dịch vụ chất lượng",
+        "time": "2025-08-30T10:09:21.768Z"
+      },
+      {
+        "author_name": "Quy Nhu",
+        "rating": 5,
+        "text": "Bàn đẹp, mới, phục vụ tốt, không gian thoáng mát, sẽ ghé ủng hộ.",
+        "time": "2025-08-30T03:04:15.405Z"
+      },
+      {
+        "author_name": "Tomasz Gogłuska",
+        "rating": 5,
+        "text": "Bardzo przyzwoity klub bilardowy, dobra cena, dobre stoły, dobre kije.",
+        "time": "2025-07-20T04:25:30.662Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJbV9ekTgZQjERjwVQGiZ-EYo",
+    "name": "Bida Đà Nẵng - 535 BILLIARDS CENTER",
+    "rating": 4.6,
+    "user_ratings_total": 26,
+    "geometry": {
+      "lat": 16.0739448,
+      "lng": 108.2035917
+    },
+    "address": "535 Nguyễn Tất Thành, Xuân Hà, Thanh Khê, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Restaurant",
+      "Seafood restaurant"
+    ],
+    "reviews": [
+      {
+        "author_name": "MG",
+        "rating": 5,
+        "text": "Sympa et pas chère.\nOnt peut fumer a l'interieur et commander a boire et a manger.",
+        "time": "2025-10-24T09:34:23.996Z"
+      },
+      {
+        "author_name": "Hoàng Long Lê",
+        "rating": 5,
+        "text": "Tốt",
+        "time": "2025-10-21T13:07:12.941Z"
+      },
+      {
+        "author_name": "My Nguyenart",
+        "rating": 5,
+        "text": null,
+        "time": "2025-03-30T06:36:24.967Z"
+      },
+      {
+        "author_name": "Duy Trần Văn",
+        "rating": 5,
+        "text": "Giá cả hợp lý.\nNhân viên nhanh nhẹn, thông minh, dễ thương, nhiệt tình.\n5 SAO. *****",
+        "time": "2024-09-30T13:03:15.993Z"
+      },
+      {
+        "author_name": "Thucdoan Le",
+        "rating": 1,
+        "text": "Nhân viên tệ, gọi mỳ tôm mà bảo ko biết nấu 🥲 Là nhát hay không biết?",
+        "time": "2024-08-23T18:54:39.213Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJj1v19-EZQjERjDk4uJC2KkY",
+    "name": "Billiards Club Genz 68",
+    "rating": 5,
+    "user_ratings_total": 9,
+    "geometry": {
+      "lat": 16.0441843,
+      "lng": 108.1785177
+    },
+    "address": "37 Trần Đình Nam, Hoà An, TP, Đà Nẵng, Vietnam",
+    "types": [
+      "Club",
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Huynh Ha",
+        "rating": 5,
+        "text": "Không gian quán rộng , sạch sẽ, tạo cảm giác thoải mái cho người chơi, rất thích quán này",
+        "time": "2024-12-19T07:53:02.057Z"
+      },
+      {
+        "author_name": "Huynh Nguyen",
+        "rating": 5,
+        "text": "Cảm thấy thoải mái khi chơi ở đây ! Đánh giá cao cách bày trí cùng sự chuyên nghiệp và nhiệt tình của nhân viên câu lạc bộ",
+        "time": "2023-04-01T05:39:06.415Z"
+      },
+      {
+        "author_name": "thanh my nguyen",
+        "rating": 5,
+        "text": null,
+        "time": "2023-03-21T06:08:07.789Z"
+      },
+      {
+        "author_name": "huong bui thi thu",
+        "rating": 5,
+        "text": "Quá tuyệt vời, 1 sân chơi bổ ích cho mấy anh",
+        "time": "2023-03-21T04:48:23.724Z"
+      },
+      {
+        "author_name": "Minh Nhat",
+        "rating": 5,
+        "text": "Nhân viên phục vụ chu đáo",
+        "time": "2023-03-21T04:22:14.261Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJxxbEYrkZQjERy90LXs-8mfY",
+    "name": "Câu Lạc Bộ Billiards A HUYNH",
+    "rating": 4.5,
+    "user_ratings_total": 60,
+    "geometry": {
+      "lat": 16.0580079,
+      "lng": 108.1719252
+    },
+    "address": "03 05 07 09 Nam Trân, Hoà Minh, Liên Chiểu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Bắp Bắp",
+        "rating": 5,
+        "text": "trải nghiệm rất tuyệt vời khi bida ahuynh tại đà nẵng đội ngũ nhân viên phục vụ nhiệt tình và chu đáo, mở 24/24 sẽ quay lại nhiều lần nữa🫰🏼❤️",
+        "time": "2025-11-22T06:33:02.315Z"
+      },
+      {
+        "author_name": "An Ann",
+        "rating": 5,
+        "text": "nhân viên nhiệt tình , vui vẻ , quán rộng rãi , sạch sẽ",
+        "time": "2025-11-22T06:05:14.088Z"
+      },
+      {
+        "author_name": "huy huynh455",
+        "rating": 1,
+        "text": null,
+        "time": "2025-11-08T16:10:47.820Z"
+      },
+      {
+        "author_name": "Lê Duy Sang",
+        "rating": 5,
+        "text": null,
+        "time": "2025-10-24T14:23:05.995Z"
+      },
+      {
+        "author_name": "Quang Nguyễn Phước Huy",
+        "rating": 5,
+        "text": "Phục vụ nhiệt tình\nNhân viên thì lại xinh\nRất đáng để anh em trải nghiệm nhé",
+        "time": "2025-09-15T02:54:41.214Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJbYhcKgAXQjERzJNRrqriXyY",
+    "name": "RAINBOW BILLIARDS CLUB",
+    "rating": 4.2,
+    "user_ratings_total": 31,
+    "geometry": {
+      "lat": 16.0502832,
+      "lng": 108.2429712
+    },
+    "address": "45A Mai Thúc Lân, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club",
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Volare",
+        "rating": 5,
+        "text": "Undebiably, the best value for billiards in the area.\n\n-Prices are very good\n-They clean the tables and balls after every customer\n-The cue sticks are in good condition, very few are warped like in other establishments\n- friendly attentive staff and owner who cares about quality and cleanliness",
+        "time": "2025-11-20T10:26:32.490Z"
+      },
+      {
+        "author_name": "Tus Mr",
+        "rating": 2,
+        "text": "Không có người xếp bi",
+        "time": "2025-11-11T04:42:49.609Z"
+      },
+      {
+        "author_name": "Євгеній Шабл",
+        "rating": 5,
+        "text": "My favorite billiard club!\nGood tables, nice staff, fair prices!\nRecommend!",
+        "time": "2025-09-19T05:09:51.856Z"
+      },
+      {
+        "author_name": "Hạ Vương",
+        "rating": 5,
+        "text": "Nhân viên siuuu thân thiện, mến khách, phục vụ rất tận tình😘",
+        "time": "2025-09-03T13:46:49.245Z"
+      },
+      {
+        "author_name": "Phước Tình Bùi",
+        "rating": 5,
+        "text": null,
+        "time": "2025-08-31T16:06:45.930Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJU5taU9QZQjERnzcNO4DMScs",
+    "name": "ST Billiards Club",
+    "rating": 4.6,
+    "user_ratings_total": 10,
+    "geometry": {
+      "lat": 16.0310726,
+      "lng": 108.2229011
+    },
+    "address": "569 Núi Thành, Hoà Cường Nam, Hải Châu, Đà Nẵng, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Trường Đặng",
+        "rating": 5,
+        "text": null,
+        "time": "2023-11-23T02:45:37.241Z"
+      },
+      {
+        "author_name": "T.A.I MR.",
+        "rating": 5,
+        "text": "Thân thiện , nhiệt tình. Dịch vụ rất tốt",
+        "time": "2023-11-19T03:13:11.924Z"
+      },
+      {
+        "author_name": "Tài Luu",
+        "rating": 5,
+        "text": null,
+        "time": "2023-11-18T13:51:56.736Z"
+      },
+      {
+        "author_name": "Trí Trần",
+        "rating": 5,
+        "text": null,
+        "time": "2023-11-18T13:25:51.701Z"
+      },
+      {
+        "author_name": "Duong Duong",
+        "rating": 5,
+        "text": null,
+        "time": "2023-11-18T13:24:30.613Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJh-Cd4sQZQjERswnFaSX5KLg",
+    "name": "Billiards Huy Long",
+    "rating": 4.5,
+    "user_ratings_total": 16,
+    "geometry": {
+      "lat": 16.0373343,
+      "lng": 108.2216139
+    },
+    "address": "Quân, 49 Phan Đăng Lưu, Hoà Cường Bắc, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Tú Đợi",
+        "rating": 1,
+        "text": null,
+        "time": "2025-11-05T19:19:13.149Z"
+      },
+      {
+        "author_name": "cẩm nhung đường",
+        "rating": 5,
+        "text": "Nv ca tối vui tính quán rỗng rãi mát mẻ, chị bé ca tối dễ thương.",
+        "time": "2025-06-15T18:58:34.667Z"
+      },
+      {
+        "author_name": "Vi Cầm Chu",
+        "rating": 5,
+        "text": "Nhân viên ca tối nhiệt tình, nhạc chill, giá ổn mn ghé qua trải nghiệm nha",
+        "time": "2025-06-15T18:58:27.736Z"
+      },
+      {
+        "author_name": "Uy Đenn",
+        "rating": 5,
+        "text": "Nhân viên ca tối dễ thương nhiệt tình đặc biệt là chị Linh 🥰🥰",
+        "time": "2025-06-15T15:28:55.900Z"
+      },
+      {
+        "author_name": "Thai Nguyen",
+        "rating": 5,
+        "text": "Thoáng mát, nhân viên ca tối tận tình",
+        "time": "2025-06-15T14:55:31.902Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJV4yRoggZQjERp0oEBe9HVU4",
+    "name": "MR.T BILLIARDS - BIDA ĐÀ NẴNG",
+    "rating": 4.6,
+    "user_ratings_total": 17,
+    "geometry": {
+      "lat": 16.061244,
+      "lng": 108.185729
+    },
+    "address": "05 Trần Xuân Lê, Thanh Khê Đông, Thanh Khê, Đà Nẵng 55000, Vietnam",
+    "types": [
+      "Sports club",
+      "Table tennis club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Ngoc Kim",
+        "rating": 5,
+        "text": "phục vụ tốt",
+        "time": "2025-10-14T00:34:53.120Z"
+      },
+      {
+        "author_name": "Kiệt Tuấn",
+        "rating": 1,
+        "text": "Tính tiền ko đưa bill xong nói mất bill ko chịu tính lại chịu luôn",
+        "time": "2025-09-29T04:40:34.956Z"
+      },
+      {
+        "author_name": "huyen tran",
+        "rating": 4,
+        "text": "Quán ok đấy. Băng chính xác, không ra ép phê lung tung.",
+        "time": "2025-06-25T12:23:57.199Z"
+      },
+      {
+        "author_name": "Luong Nguyen",
+        "rating": 5,
+        "text": null,
+        "time": "2024-03-26T10:19:53.664Z"
+      },
+      {
+        "author_name": "Anh Mỹ",
+        "rating": 4,
+        "text": "Bàn bida mới . Phục vụ nhanh nhẹn . Mayd lạnh mát rượi . Quá ok",
+        "time": "2023-09-11T03:21:09.438Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJu3C6awAZQjER3QLU5zF2OIA",
+    "name": "Zen Arena Billiards Đà Nẵng",
+    "rating": 4.6,
+    "user_ratings_total": 46,
+    "geometry": {
+      "lat": 16.0503602,
+      "lng": 108.2220932
+    },
+    "address": "170a Đ. 2 Tháng 9, Bình Thuận, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Playground"
+    ],
+    "reviews": [
+      {
+        "author_name": "An Vũ",
+        "rating": 5,
+        "text": null,
+        "time": "2025-10-25T05:17:12.174Z"
+      },
+      {
+        "author_name": "Phương Hoài",
+        "rating": 1,
+        "text": null,
+        "time": "2025-10-17T18:07:42.512Z"
+      },
+      {
+        "author_name": "Chazz",
+        "rating": 5,
+        "text": "Really nice experience here, great set up with super friendly staff, have already been back a couple of times and see myself here to play pool again very soon.",
+        "time": "2025-10-03T06:50:10.322Z"
+      },
+      {
+        "author_name": "Tuấn Nguyễn Bá",
+        "rating": 3,
+        "text": "mình có ghé thử quán chơi từ 0:3p - 1:13p tổng cộng 1h10p nhưng trên bill là 65.000đ x 1,25 mình sẵn sàng trả tiền nhưng cảm giác bị gian lận một chút, mong quán lần sau rõ ràng, nhưng mình sẽ không quay lại quán nữa.",
+        "time": "2025-09-26T18:54:40.988Z"
+      },
+      {
+        "author_name": "Tuyết Sơn Trần",
+        "rating": 2,
+        "text": "Hôm qua mình có ghé chơi ở quán nhưng trải nghiệm thật sự rất tệ. Thái độ nhân viên cực kỳ thiếu chuyên nghiệp, không nhiệt tình hỗ trợ khách. Đặc biệt, mình không rõ quán có dịch vụ nhân viên xếp bi hay tự động, nhưng trong suốt quá trình chơi thì toàn phải tự xếp bi để đánh. Điều này gây cảm giác khó chịu vì đáng lẽ ra đó là trách nhiệm của quán hoặc nhân viên phải hướng dẫn rõ ràng cho khách.\n\nMình có kèm ảnh minh chứng việc phải tự xếp bi tại bàn. Với mức giá và cách quảng cáo của quán thì trải nghiệm này thực sự không xứng đáng. Hy vọng quán cải thiện dịch vụ, còn nếu không thì mình sẽ cân nhắc không quay lại nữa!!!!!!!!",
+        "time": "2025-08-23T05:48:48.414Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJhYLCSJ0ZQjERQSwFmbWkti8",
+    "name": "Pixel Cue - Gaming & Billiards Đà Nẵng",
+    "rating": 4.7,
+    "user_ratings_total": 359,
+    "geometry": {
+      "lat": 16.0324679,
+      "lng": 108.2180478
+    },
+    "address": "132 Xô Viết Nghệ Tĩnh, Phường, Hải Châu, Đà Nẵng 50500, Vietnam",
+    "types": [
+      "Internet cafe",
+      "Internet service provider",
+      "Internet shop",
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Túhiso Inoki",
+        "rating": 1,
+        "text": "Quán nv như l qua lên net mua combo đêm ko biết nv tên gì ko có bảng tên như mấy bạn nv kia thấy ngồi ở quầy máy tính .Mà nói chuyện như hạch mắt thì cứ dán vào cái điện thoại hỏi nước với combo nhiêu tiền thì ko trả lời còn nhăn mặt khó chịu nay đi chơi bida thì mang cơm xuống thiếu một phần hỏi thì kêu quên bấm đúng chịu thua luôn bạn mình thì ko nói gì chứ mình như vậy tức ko chịu được bỏ tiền ra tưởng làm khách ai ngờ làm con",
+        "time": "2025-11-22T17:47:32.162Z"
+      },
+      {
+        "author_name": "Thái Văn Phước",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-19T02:06:14.889Z"
+      },
+      {
+        "author_name": "Nam Hà Hải",
+        "rating": 5,
+        "text": "Nhân viên nhiệt tình",
+        "time": "2025-11-05T01:44:57.285Z"
+      },
+      {
+        "author_name": "Nguyễn Tiến Đạt",
+        "rating": 5,
+        "text": "Tự tin chiến game tại pixel nhá",
+        "time": "2025-10-28T13:54:39.276Z"
+      },
+      {
+        "author_name": "Tiến Đặng",
+        "rating": 5,
+        "text": null,
+        "time": "2025-10-21T10:24:57.769Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ0x25NQAXQjER2bGiVJdAZTY",
+    "name": "197 BILLIARDS",
+    "rating": 5,
+    "user_ratings_total": 11,
+    "geometry": {
+      "lat": 16.0386267,
+      "lng": 108.2445443
+    },
+    "address": "14 Hồ Xuân Hương, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng 50506, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Thu Phuong Pham",
+        "rating": 5,
+        "text": "great experience! The staff was incredibly friendly and welcoming, making my visit enjoyable from the start. The prices are very reasonable, which is a big plus for anyone looking for a fun outing without breaking the bank.\n\nrecommend this place for anyone seeking entertainment . I’ll definitely be back!",
+        "time": "2025-10-16T05:06:35.308Z"
+      },
+      {
+        "author_name": "Đình Hiếu",
+        "rating": 5,
+        "text": "Quán cỏ",
+        "time": "2025-07-09T16:28:16.088Z"
+      },
+      {
+        "author_name": "Kiên Nguyễn",
+        "rating": 5,
+        "text": null,
+        "time": "2025-07-09T16:27:22.239Z"
+      },
+      {
+        "author_name": "Hoàng Nguyễn",
+        "rating": 5,
+        "text": null,
+        "time": "2025-04-09T21:58:38.818Z"
+      },
+      {
+        "author_name": "Quốc Anh",
+        "rating": 5,
+        "text": null,
+        "time": "2025-04-04T04:45:26.031Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJefGjx2gZQjERBWFzzo4Mqao",
+    "name": "Billiards A Tiến Club",
+    "rating": 4.8,
+    "user_ratings_total": 17,
+    "geometry": {
+      "lat": 16.0541381,
+      "lng": 108.1763609
+    },
+    "address": "49 Trần Văn Ơn, Hoà An, Cẩm Lệ, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "종꾹",
+        "rating": 1,
+        "text": "Tệ",
+        "time": "2025-04-10T11:29:24.152Z"
+      },
+      {
+        "author_name": "Lợi Hồ văn",
+        "rating": 5,
+        "text": "Quán rất OK nhé mọi người\nTôi đi đâu chơi cũng ko bằng q này nhé",
+        "time": "2024-12-11T06:02:45.382Z"
+      },
+      {
+        "author_name": "Ly Phan",
+        "rating": 5,
+        "text": "Quán rất là OK ak",
+        "time": "2024-12-03T05:22:17.957Z"
+      },
+      {
+        "author_name": "Dương Nguyễn",
+        "rating": 5,
+        "text": "Quán rất  là OK nhé mọi  người",
+        "time": "2024-12-03T03:21:18.077Z"
+      },
+      {
+        "author_name": "Hai Phan",
+        "rating": 5,
+        "text": "Q nhiệt tình thân thiện với  khách",
+        "time": "2024-12-03T03:09:53.922Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJVUVl3PoXQjERc4Oov38NqEY",
+    "name": "Billiards 68 - Bida Club",
+    "rating": 3.9,
+    "user_ratings_total": 37,
+    "geometry": {
+      "lat": 16.0537766,
+      "lng": 108.2463874
+    },
+    "address": "152 Trần Bạch Đằng, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Tú Uyên",
+        "rating": 5,
+        "text": null,
+        "time": "2025-09-30T19:56:17.963Z"
+      },
+      {
+        "author_name": "Đức Hoàn 36 _Lê",
+        "rating": 1,
+        "text": "Quán rác rưởi, vào đánh 30p lấy tiền 1 tiếng",
+        "time": "2025-09-28T15:35:02.958Z"
+      },
+      {
+        "author_name": "Hiếu Trần",
+        "rating": 1,
+        "text": null,
+        "time": "2025-08-30T15:09:27.005Z"
+      },
+      {
+        "author_name": "Hùng Vĩ CBSV",
+        "rating": 5,
+        "text": "Bida ở đây giá rẻ, dịch vụ chất lượng",
+        "time": "2025-08-30T10:10:08.574Z"
+      },
+      {
+        "author_name": "Quy Nhu",
+        "rating": 5,
+        "text": "Bàn đẹp, mới, phục vụ tốt, không gian thoáng mát, sẽ ghé ủng hộ.",
+        "time": "2025-08-30T03:03:54.449Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJDyou2DkZQjERL23j5OksaUk",
+    "name": "KING's Billiards Club",
+    "rating": 5,
+    "user_ratings_total": 12,
+    "geometry": {
+      "lat": 16.0347635,
+      "lng": 108.2181891
+    },
+    "address": "276-278, 276 Lê Thanh Nghị, Hoà Cường Nam, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Hùng Đặng Hữu Sơn",
+        "rating": 5,
+        "text": "KING's Billiards Club là một không gian giải trí đẳng cấp, nơi bạn có thể thỏa sức đam mê với bộ môn bida. Với không gian rộng rãi, có nhân viên phục vụ nhanh chóng và rất nhiệt tình",
+        "time": "2025-05-08T04:29:08.984Z"
+      },
+      {
+        "author_name": "Game New",
+        "rating": 5,
+        "text": "Mình thích không khí ở đây, vừa chơi vui vừa có thể trò chuyện thoải mái với bạn bè",
+        "time": "2025-05-06T05:40:21.350Z"
+      },
+      {
+        "author_name": "Giang Nguyen",
+        "rating": 5,
+        "text": "Mình và nhóm bạn rất hay tụ tập tại KING’s vì vừa rẻ vừa chất lượng, lại gần trung tâm",
+        "time": "2025-05-06T04:35:36.574Z"
+      },
+      {
+        "author_name": "tt n",
+        "rating": 5,
+        "text": "Mình và bạn bè hay ghé quán này vì giá cả hợp lý và không gian rộng rãi thoải mái",
+        "time": "2025-05-04T12:53:32.475Z"
+      },
+      {
+        "author_name": "Duy Nguyễn",
+        "rating": 5,
+        "text": "Tôi thấy KING’s là địa điểm lý tưởng để luyện kỹ thuật đánh bida với bạn bè thân thiết",
+        "time": "2025-05-04T08:08:24.781Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJVew3mZkZQjER_WViY4oRT88",
+    "name": "Empty Arena Billiards ĐN - Pro Pool Hall",
+    "rating": 4.6,
+    "user_ratings_total": 349,
+    "geometry": {
+      "lat": 16.052273,
+      "lng": 108.22026
+    },
+    "address": "72 Núi Thành, Bình Thuận, Hải Châu, Đà Nẵng 50000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "PhinKZ Phin",
+        "rating": 5,
+        "text": "Nhân viên cute, mấy anh xếp bi hài , 2 chị linh ở quầy thanh toán đẹp gái còn vui tính",
+        "time": "2025-10-22T14:13:24.194Z"
+      },
+      {
+        "author_name": "Tuan Le",
+        "rating": 5,
+        "text": null,
+        "time": "2025-10-18T08:30:22.148Z"
+      },
+      {
+        "author_name": "Thức Võ đình",
+        "rating": 5,
+        "text": null,
+        "time": "2025-10-18T08:29:50.513Z"
+      },
+      {
+        "author_name": "Minh Phan",
+        "rating": 5,
+        "text": null,
+        "time": "2025-10-16T05:05:36.266Z"
+      },
+      {
+        "author_name": "Khoa Nguyễn",
+        "rating": 5,
+        "text": null,
+        "time": "2025-10-16T04:55:56.987Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ33m8zCoZQjERuZDWKpsoi9s",
+    "name": "CLB BIDA 134 - 134 Billiards Club",
+    "rating": 4.4,
+    "user_ratings_total": 86,
+    "geometry": {
+      "lat": 16.0503395,
+      "lng": 108.2204852
+    },
+    "address": "134 Núi Thành, Bình Thuận, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "우영일",
+        "rating": 2,
+        "text": "유튜브 영상보고 방문했는데 해당 내용 완전 다름.",
+        "time": "2025-11-06T16:36:09.005Z"
+      },
+      {
+        "author_name": "Huỳnh Lâm Đặng",
+        "rating": 5,
+        "text": "Quán không gian thoáng, chất lượng bàn tốt, nhân viên nhiệt tình. 10 điểm",
+        "time": "2025-05-25T13:48:22.573Z"
+      },
+      {
+        "author_name": "Sapa30",
+        "rating": 5,
+        "text": "좋아요  최고입니다",
+        "time": "2025-01-21T11:32:30.139Z"
+      },
+      {
+        "author_name": "중고딩용",
+        "rating": 5,
+        "text": null,
+        "time": "2024-11-06T12:25:15.165Z"
+      },
+      {
+        "author_name": "Ha Pham (June)",
+        "rating": 5,
+        "text": "Nhạc ồn quá có nhạc thiền k",
+        "time": "2024-10-06T06:21:24.958Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJR5GKdAAZQjERNXPlLYmDlEM",
+    "name": "Peri Pool Arena Đà Nẵng",
+    "rating": 4.2,
+    "user_ratings_total": 372,
+    "geometry": {
+      "lat": 16.0654771,
+      "lng": 108.1964503
+    },
+    "address": "203 Điện Biên Phủ, Chính Gián, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Quý Hiệp",
+        "rating": 4,
+        "text": "thương hiệu lớn nên đến chơi thử, nhân viên nhiệt tình chỉn chu, bóng nỉ rất mới, nhà vệ sinh có hơi bẩn",
+        "time": "2025-11-22T17:16:55.990Z"
+      },
+      {
+        "author_name": "Mike James",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-20T14:35:44.858Z"
+      },
+      {
+        "author_name": "mArIn Life with Beach",
+        "rating": 4,
+        "text": "世界大会も開催されたダナンで最大級規模のビリヤード場。\n\n2階建ての建物がビリヤード台で埋め尽くされており、中に入った時のビリヤードプレイヤーの熱気、真剣さは独特な雰囲気です。\n\nなお、ビリヤードのホールは狭くデザインされており、中々上手く落ちないので初心者にはハードルが高いかもしれません。\n\nビリヤード台の横には電源付きのソファがあり、長居もしやすいです。\n\n喫煙可能だった気もするため、タバコの匂いが苦手な人は要注意です。\n\nありがとうございました。",
+        "time": "2025-11-16T12:59:19.895Z"
+      },
+      {
+        "author_name": "Trúc Quỳnh",
+        "rating": 3,
+        "text": "vì lần trước thấy ok nên hôm qua mình quay lại nma lúc tính tiền thì bạn nv thu ngân bảo thiếu 2k do k có tiền lẻ, mình tưởng b ấy sẽ đổi tiền để thối cho mình nhưng k, nếu k đủ tiền thối có thể hỏi khách chuyển khoản mà 😀😀 nói chung 2k nó k nhiều nhưng mình k thích kiểu như v, ví dụ mình kêu “k có thì thôi khỏi thối e cũng được” đằng này hiển nhiên như là kh có tiền lẻ là khỏi thối cho khách luôn v. Nhưng được cái nv xếp bi nhanh, anh nv dễ thương",
+        "time": "2025-11-16T04:23:57.766Z"
+      },
+      {
+        "author_name": "Phương Khánh",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-11T16:23:57.099Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJpyHQi9UZQjER_6bb1R5JeDI",
+    "name": "MC Billiards Center",
+    "rating": 4.3,
+    "user_ratings_total": 58,
+    "geometry": {
+      "lat": 16.0663849,
+      "lng": 108.2296994
+    },
+    "address": "389 Đ. Trần Hưng Đạo, An Hải Trung, Sơn Trà, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club",
+      "Club"
+    ],
+    "reviews": [
+      {
+        "author_name": "will davies",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-20T11:36:55.146Z"
+      },
+      {
+        "author_name": "ʕ๏๏ʔ Quéc xờ Anh ʕ๏๏ʔ",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-19T13:02:49.584Z"
+      },
+      {
+        "author_name": "Lolita Bilianska",
+        "rating": 2,
+        "text": "Everything was good overall until they started to play russian rap music and there were no way to change it. Had to the place to play pool :(",
+        "time": "2025-11-14T09:23:30.891Z"
+      },
+      {
+        "author_name": "Nguyenphuclong",
+        "rating": 4,
+        "text": null,
+        "time": "2025-11-08T03:24:31.752Z"
+      },
+      {
+        "author_name": "ร.ต.อ.หญิง รสิมน ธนัญชัย",
+        "rating": 5,
+        "text": "Bi the man who very good service for us thank you very much. We love this place",
+        "time": "2025-09-26T12:39:35.511Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJz9Z7pyQXQjERuk-8hNCSpBE",
+    "name": "Hybrid Sports Lounge: Watch | Play | Dine",
+    "rating": 4.8,
+    "user_ratings_total": 747,
+    "geometry": {
+      "lat": 16.0517899,
+      "lng": 108.2459367
+    },
+    "address": "26 Đỗ Bá, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Sports bar",
+      "Cafe",
+      "Lounge",
+      "Pool hall"
+    ],
+    "reviews": [
+      {
+        "author_name": "Tahlia Dahl",
+        "rating": 5,
+        "text": "My partner and I had come in for a feed and a beer. The service was amazing and the food was incredible plus great pricing:) we watched a bit of soccer on the screen and my partner played a couple games of 9 ball with some other guys. Such a great sports bar and I highly recommend coming with mates, family or even in a relationship:)",
+        "time": "2025-11-23T10:56:27.179Z"
+      },
+      {
+        "author_name": "Jack",
+        "rating": 5,
+        "text": "The best sports bar in Da Nang by far. The set up is by far the best of any other sports bar. The beer is good price, the food tastes great. Lots of free sporting games to enter where you can win drinks. The manager Kenny is a great man very kind and helpful. All the staff are great. My new local to watch sport.",
+        "time": "2025-11-22T14:59:24.256Z"
+      },
+      {
+        "author_name": "Aaron Bhuslah",
+        "rating": 5,
+        "text": "Great service & beer whilst watching EPL",
+        "time": "2025-11-22T12:55:15.951Z"
+      },
+      {
+        "author_name": "Tim Knigge",
+        "rating": 5,
+        "text": "Really cool place - good music and we always had a good time here playing darts. Place also has pool tables..",
+        "time": "2025-11-22T05:21:44.192Z"
+      },
+      {
+        "author_name": "Huy Đặng",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-16T08:42:35.015Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJF3f6cAAZQjERsv1jCGEhW4s",
+    "name": "9Pool Billiards - Đà Nẵng",
+    "rating": 4.7,
+    "user_ratings_total": 39,
+    "geometry": {
+      "lat": 16.0806634,
+      "lng": 108.2116881
+    },
+    "address": "219 Nguyễn Tất Thành, Thanh Bình, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "TÀI LÊ",
+        "rating": 5,
+        "text": "Nhân viên ĐẠT phục vụ ở quán bi-a thật sự rất tuyệt vời! Thái độ cực kỳ thân thiện, nhanh nhẹn và luôn nở nụ cười khi phục vụ khách. Mình vừa gọi đồ uống là bạn nhân viên mang ra ngay, rất chuyên nghiệp và chu đáo. Khi mình cần hỗ trợ dọn bàn hay thay bi, các bạn cũng đến rất nhanh, không để khách phải chờ lâu.\n\nKhông chỉ làm việc tốt mà còn tạo cảm giác thoải mái, vui vẻ cho khách trong suốt buổi chơi. Mình thật sự ấn tượng với sự nhiệt tình và phong cách làm việc chuyên nghiệp của nhân viên ở đây.\nRất đáng để quay lại và ủng hộ dài lâu!",
+        "time": "2025-10-08T11:53:37.621Z"
+      },
+      {
+        "author_name": "mami hoang",
+        "rating": 1,
+        "text": "Nhân viên thái độ và nói thẳng là khá đần ạ đi 3 lần 1 lần không bấm giờ bàn 1 lần thì kêu xếp bi nhưng phải nhiều lần mới xếp rất chậm chạp 1 lần thì mình vào kêu mở bằng thì thái độ lảm bảm phát ngôn mất dạy lần nào đi quán cũng ế chịu",
+        "time": "2025-10-08T06:11:51.609Z"
+      },
+      {
+        "author_name": "kiu con",
+        "rating": 3,
+        "text": "nhân viên đầu nhuộm tóc trắng kh nhiệt tình với khách(yêu cầu xếp bi kh xếp mà lơ là đi đánh bida)",
+        "time": "2025-09-24T16:13:20.582Z"
+      },
+      {
+        "author_name": "Indigo Chan",
+        "rating": 4,
+        "text": "Quán nóng, có hút mùi nhưng hình như không bật + không gian nhỏ, bàn sát nên mùi thuốc lá, vape. nhưng mình vẫn thích vì chiết khấu 50% cho người chơi 1 mình, phù hợp để đánh luyện tập. Hơi tiếc vậy thôi chứ rất muốn dẫn bạn tới đây chơi.",
+        "time": "2025-07-29T12:52:01.337Z"
+      },
+      {
+        "author_name": "Tiến Đạt Phan",
+        "rating": 5,
+        "text": "quán chất lượng, nhân viên thân thiện",
+        "time": "2025-07-06T18:52:28.459Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJd-ZvJjQYQjER_DBHDgIEZu4",
+    "name": "Billiards Club",
+    "rating": 4.1,
+    "user_ratings_total": 42,
+    "geometry": {
+      "lat": 16.0695978,
+      "lng": 108.2179175
+    },
+    "address": "39 Pasteur Street, Hai Chau 1 Ward, Hai Chau District, Da Nang City, Hải Châu, Đà Nẵng, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "kdcast kdcast",
+        "rating": 5,
+        "text": "당구장 처음 들어가면 조그만줄 알았는데 건물 3개 연결되어 있는 꽤 큰 당구장. 한국에서 맨날 동네당구장에서 치다가 여기 가니 다이도 완전 관리 잘되어 있고 공도 새공임. 당근 대대도 있고. 3판 30점 놓고 치고왔음. 원래 24점.  재수 무지 터져서 한 판은 이겼는데 이긴 판은 당구비 안 받음. 주인 아저씨 무지 친절하고 당구 엄청 좋아하는 듯. 담배 냄새는 좀 그렇긴 한데 난 원래 담배 피면서 당구치던 세대라 오히려 좋음. 사람들 매너도 좋고 점수판도 디지털. 대대 치시는 분들 혼자가도 괜찮을 듯.",
+        "time": "2025-11-07T13:55:00.011Z"
+      },
+      {
+        "author_name": "truong Phuoc",
+        "rating": 4,
+        "text": null,
+        "time": "2025-11-03T22:50:29.141Z"
+      },
+      {
+        "author_name": "Paul Hong",
+        "rating": 4,
+        "text": null,
+        "time": "2025-10-15T11:07:39.653Z"
+      },
+      {
+        "author_name": "Thăng Long Hồ Hoàng",
+        "rating": 1,
+        "text": "60k 1 tiếng mà kêu nv kh thấy xếp bi",
+        "time": "2025-08-22T16:26:23.509Z"
+      },
+      {
+        "author_name": "나에게홀릭",
+        "rating": 5,
+        "text": "다낭에서의 당구내기 ㅋ\n담배 물고 당구치는 모습에 예전 생각이 나고..\n처음 접하는 보드판 점수판 ㅋ\n아무튼 즐겊고 재미난던 시간",
+        "time": "2025-04-06T10:58:27.172Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJed3OO50XQjERoT0ez-xp34o",
+    "name": "79 Billiards",
+    "rating": 4.8,
+    "user_ratings_total": 245,
+    "geometry": {
+      "lat": 16.0482194,
+      "lng": 108.2436798
+    },
+    "address": "79 Mai Thúc Lân, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Club",
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Pierre TINCO",
+        "rating": 5,
+        "text": "Perfect service, perfect stuff quality",
+        "time": "2025-11-23T18:40:29.349Z"
+      },
+      {
+        "author_name": "Brian Nguyen",
+        "rating": 4,
+        "text": "Tiệm lớn, nhiều bàn đánh.",
+        "time": "2025-11-19T10:15:15.585Z"
+      },
+      {
+        "author_name": "Dmitrii Kiselev",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-05T22:01:09.348Z"
+      },
+      {
+        "author_name": "Erlend Edvardsdal",
+        "rating": 5,
+        "text": "It rained heavily today so we were tempted for an indoor activity, at 79 Billiards we were greeted by a very nice young man who found what we needed to play. We played for about 45 minutes. There was plenty of room for many players, they have 10 tables. It was clean and tidy, good cue sticks. Can recommend for a quiet activity on rainy days or evenings with friends.",
+        "time": "2025-10-27T10:58:51.727Z"
+      },
+      {
+        "author_name": "Sissin B. T.",
+        "rating": 4,
+        "text": "Great big place to play pool on a rainy day 🤩 had 10 pool tables, with seating along the walls where you can leave your stuff, while you play. It wasn't expensive either and the staff was friendly. Me and my bf played for about 45 min and payed 35k vnd. The reason for missing 1 star, is due to the smoking indoors, which leads to the establishment to smell of smoke.",
+        "time": "2025-10-27T10:58:19.208Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJodN0e2QXQjERAtNqHHMtsN0",
+    "name": "Roy Billiards",
+    "rating": 4.3,
+    "user_ratings_total": 88,
+    "geometry": {
+      "lat": 16.0674167,
+      "lng": 108.2401686
+    },
+    "address": "191 Chính Hữu, An Hải, Sơn Trà, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "윤재중 (스트라윤)",
+        "rating": 5,
+        "text": "다낭에서 가장편하게 당구칠수있는곳 서비스굿 가격 굿 👍",
+        "time": "2025-11-19T13:57:50.652Z"
+      },
+      {
+        "author_name": "Vương Nguyễn",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-17T03:39:25.235Z"
+      },
+      {
+        "author_name": "오태용 (의리)",
+        "rating": 3,
+        "text": null,
+        "time": "2025-11-02T05:20:58.427Z"
+      },
+      {
+        "author_name": "Nelli Ponomareva",
+        "rating": 5,
+        "text": "Очень привлекательная стоимость бильярда 🎱\n\n45 000 / 1 час - это просто сказка, в сравнении с ценами в Китае 🙃\n\nСтолы, конечно, уже старые, потертые.\nНам достался стол с большим мокрым пятном от кондиционера, который расположен над столом. Периодически туда продолжала капать вода, но на саму игру это не влияло.\nПросто эстетически это выглядело странно)",
+        "time": "2025-11-01T18:08:51.974Z"
+      },
+      {
+        "author_name": "Chang Lee",
+        "rating": 3,
+        "text": "매우 낡고 관리도 잘 안되어 있는데 사진은 신상 당구장처럼 나오는 마법.",
+        "time": "2025-10-28T06:24:25.079Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJDatBVe0ZQjERTYtcZLKiiRk",
+    "name": "Bida Da Nang - BAVAN Billiards",
+    "rating": 4.4,
+    "user_ratings_total": 40,
+    "geometry": {
+      "lat": 16.0475004,
+      "lng": 108.2223359
+    },
+    "address": "208 Đ. 2 Tháng 9, Hoà Cường Bắc, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "anh nguyễn",
+        "rating": 1,
+        "text": "nv chán",
+        "time": "2025-09-13T16:22:28.001Z"
+      },
+      {
+        "author_name": "チュオン・ティ・ガン・ハ",
+        "rating": 1,
+        "text": "Nhân viên lề mề không tôn trọng khách",
+        "time": "2025-08-18T14:24:22.534Z"
+      },
+      {
+        "author_name": "Vua Review",
+        "rating": 5,
+        "text": "Dịch vụ mang tính cá nhân hoá cao.",
+        "time": "2025-07-21T03:21:10.541Z"
+      },
+      {
+        "author_name": "Trà Phùng Thị",
+        "rating": 5,
+        "text": "Nhân viên: 3 anh nhân viên tầng 2 nhiệt tình, chu đáo mình rất hài lòng ( Tiệp, Huy, Hưng)",
+        "time": "2025-07-20T15:48:30.637Z"
+      },
+      {
+        "author_name": "Diễm My Lương thị",
+        "rating": 5,
+        "text": null,
+        "time": "2025-05-30T07:59:06.979Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJbXXJJGcZQjERYMPsgyNiWBI",
+    "name": "MEOW BILLIARDS CLUB ĐÀ NẴNG - CÂU LẠC BỘ BIDA BI-A LỖ",
+    "rating": 4.9,
+    "user_ratings_total": 591,
+    "geometry": {
+      "lat": 16.0373422,
+      "lng": 108.2097789
+    },
+    "address": "Nguyễn Hữu Thọ, Khuê Trung, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club",
+      "Recreation center",
+      "Sports club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Antonio Laiber",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-22T07:29:24.203Z"
+      },
+      {
+        "author_name": "Mỹ Văn",
+        "rating": 1,
+        "text": null,
+        "time": "2025-11-10T15:46:55.600Z"
+      },
+      {
+        "author_name": "Phi Long Phan",
+        "rating": 2,
+        "text": "Quán sạch, không gian chơi thoải mái, các dụng cụ chơi đều tốt, nhưng mọi lần chơi thì thái độ nhân viên hơi k dc tốt lắm chơi xong gọi xếp bi thì thấy bấm đth hoặc chạy tới chỗ khác bấm tiếp làm tụt hứng chơi, rất nhiều lần bị như vậy nên mong quán khắc phục còn lại phần cơ sở vật chất hay k gian thì rất đáng khen",
+        "time": "2025-11-03T13:35:51.912Z"
+      },
+      {
+        "author_name": "Agit Kirik",
+        "rating": 5,
+        "text": null,
+        "time": "2025-10-21T15:12:35.745Z"
+      },
+      {
+        "author_name": "Tiên Nguyễn",
+        "rating": 1,
+        "text": "Vào chơi báo còn bàn tầng 3 , nhận khách xong thì khách sau mới vào . Thế là nhận khách sau mặc dù trước đó khách sau không hề đặt bàn trước . Nhận khách sau vì là bạn của nhân viên ?\nKhông hề có một lời giải thích cho khách ?",
+        "time": "2025-10-21T14:10:16.681Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ4TO7YgAZQjERGII_FU00LKo",
+    "name": "Magic Arena Da Nang",
+    "rating": 4.2,
+    "user_ratings_total": 164,
+    "geometry": {
+      "lat": 16.051401,
+      "lng": 108.2067536
+    },
+    "address": "146 Duy Tân, Hòa Thuận Nam, Hải Châu, Đà Nẵng 560000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "ducquang nguyen",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-24T03:10:09.367Z"
+      },
+      {
+        "author_name": "Lloyd Leckner",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-24T02:29:31.715Z"
+      },
+      {
+        "author_name": "black dragon",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-22T04:06:46.035Z"
+      },
+      {
+        "author_name": "Trần Viết Đức",
+        "rating": 5,
+        "text": "Chất lượng nhân viên ok, lại có dịch vụ đội nón cho khách, đáng nên tới chơi",
+        "time": "2025-11-20T10:28:23.911Z"
+      },
+      {
+        "author_name": "Tu Pham",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-19T02:57:47.993Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJITgiaDEYQjERX_ybWxTg7qQ",
+    "name": "Bida Đà Nẵng - Sapphire Billiard Club",
+    "rating": 4.3,
+    "user_ratings_total": 244,
+    "geometry": {
+      "lat": 16.070613,
+      "lng": 108.2216022
+    },
+    "address": "42 Phan Đình Phùng, Hải Châu, Đà Nẵng 550000, Vietnam",
+    "types": [
+      "Pool billard club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Nhan Doanh",
+        "rating": 5,
+        "text": null,
+        "time": "2025-11-19T03:11:38.059Z"
+      },
+      {
+        "author_name": "Hương Nguyễn thị",
+        "rating": 1,
+        "text": "Thái độ nhân viên mất dạy quán ồn ào cơ gậy cũ",
+        "time": "2025-11-13T04:25:28.785Z"
+      },
+      {
+        "author_name": "Seyfullah Çelik",
+        "rating": 4,
+        "text": "Çalışanlar çok nazik sürekli yardım ediyorlar saatlik ücret 60d",
+        "time": "2025-11-08T04:11:37.242Z"
+      },
+      {
+        "author_name": "Ethel Crystal",
+        "rating": 5,
+        "text": "Thanks Tiến for the fun time shooting here. I Went from missing all shots to constantly hitting bulleyes.\n\nWill definitely recommend my friends and relatives :3",
+        "time": "2025-09-26T14:26:51.979Z"
+      },
+      {
+        "author_name": "Tati Bo",
+        "rating": 4,
+        "text": "Второй раз в этом зале. Сразу скажу очень пахнет сигаретами, первый раз музыка была нормальная, второй раз очень громкая музыка как в ночном клубе, пришлось уйти, голова просто не выдержала. Это музыка для дискотек, не для бильярда, когда нужно думать. Обслуживание отличное, есть бар, снеки. В другом зале есть ещё тир. К сожалению, прицдетьмя искать другой зал",
+        "time": "2025-09-16T12:30:32.546Z"
+      }
+    ]
+  },
+  {
+    "place_id": "ChIJ4bEiPQAXQjER1O3pQy6cer4",
+    "name": "92 Billiards Club",
+    "rating": 4.9,
+    "user_ratings_total": 31,
+    "geometry": {
+      "lat": 16.037893,
+      "lng": 108.2468898
+    },
+    "address": "21-23 Khuê Mỹ Đông 3, Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng, Vietnam",
+    "types": [
+      "Pool billard club",
+      "Club"
+    ],
+    "reviews": [
+      {
+        "author_name": "Anastasiia Perova",
+        "rating": 5,
+        "text": "Это бильярдный клуб для некурящих! Это жемчужина среди всех бильярдов Дананга. Я бы назвала его «детским бильярдом» за большое количество мягких игрушек расставленных по залу, есть поилочка для вашего питомца, есть резиночки для волос, в туалете чисто и опрятно.",
+        "time": "2025-11-21T09:16:12.880Z"
+      },
+      {
+        "author_name": "M_ P",
+        "rating": 5,
+        "text": "Verry nice !",
+        "time": "2025-11-08T20:38:01.107Z"
+      },
+      {
+        "author_name": "Pavel Dorozhkin",
+        "rating": 5,
+        "text": "Отличное место, видно что следят. Любой кий можно брать и быть уверенным, что он ровный и с хорошей наклейкой. В зале не курят - это уже огромный плюс. Не хватает ещё кофемашины, было бы 5 с плюсом. Далековато от центра, но в целом норм. Можно рекомендовать",
+        "time": "2025-11-04T14:50:10.317Z"
+      },
+      {
+        "author_name": "no name",
+        "rating": 2,
+        "text": "Quán ni bị ngáo giá. Bàn bóng cơ tầm trung bình, nhân viên xếp bi còn không có mà giá 79k/h 🙏🙏🙏",
+        "time": "2025-11-02T03:34:38.119Z"
+      },
+      {
+        "author_name": "Mari A",
+        "rating": 5,
+        "text": "Прекрасное место для игры в бильярд. Оборудование качественное(столы,шары,кий), видно что следят и ухаживают. На фоне играют классные плейлисты,хоть приходи и просто слушай. Запрещёно курить,что однозначно плюс! Очень рекомендую это,обязательно придём❤️",
+        "time": "2025-10-07T11:20:49.658Z"
+      }
+    ]
+  }
+]
