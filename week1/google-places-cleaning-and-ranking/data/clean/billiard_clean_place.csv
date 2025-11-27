@@ -1,4 +1,4 @@
-﻿place_id,name,rating,user_ratings_total,latitude,longtitude,address,types
+﻿place_id,name,rating,user_ratings_total,latitude,longitude,address,types
 ChIJj03Ix0cYQjERLtyWG7FSbSM,Clb Bida 54/2,4.7,3,16.077545,108.2118493,"54 Ông Ích Khiêm, Thanh Bình, Hải Châu, Đà Nẵng 550000, Vietnam",['Club']
 ChIJFbkva_YXQjERv0AKVffrDrk,The Hangover Bar,4.8,72,16.0764283,108.2441533,"1 Phước Trường 8, An Hải, Sơn Trà, Đà Nẵng 550000, Vietnam",['Cocktail bar']
 ChIJ_eVRYpMZQjERQLQRXV-1d4s,Clb Bida 212,0.0,0,16.0364407,108.2120329,"212 Phan Đăng Lưu, Hoà Cường Bắc, Cẩm Lệ, Đà Nẵng 550000, Vietnam",['Club']

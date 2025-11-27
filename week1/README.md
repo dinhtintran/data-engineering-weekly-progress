@@ -1,106 +1,278 @@
+# 🗺️ Google Places Cleaning and Ranking
 
-# 📘 Week 1 — Foundations (SQL, Python, Linux, Git)
-
-![week1](https://img.shields.io/badge/Week-1-blue)
 ![status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![python](https://img.shields.io/badge/Python-3.12-blue)
+![sql](https://img.shields.io/badge/SQL-SQLite-yellow)
 
 ---
 
-## 🎯 Weekly Goal  
-- Build core technical foundations required for data pipeline work.  
+## 📋 Project Overview
+
+This is a complete ETL pipeline project that:
+1. **Extract**: Crawls Google Places data using Apify API
+2. **Transform**: Cleans and processes raw JSON data into structured CSV format
+3. **Load**: Stores data in SQLite database and generates ranked reports using SQL window functions
 
 ---
 
-## 📚 Topics Covered
-- SQL (Basic → Intermediate → Window)
-- Python for Data (pandas, file I/O)
-- Git + Git Workflow  
-- Linux basics (CLI)
-- ETL mini-project
+## 🏗️ Project Structure
+
+```
+week1/
+├── google-places-cleaning-and-ranking/
+│   ├── data/
+│   │   ├── raw/          # Raw JSON data from Apify
+│   │   └── clean/         # Cleaned CSV data
+│   ├── output/            # Final outputs (database, ranked CSV)
+│   ├── python/
+│   │   ├── crawl_places.py      # Extract: Crawl Google Places data
+│   │   └── transform_data.py    # Transform: Clean and process data
+│   └── sql/
+│       └── run.sql              # Load: SQLite operations and ranking
+└── README.md
+```
 
 ---
 
-# 🗓 Daily Breakdown
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.12+
+- SQLite3
+- Apify account and API token
+
+### Installation
+
+1. **Create and activate virtual environment:**
+
+   On macOS/Linux:
+   ```bash
+   # Navigate to project root
+   cd /Users/tin/Desktop/data-engineer-weekly-progress/data-engineering-weekly-progress
+   
+   # Create virtual environment
+   python3 -m venv venv
+   
+   # Activate virtual environment
+   source venv/bin/activate
+   ```
+
+   On Windows:
+   ```bash
+   # Navigate to project root
+   cd C:\path\to\data-engineering-weekly-progress
+   
+   # Create virtual environment
+   python -m venv venv
+   
+   # Activate virtual environment
+   venv\Scripts\activate
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set up environment variables:**
+   
+   Copy `.env.example` to `.env` in the project root (same level as `requirements.txt`):
+   ```bash
+   # On macOS/Linux
+   cp .env.example .env
+   
+   # On Windows
+   copy .env.example .env
+   ```
+   
+   Then edit the `.env` file and replace `your_apify_token_here` with your actual Apify token:
+   ```env
+   APIFY_TOKEN=your_actual_apify_token
+   ```
+   
+   > ⚠️ **Note**: Never commit `.env` file to git! It should be in `.gitignore`. Only `.env.example` should be committed.
+
+4. **Deactivate virtual environment (when done):**
+   ```bash
+   deactivate
+   ```
+
+### How to Get Apify API Key
+
+1. Go to [Apify Console](https://console.apify.com/)
+2. Sign up or log in
+3. Navigate to **Settings** → **Integrations** → **API tokens**
+4. Copy your API token
+5. Add it to your `.env` file as `APIFY_TOKEN`
 
 ---
 
-## 📅 **Day 1 — Setup + Linux + Git**
-| Task | Status |
-|------|--------|
-| Setup Python, Git, VSCode | ✔ |
-| Learn basic CLI (`cd`, `ls`, `grep`, …) | ✔ |
-| Git workflow (branch → commit → push) | ✔ |
-| Setup PostgreSQL (if needed) | ✔ |
+## ⚡ Quick Start
 
-📄 Notes:  
-- ()  
+```bash
+# 1. Create and activate venv
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
----
+# 2. Install dependencies
+pip install -r requirements.txt
 
-## 📅 **Day 2 — SQL Basic → Intermediate**
-| Task | Status |
-|------|--------|
-| SELECT, WHERE, ORDER BY | ✔ |
-| JOIN (inner, left, right) | ✔ |
-| GROUP BY + HAVING | ✔ |
-| Practice 10 queries | ✔ |
+# 3. Set up .env file from .env.example
+cp .env.example .env
+# Then edit .env and add your actual APIFY_TOKEN
 
-📄 Notes:  
-- ()
+# 4. Run the ETL pipeline
+cd week1/google-places-cleaning-and-ranking/python
+python crawl_places.py "billiard, Ho Chi Minh City" --max-crawled-places 25 --max-reviews 5
+python transform_data.py
+cd ../sql
+sqlite3 ../output/places.db < run.sql
+```
 
 ---
 
-## 📅 **Day 3 — Window Functions + Optimization**
-| Task | Status |
-|------|--------|
-| `ROW_NUMBER`, `RANK`, `LAG` | ✔ |
-| CTE + Subquery | ✔ |
-| EXPLAIN + Query Optimization | ✔ |
-| Create SQL Report | ✔ |
+## 📖 Usage
 
-📄 Notes:  
-- ()
+> ⚠️ **Important**: Make sure your virtual environment is activated before running the scripts!
+
+### Step 1: Extract Data (Crawl)
+
+```bash
+# Navigate to python directory
+cd week1/google-places-cleaning-and-ranking/python
+
+# Make sure venv is activated (you should see (venv) in your terminal)
+
+# Basic usage - prompt for query input (with defaults: max 25 places, max 5 reviews per place)
+python crawl_places.py
+
+# With query as argument
+python crawl_places.py "billiard, Ho Chi Minh City"
+
+# With custom parameters
+python crawl_places.py "coffee shop, New York" --max-crawled-places 50 --max-reviews 10
+
+# With custom output path
+python crawl_places.py "spa, Ho Chi Minh City" --max-crawled-places 30 --output ../data/raw/spa_places.json
+```
+
+**CLI Arguments:**
+- `query` (optional): Search query for places (e.g., `'billiard, Ho Chi Minh City'`). If not provided, will prompt for input.
+- `--max-crawled-places` (optional, default: 25): Maximum number of places to crawl
+- `--max-reviews` (optional, default: 5): Maximum number of reviews per place
+- `--output` (optional, default: `../data/raw/raw_places.json`): Path to save raw JSON data
+
+The script will:
+- Connect to Apify API
+- Crawl Google Places data with specified parameters
+- Save raw JSON to the specified output path
+
+**Logs**: Check `crawl_places.log` for detailed execution logs
+
+### Step 2: Transform Data (Clean)
+
+```bash
+# Still in python directory (or navigate there if needed)
+python transform_data.py
+```
+
+The script will:
+- Load raw JSON data
+- Handle missing values
+- Extract coordinates from geometry
+- Save cleaned CSV to `../data/clean/billiard_clean_place.csv`
+
+**Logs**: Check `transform_data.log` for detailed execution logs
+
+### Step 3: Load & Rank (SQL)
+
+```bash
+cd ../sql
+sqlite3 ../output/places.db < run.sql
+```
+
+The SQL script will:
+- Create SQLite database
+- Import cleaned CSV data
+- Clean and extract category types
+- Generate ranked places by category using `RANK()` and `DENSE_RANK()` window functions
+- Export ranked results to `../output/ranked_places.csv`
 
 ---
 
-## 📅 **Day 4 — Python for Data**
-| Task | Status |
-|------|--------|
-| pandas basic | ✔ |
-| CSV/JSON processing | ✔ |
-| Handle missing data | ✔ |
-| Write transform script | ✔ |
+## 🔍 Key Features
 
-📄 Notes:  
-- …
+### Python Scripts
 
----
+- **Logging**: Comprehensive logging to both file and console
+- **Error Handling**: Proper exception handling and validation
+- **Data Cleaning**: Missing value handling, coordinate extraction
+- **Modular Design**: Functions can be imported and reused
+- **CLI Arguments**: Flexible command-line interface for customization
 
-## 📅 **Day 5 — Mini ETL Project**
-| Task | Status |
-|------|--------|
-| Create ETL pipeline (read → transform → save) | ✔ |
-| Logging | ✔ |
-| Folder + repo structure | ✔ |
-| Write README for project | ✔ |
+### SQL Operations
 
-🛠 Project: [`etl-basic`](./projects/etl-basic)
+- **Window Functions**: Uses `RANK()` and `DENSE_RANK()` to rank places within categories
+- **Data Cleaning**: String manipulation to extract clean category names
+- **Partitioning**: Ranks places by category (e.g., billiard halls, spas)
+- **Ordering**: Sorts by rating (DESC) then review count (DESC)
 
 ---
 
-## 📎 Resources & Docs  
-(link docs, link note, link file PDF)
+## 📊 Output Files
 
-- SQL Notes → `./docs/sql-notes.md`
-- Python Notes → `./docs/python.md`
-- Linux Cheatsheet → `./docs/linux.md`
-- ETL Project → `./projects/etl-basic/`
+| File | Description |
+|------|-------------|
+| `google-places-cleaning-and-ranking/data/raw/*.json` | Raw JSON data from Apify |
+| `google-places-cleaning-and-ranking/data/clean/*.csv` | Cleaned CSV with structured data |
+| `google-places-cleaning-and-ranking/output/places.db` | SQLite database with places data |
+| `google-places-cleaning-and-ranking/output/ranked_places.csv` | Final ranked results by category |
 
 ---
 
-## ✅ Weekly Summary
-- ()
-How to get API key 
+## 🛠️ Technologies Used
 
-add log
+- **Python**: pandas, apify-client, python-dotenv
+- **SQL**: SQLite with window functions
+- **APIs**: Apify Google Maps Scraper
+- **Data Formats**: JSON, CSV, SQLite
+
 ---
+
+## 📝 Notes
+
+- The project uses SQLite for simplicity (no PostgreSQL setup required)
+- Window functions (`RANK()` and `DENSE_RANK()`) are used to rank places within each category
+- Logging is implemented for both scripts to track execution and debug issues
+- Raw data is preserved in `data/raw/` for reproducibility
+
+---
+
+## ✅ Learning Outcomes
+
+This project demonstrates:
+- ✅ ETL pipeline design (Extract → Transform → Load)
+- ✅ Python data processing with pandas
+- ✅ SQL window functions and ranking
+- ✅ Logging and error handling
+- ✅ API integration (Apify)
+- ✅ File I/O (JSON, CSV, SQLite)
+- ✅ CLI argument parsing with argparse
+
+---
+
+## 🔗 Related Resources
+
+- [Apify Google Maps Scraper](https://apify.com/compass/crawler-google-places)
+- [SQLite Window Functions](https://www.sqlite.org/windowfunctions.html)
+- [Pandas Documentation](https://pandas.pydata.org/docs/)
+
+---
+
+## 📁 Project Files
+
+- **Python Scripts**: 
+  - [`google-places-cleaning-and-ranking/python/crawl_places.py`](./google-places-cleaning-and-ranking/python/crawl_places.py) - Extract data from Apify
+  - [`google-places-cleaning-and-ranking/python/transform_data.py`](./google-places-cleaning-and-ranking/python/transform_data.py) - Transform and clean data
+- **SQL Scripts**: [`google-places-cleaning-and-ranking/sql/run.sql`](./google-places-cleaning-and-ranking/sql/run.sql) - Load data and generate rankings

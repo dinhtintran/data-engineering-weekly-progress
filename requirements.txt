@@ -2,3 +2,6 @@ pandas
 requests
 apify-client
 python-dotenv
+matplotlib 
+seaborn 
+folium

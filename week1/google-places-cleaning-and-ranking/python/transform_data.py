@@ -1,27 +1,82 @@
 import json
 import os
-import pandas as pd 
+import pandas as pd
+import logging
 
-RAW_JSON_PATH = "../data/raw/billiard_raw_places.json"
+# Setup logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('transform_data.log'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
 
-if not os.path.exists(RAW_JSON_PATH):
-    raise FileNotFoundError(f"{RAW_JSON_PATH} does not exist!")
+RAW_JSON_PATH = "../data/raw/raw_places.json"
 
-with open(RAW_JSON_PATH, "r", encoding="utf-8") as f:
-    raw_data = json.load(f)
+def transform_data(raw_json_path=RAW_JSON_PATH, output_csv_path="../data/clean/coffeeshop_clean_place.csv"):
+    """
+    Transform raw JSON data to cleaned CSV format
+    
+    Args:
+        raw_json_path (str): Path to raw JSON file
+        output_csv_path (str): Path to save cleaned CSV file
+    """
+    logger.info(f"Starting data transformation from {raw_json_path}")
+    
+    if not os.path.exists(raw_json_path):
+        logger.error(f"Raw data file not found: {raw_json_path}")
+        raise FileNotFoundError(f"{raw_json_path} does not exist!")
 
-df = pd.DataFrame(raw_data)
+    logger.info("Loading raw JSON data...")
+    with open(raw_json_path, "r", encoding="utf-8") as f:
+        raw_data = json.load(f)
+    
+    logger.info(f"Loaded {len(raw_data)} records from JSON")
 
-df['user_rating_total'] = df['user_ratings_total'].fillna(0)
-df['rating'] = df['rating'].fillna(0)
+    df = pd.DataFrame(raw_data)
+    logger.info(f"Created DataFrame with shape: {df.shape}")
 
-df['latitude'] = df['geometry'].apply(lambda x: x.get('lat') if isinstance(x, dict) else None)
-df['longtitude'] = df['geometry'].apply(lambda x: x.get('lng') if isinstance(x, dict) else None)
+    # Handle missing values
+    logger.info("Handling missing values...")
+    df['user_ratings_total'] = df['user_ratings_total'].fillna(0)
+    df['rating'] = df['rating'].fillna(0)
+    
+    missing_ratings = df['rating'].isna().sum()
+    missing_reviews = df['user_ratings_total'].isna().sum()
+    if missing_ratings > 0 or missing_reviews > 0:
+        logger.warning(f"Filled {missing_ratings} missing ratings and {missing_reviews} missing review counts with 0")
 
-OUTPUT_CSV_PATH = "../data/clean/billiard_clean_place.csv"
-columns_to_save = ['place_id', 'name', 'rating', 'user_ratings_total', 'latitude', 'longtitude', 'address', 'types']
+    # Extract latitude and longitude from geometry
+    logger.info("Extracting coordinates from geometry...")
+    df['latitude'] = df['geometry'].apply(lambda x: x.get('lat') if isinstance(x, dict) else None)
+    df['longitude'] = df['geometry'].apply(lambda x: x.get('lng') if isinstance(x, dict) else None)
+    
+    # Fix typo in column name (longtitude -> longitude)
+    if 'longtitude' in df.columns:
+        df['longitude'] = df['longtitude']
+        df = df.drop(columns=['longtitude'])
+    
+    coordinates_extracted = df['latitude'].notna().sum()
+    logger.info(f"Extracted coordinates for {coordinates_extracted} places")
 
-os.makedirs(os.path.dirname(OUTPUT_CSV_PATH) or '.', exist_ok=True)
+    columns_to_save = ['place_id', 'name', 'rating', 'user_ratings_total', 'latitude', 'longitude', 'address', 'types']
+    
+    # Check if all columns exist
+    missing_cols = [col for col in columns_to_save if col not in df.columns]
+    if missing_cols:
+        logger.warning(f"Missing columns: {missing_cols}")
+        columns_to_save = [col for col in columns_to_save if col in df.columns]
 
-df[columns_to_save].to_csv(OUTPUT_CSV_PATH, index=False, encoding="utf-8-sig")
-print(f"Saved cleaned CSV to {OUTPUT_CSV_PATH}")
+    os.makedirs(os.path.dirname(output_csv_path) or '.', exist_ok=True)
+
+    logger.info(f"Saving cleaned data to {output_csv_path}...")
+    df[columns_to_save].to_csv(output_csv_path, index=False, encoding="utf-8-sig")
+    logger.info(f"Successfully saved {len(df)} records to {output_csv_path}")
+    
+    return df
+
+if __name__ == "__main__":
+    transform_data()
