@@ -1,0 +1,59 @@
+# Configuration file for Google Places ETL Pipeline
+
+# Data paths
+paths:
+  raw_data_dir: "../data/raw"
+  clean_data_dir: "../data/clean"
+  output_dir: "../output"
+  
+  # Default filenames (can be overridden via CLI)
+  default_raw_json: "raw_places.json"
+  default_clean_csv: "clean_places.csv"
+  default_database: "places.db"
+  default_ranked_csv: "ranked_places.csv"
+
+# Apify API settings
+apify:
+  actor_id: "compass/crawler-google-places"
+  default_max_places: 25
+  default_max_reviews: 5
+  scrape_place_detail_page: false
+  reviews_sort: "newest"
+
+# Data processing settings
+processing:
+  # Columns to save in cleaned CSV
+  columns_to_save:
+    - place_id
+    - name
+    - rating
+    - user_ratings_total
+    - latitude
+    - longitude
+    - address
+    - types
+  
+  # Default values for missing data
+  default_rating: 0
+  default_user_ratings_total: 0
+
+# SQL settings
+sql:
+  # Database settings
+  database_name: "places.db"
+  
+  # Table names
+  places_table: "places"
+  ranking_table: "place_ranking"
+  
+  # Ranking settings
+  use_dense_rank: true
+  ranking_limit: 20  # For preview query
+
+# Logging settings
+logging:
+  log_dir: "."
+  crawl_log_file: "crawl_places.log"
+  transform_log_file: "transform_data.log"
+  log_level: "INFO"
+

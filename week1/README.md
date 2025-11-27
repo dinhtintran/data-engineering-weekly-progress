@@ -26,9 +26,11 @@ week1/
 │   ├── output/            # Final outputs (database, ranked CSV)
 │   ├── python/
 │   │   ├── crawl_places.py      # Extract: Crawl Google Places data
-│   │   └── transform_data.py    # Transform: Clean and process data
-│   └── sql/
-│       └── run.sql              # Load: SQLite operations and ranking
+│   │   ├── transform_data.py    # Transform: Clean and process data
+│   │   └── config_loader.py     # Configuration loader utility
+│   ├── sql/
+│   │   └── run.sql              # Load: SQLite operations and ranking
+│   └── config.yaml              # Configuration file for paths and settings
 └── README.md
 ```
 
@@ -41,6 +43,7 @@ week1/
 - Python 3.12+
 - SQLite3
 - Apify account and API token
+- PyYAML (for configuration file support)
 
 ### Installation
 
@@ -74,6 +77,8 @@ week1/
    ```bash
    pip install -r requirements.txt
    ```
+   
+   This will install all required packages including `pyyaml` for configuration file support.
 
 3. **Set up environment variables:**
    
@@ -147,7 +152,7 @@ sqlite3 ../output/billiard_places.db < run.sql
 
 > ⚠️ **Important**: Make sure your virtual environment is activated before running the scripts!
 > 
-> 💡 **Note**: When running with different queries, make sure to use different file names to avoid overwriting previous data!
+> 💡 **Note**: The project now uses `config.yaml` to manage file paths and settings. You can edit `config.yaml` to change default paths, or override them via CLI arguments.
 
 ### Step 1: Extract Data (Crawl)
 
@@ -170,15 +175,19 @@ python crawl_places.py "coffee shop, New York" --max-crawled-places 50 --max-rev
 python crawl_places.py "spa, Ho Chi Minh City" --max-crawled-places 30 --output ../data/raw/spa_places.json
 python crawl_places.py "billiard, Ho Chi Minh City" --output ../data/raw/billiard_places.json
 python crawl_places.py "coffee shop, New York" --output ../data/raw/coffeeshop_places.json
+
+# Using custom config file
+python crawl_places.py "query" --config ../custom_config.yaml
 ```
 
 **CLI Arguments:**
 - `query` (optional): Search query for places (e.g., `'billiard, Ho Chi Minh City'`). If not provided, will prompt for input.
-- `--max-crawled-places` (optional, default: 25): Maximum number of places to crawl
-- `--max-reviews` (optional, default: 5): Maximum number of reviews per place
-- `--output` (optional, default: `../data/raw/raw_places.json`): Path to save raw JSON data
+- `--max-crawled-places` (optional, default from config): Maximum number of places to crawl
+- `--max-reviews` (optional, default from config): Maximum number of reviews per place
+- `--output` (optional, default from config): Path to save raw JSON data
+- `--config` (optional): Path to custom config.yaml file
 
-> ⚠️ **Important**: Always specify a unique `--output` filename for each different query to avoid overwriting previous data!
+> ⚠️ **Important**: CLI arguments override config.yaml values. Always specify a unique `--output` filename for each different query to avoid overwriting previous data!
 
 The script will:
 - Connect to Apify API
@@ -191,29 +200,27 @@ The script will:
 
 ```bash
 # Still in python directory (or navigate there if needed)
+
+# Using defaults from config.yaml
 python transform_data.py
+
+# With custom input/output paths
+python transform_data.py --input ../data/raw/billiard_places.json --output ../data/clean/billiard_clean_place.csv
+
+# Using custom config file
+python transform_data.py --config ../custom_config.yaml
 ```
 
-**⚠️ Important**: Before running `transform_data.py`, you need to update the file paths in the script:
+**CLI Arguments:**
+- `--input` (optional, default from config): Path to raw JSON file
+- `--output` (optional, default from config): Path to save cleaned CSV file
+- `--config` (optional): Path to custom config.yaml file
 
-1. **Edit `transform_data.py`** and change:
-   - `RAW_JSON_PATH = "../data/raw/raw_places.json"` → your actual JSON file path
-   - Default `output_csv_path` in the function call → your desired CSV output path
-
-   Example:
-   ```python
-   # For billiard data
-   RAW_JSON_PATH = "../data/raw/billiard_places.json"
-   transform_data(output_csv_path="../data/clean/billiard_clean_place.csv")
-   
-   # For coffee shop data
-   RAW_JSON_PATH = "../data/raw/coffeeshop_places.json"
-   transform_data(output_csv_path="../data/clean/coffeeshop_clean_place.csv")
-   ```
+> 💡 **Note**: You can now use CLI arguments instead of editing the script! The script reads default paths from `config.yaml`, but CLI arguments override them.
 
 The script will:
-- Load raw JSON data from the specified path
-- Handle missing values
+- Load raw JSON data from the specified path (config or CLI)
+- Handle missing values using config defaults
 - Extract coordinates from geometry
 - Save cleaned CSV to the specified output path
 
@@ -301,20 +308,38 @@ The SQL script will:
 
 ⚠️ **When running with different queries, you MUST update file paths to avoid overwriting data:**
 
-1. **`crawl_places.py`**: Use `--output` argument to specify unique JSON filenames
+**Option 1: Using config.yaml (Recommended)**
+1. Edit `config.yaml` to change default filenames:
+   ```yaml
+   paths:
+     default_raw_json: "billiard_places.json"
+     default_clean_csv: "billiard_clean_place.csv"
+   sql:
+     database_name: "billiard_places.db"
+   ```
+
+**Option 2: Using CLI Arguments (Override config)**
+1. **`crawl_places.py`**: Use `--output` argument
    ```bash
    python crawl_places.py "query1" --output ../data/raw/query1_places.json
    python crawl_places.py "query2" --output ../data/raw/query2_places.json
    ```
 
-2. **`transform_data.py`**: Edit the script to change:
-   - `RAW_JSON_PATH` variable (line 17) → your JSON input file
-   - `output_csv_path` parameter in function call (line 19) → your CSV output file
+2. **`transform_data.py`**: Use `--input` and `--output` arguments
+   ```bash
+   python transform_data.py --input ../data/raw/query1_places.json --output ../data/clean/query1_clean.csv
+   ```
 
 3. **`run.sql`**: Edit the SQL file to change:
    - `.import` path (line 4) → your cleaned CSV file path
    - `.output` path (line 43) → your ranked output CSV path
    - Database name (optional) → use unique names like `query1_places.db`
+
+### Configuration Management
+
+- **Centralized Configuration**: All paths and settings are managed in `config.yaml`
+- **CLI Override**: CLI arguments can override config.yaml values
+- **Flexible**: Easy to switch between different datasets by editing config or using CLI args
 
 ### Other Notes
 
@@ -322,6 +347,7 @@ The SQL script will:
 - Window functions (`RANK()` and `DENSE_RANK()`) are used to rank places within each category
 - Logging is implemented for both scripts to track execution and debug issues
 - Raw data is preserved in `data/raw/` for reproducibility
+- Configuration file (`config.yaml`) centralizes all settings for easier maintenance
 
 ---
 

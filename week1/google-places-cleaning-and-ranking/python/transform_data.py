@@ -2,6 +2,8 @@ import json
 import os
 import pandas as pd
 import logging
+import argparse
+from config_loader import load_config, get_path
 
 # Setup logging
 logging.basicConfig(
@@ -14,16 +16,28 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-RAW_JSON_PATH = "../data/raw/raw_places.json"
+# Load configuration
+config = load_config()
 
-def transform_data(raw_json_path=RAW_JSON_PATH, output_csv_path="../data/clean/coffeeshop_clean_place.csv"):
+def transform_data(raw_json_path=None, output_csv_path=None):
     """
     Transform raw JSON data to cleaned CSV format
     
     Args:
-        raw_json_path (str): Path to raw JSON file
-        output_csv_path (str): Path to save cleaned CSV file
+        raw_json_path (str): Path to raw JSON file. If None, uses config default.
+        output_csv_path (str): Path to save cleaned CSV file. If None, uses config default.
     """
+    # Get defaults from config if not provided
+    if raw_json_path is None:
+        raw_data_dir = get_path(config, 'paths', 'raw_data_dir', default='../data/raw')
+        default_raw_json = get_path(config, 'paths', 'default_raw_json', default='raw_places.json')
+        raw_json_path = os.path.join(raw_data_dir, default_raw_json)
+    
+    if output_csv_path is None:
+        clean_data_dir = get_path(config, 'paths', 'clean_data_dir', default='../data/clean')
+        default_clean_csv = get_path(config, 'paths', 'default_clean_csv', default='clean_places.csv')
+        output_csv_path = os.path.join(clean_data_dir, default_clean_csv)
+    
     logger.info(f"Starting data transformation from {raw_json_path}")
     
     if not os.path.exists(raw_json_path):
@@ -41,8 +55,11 @@ def transform_data(raw_json_path=RAW_JSON_PATH, output_csv_path="../data/clean/c
 
     # Handle missing values
     logger.info("Handling missing values...")
-    df['user_ratings_total'] = df['user_ratings_total'].fillna(0)
-    df['rating'] = df['rating'].fillna(0)
+    default_rating = get_path(config, 'processing', 'default_rating', default=0)
+    default_reviews = get_path(config, 'processing', 'default_user_ratings_total', default=0)
+    
+    df['user_ratings_total'] = df['user_ratings_total'].fillna(default_reviews)
+    df['rating'] = df['rating'].fillna(default_rating)
     
     missing_ratings = df['rating'].isna().sum()
     missing_reviews = df['user_ratings_total'].isna().sum()
@@ -62,7 +79,11 @@ def transform_data(raw_json_path=RAW_JSON_PATH, output_csv_path="../data/clean/c
     coordinates_extracted = df['latitude'].notna().sum()
     logger.info(f"Extracted coordinates for {coordinates_extracted} places")
 
-    columns_to_save = ['place_id', 'name', 'rating', 'user_ratings_total', 'latitude', 'longitude', 'address', 'types']
+    # Get columns to save from config
+    columns_to_save = get_path(config, 'processing', 'columns_to_save', default=[
+        'place_id', 'name', 'rating', 'user_ratings_total', 
+        'latitude', 'longitude', 'address', 'types'
+    ])
     
     # Check if all columns exist
     missing_cols = [col for col in columns_to_save if col not in df.columns]
@@ -79,4 +100,37 @@ def transform_data(raw_json_path=RAW_JSON_PATH, output_csv_path="../data/clean/c
     return df
 
 if __name__ == "__main__":
-    transform_data()
+    parser = argparse.ArgumentParser(
+        description="Transform raw JSON data to cleaned CSV format",
+        formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    parser.add_argument(
+        "--input",
+        type=str,
+        default=None,
+        help="Path to raw JSON file (default: from config.yaml)"
+    )
+    parser.add_argument(
+        "--output",
+        type=str,
+        default=None,
+        help="Path to save cleaned CSV file (default: from config.yaml)"
+    )
+    parser.add_argument(
+        "--config",
+        type=str,
+        default=None,
+        help="Path to config.yaml file (default: ../config.yaml)"
+    )
+    
+    args = parser.parse_args()
+    
+    # Reload config if custom path provided
+    if args.config:
+        global config
+        config = load_config(args.config)
+    
+    transform_data(
+        raw_json_path=args.input,
+        output_csv_path=args.output
+    )

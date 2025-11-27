@@ -2,9 +2,10 @@ import json
 import time
 import logging
 import argparse
-from apify_client import ApifyClient
 import os
+from apify_client import ApifyClient
 from dotenv import load_dotenv
+from config_loader import load_config, get_path
 
 # Setup logging
 logging.basicConfig(
@@ -18,8 +19,11 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 load_dotenv()
+
+# Load configuration
+config = load_config()
 APIFY_TOKEN = os.getenv("APIFY_TOKEN")
-ACTOR_ID = 'compass/crawler-google-places'  # Google Maps Scraper
+ACTOR_ID = get_path(config, 'apify', 'actor_id', default='compass/crawler-google-places')
 
 def crawl_raw(query, save_path="../data/raw/raw_places.json", max_crawled_places=25, max_reviews=5):
     """
@@ -38,12 +42,16 @@ def crawl_raw(query, save_path="../data/raw/raw_places.json", max_crawled_places
     logger.info(f"Initializing Apify client for query: {query}")
     client = ApifyClient(APIFY_TOKEN)
 
+    # Get config values
+    scrape_detail = get_path(config, 'apify', 'scrape_place_detail_page', default=False)
+    reviews_sort = get_path(config, 'apify', 'reviews_sort', default='newest')
+    
     run_input = {
         "searchStringsArray": [query], 
         "maxCrawledPlaces": max_crawled_places,
         "maxReviews": max_reviews,
-        "scrapePlaceDetailPage": False,
-        "reviewsSort": "newest"
+        "scrapePlaceDetailPage": scrape_detail,
+        "reviewsSort": reviews_sort
     }
 
     logger.info(f"Running Apify Google Maps Scraper with query: {query}")
@@ -108,26 +116,44 @@ Examples:
         nargs='?',
         help="Search query for places (e.g., 'coffee shop, New York'). If not provided, will prompt for input."
     )
+    # Get defaults from config
+    default_max_places = get_path(config, 'apify', 'default_max_places', default=25)
+    default_max_reviews = get_path(config, 'apify', 'default_max_reviews', default=5)
+    raw_data_dir = get_path(config, 'paths', 'raw_data_dir', default='../data/raw')
+    default_raw_json = get_path(config, 'paths', 'default_raw_json', default='raw_places.json')
+    default_output = os.path.join(raw_data_dir, default_raw_json)
+    
     parser.add_argument(
         "--max-crawled-places",
         type=int,
-        default=25,
-        help="Maximum number of places to crawl (default: 25)"
+        default=default_max_places,
+        help=f"Maximum number of places to crawl (default: {default_max_places} from config)"
     )
     parser.add_argument(
         "--max-reviews",
         type=int,
-        default=5,
-        help="Maximum number of reviews per place (default: 5)"
+        default=default_max_reviews,
+        help=f"Maximum number of reviews per place (default: {default_max_reviews} from config)"
     )
     parser.add_argument(
         "--output",
         type=str,
-        default="../data/raw/raw_places.json",
-        help="Path to save raw JSON data (default: ../data/raw/raw_places.json)"
+        default=default_output,
+        help=f"Path to save raw JSON data (default: {default_output} from config)"
+    )
+    parser.add_argument(
+        "--config",
+        type=str,
+        default=None,
+        help="Path to config.yaml file (default: ../config.yaml)"
     )
     
     args = parser.parse_args()
+    
+    # Reload config if custom path provided
+    if args.config:
+        global config
+        config = load_config(args.config)
     
     # If query is not provided, prompt user for input
     query = args.query
