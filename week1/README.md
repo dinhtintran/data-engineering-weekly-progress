@@ -28,6 +28,7 @@ week1/
 │   │   ├── crawl_places.py      # Extract: Crawl Google Places data
 │   │   ├── transform_data.py    # Transform: Clean and process data
 │   │   ├── config_loader.py     # Configuration loader utility
+│   │   ├── pipeline.py          # End-to-end pipeline runner
 │   │   ├── run_tests.py         # Test runner script
 │   │   └── tests/               # Unit tests
 │   │       ├── test_config_loader.py
@@ -159,6 +160,46 @@ sqlite3 ../output/billiard_places.db < run.sql
 > ⚠️ **Important**: Make sure your virtual environment is activated before running the scripts!
 > 
 > 💡 **Note**: The project now uses `config.yaml` to manage file paths and settings. You can edit `config.yaml` to change default paths, or override them via CLI arguments.
+
+---
+
+### 🚀 Run Full Pipeline (End-to-End)
+
+```bash
+# Navigate to python directory
+cd week1/google-places-cleaning-and-ranking/python
+
+# Run full pipeline with defaults from config.yaml
+python pipeline.py --query "billiard, Ho Chi Minh City"
+
+# Customize file names and columns
+python pipeline.py \
+  --query "coffee shop, Hanoi" \
+  --raw-output-name coffee_raw.json \
+  --clean-output-name coffee_clean.csv \
+  --ranked-output-name coffee_ranked.csv \
+  --columns place_id,name,rating,user_ratings_total,address \
+  --default-rating 4.0 \
+  --default-reviews 20
+
+# Use existing raw file, skip crawling (provide placeholder query for logging)
+python pipeline.py --skip-crawl --raw-path ../data/raw/existing.json --query "skip"
+```
+
+**Pipeline CLI Highlights:**
+
+| Argument | Description |
+|----------|-------------|
+| `--query` | Search query for crawler (required unless `--skip-crawl`) |
+| `--max-crawled-places`, `--max-reviews` | Override Apify crawler limits |
+| `--raw-output-name`, `--clean-output-name`, `--ranked-output-name` | Custom filenames stored in config directories |
+| `--raw-path`, `--clean-path`, `--ranked-path` | Explicit paths (skip default dirs) |
+| `--database-name`, `--database-path` | Customize SQLite database output |
+| `--columns`, `--default-rating`, `--default-reviews` | Override transform settings |
+| `--skip-crawl`, `--skip-transform`, `--skip-load` | Run only selected steps |
+| `--config` | Use alternative config file |
+
+---
 
 ### Step 1: Extract Data (Crawl)
 

@@ -5,16 +5,9 @@ import logging
 import argparse
 from config_loader import load_config, get_path
 
-# Setup logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('transform_data.log'),
-        logging.StreamHandler()
-    ]
-)
+# Library modules shouldn't globally configure logging; defer to caller.
 logger = logging.getLogger(__name__)
+logger.addHandler(logging.NullHandler())
 
 # Load configuration
 config = load_config()
@@ -76,13 +69,20 @@ def transform_data(
         else get_path(config, 'processing', 'default_user_ratings_total', default=0)
     )
     
-    df['user_ratings_total'] = df['user_ratings_total'].fillna(default_reviews)
-    df['rating'] = df['rating'].fillna(default_rating)
-    
     missing_ratings = df['rating'].isna().sum()
     missing_reviews = df['user_ratings_total'].isna().sum()
     if missing_ratings > 0 or missing_reviews > 0:
-        logger.warning(f"Filled {missing_ratings} missing ratings and {missing_reviews} missing review counts with 0")
+        logger.warning(
+            "Filled %s missing ratings and %s missing review counts with defaults "
+            "(rating=%s, reviews=%s)",
+            missing_ratings,
+            missing_reviews,
+            default_rating,
+            default_reviews,
+        )
+    
+    df['user_ratings_total'] = df['user_ratings_total'].fillna(default_reviews)
+    df['rating'] = df['rating'].fillna(default_rating)
 
     # Extract latitude and longitude from geometry
     logger.info("Extracting coordinates from geometry...")
@@ -121,6 +121,14 @@ def transform_data(
     return df
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler('transform_data.log'),
+            logging.StreamHandler()
+        ]
+    )
     parser = argparse.ArgumentParser(
         description="Transform raw JSON data to cleaned CSV format",
         formatter_class=argparse.RawDescriptionHelpFormatter
