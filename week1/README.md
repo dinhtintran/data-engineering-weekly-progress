@@ -124,17 +124,30 @@ cp .env.example .env
 
 # 4. Run the ETL pipeline
 cd week1/google-places-cleaning-and-ranking/python
-python crawl_places.py "billiard, Ho Chi Minh City" --max-crawled-places 25 --max-reviews 5
+
+# Step 1: Extract (with unique output filename)
+python crawl_places.py "billiard, Ho Chi Minh City" --max-crawled-places 25 --max-reviews 5 --output ../data/raw/billiard_places.json
+
+# Step 2: Transform (update paths in transform_data.py first!)
+# Edit transform_data.py: RAW_JSON_PATH = "../data/raw/billiard_places.json"
+# Edit transform_data.py: output_csv_path="../data/clean/billiard_clean_place.csv"
 python transform_data.py
+
+# Step 3: Load & Rank (update paths in run.sql first!)
+# Edit run.sql: .import path and .output path
 cd ../sql
-sqlite3 ../output/places.db < run.sql
+sqlite3 ../output/billiard_places.db < run.sql
 ```
+
+> 💡 **Tip**: For each new query, use a naming convention like `{query_type}_places.json` to keep your data organized!
 
 ---
 
 ## 📖 Usage
 
 > ⚠️ **Important**: Make sure your virtual environment is activated before running the scripts!
+> 
+> 💡 **Note**: When running with different queries, make sure to use different file names to avoid overwriting previous data!
 
 ### Step 1: Extract Data (Crawl)
 
@@ -153,8 +166,10 @@ python crawl_places.py "billiard, Ho Chi Minh City"
 # With custom parameters
 python crawl_places.py "coffee shop, New York" --max-crawled-places 50 --max-reviews 10
 
-# With custom output path
+# With custom output path (IMPORTANT: Use different file names for different queries!)
 python crawl_places.py "spa, Ho Chi Minh City" --max-crawled-places 30 --output ../data/raw/spa_places.json
+python crawl_places.py "billiard, Ho Chi Minh City" --output ../data/raw/billiard_places.json
+python crawl_places.py "coffee shop, New York" --output ../data/raw/coffeeshop_places.json
 ```
 
 **CLI Arguments:**
@@ -162,6 +177,8 @@ python crawl_places.py "spa, Ho Chi Minh City" --max-crawled-places 30 --output 
 - `--max-crawled-places` (optional, default: 25): Maximum number of places to crawl
 - `--max-reviews` (optional, default: 5): Maximum number of reviews per place
 - `--output` (optional, default: `../data/raw/raw_places.json`): Path to save raw JSON data
+
+> ⚠️ **Important**: Always specify a unique `--output` filename for each different query to avoid overwriting previous data!
 
 The script will:
 - Connect to Apify API
@@ -177,27 +194,65 @@ The script will:
 python transform_data.py
 ```
 
+**⚠️ Important**: Before running `transform_data.py`, you need to update the file paths in the script:
+
+1. **Edit `transform_data.py`** and change:
+   - `RAW_JSON_PATH = "../data/raw/raw_places.json"` → your actual JSON file path
+   - Default `output_csv_path` in the function call → your desired CSV output path
+
+   Example:
+   ```python
+   # For billiard data
+   RAW_JSON_PATH = "../data/raw/billiard_places.json"
+   transform_data(output_csv_path="../data/clean/billiard_clean_place.csv")
+   
+   # For coffee shop data
+   RAW_JSON_PATH = "../data/raw/coffeeshop_places.json"
+   transform_data(output_csv_path="../data/clean/coffeeshop_clean_place.csv")
+   ```
+
 The script will:
-- Load raw JSON data
+- Load raw JSON data from the specified path
 - Handle missing values
 - Extract coordinates from geometry
-- Save cleaned CSV to `../data/clean/billiard_clean_place.csv`
+- Save cleaned CSV to the specified output path
 
 **Logs**: Check `transform_data.log` for detailed execution logs
 
 ### Step 3: Load & Rank (SQL)
 
-```bash
-cd ../sql
-sqlite3 ../output/places.db < run.sql
-```
+**⚠️ Important**: Before running the SQL script, you need to update the file paths in `run.sql`:
+
+1. **Edit `run.sql`** and change:
+   - Line 4: `.import` path → your cleaned CSV file path
+   - Line 43: `.output` path → your desired output CSV path
+   - Database name (optional): Change `places.db` to a unique name for each dataset
+
+   Example:
+   ```sql
+   -- For billiard data
+   .import /path/to/week1/google-places-cleaning-and-ranking/data/clean/billiard_clean_place.csv places
+   .output /path/to/week1/google-places-cleaning-and-ranking/output/billiard_ranked_places.csv
+   
+   -- For coffee shop data
+   .import /path/to/week1/google-places-cleaning-and-ranking/data/clean/coffeeshop_clean_place.csv places
+   .output /path/to/week1/google-places-cleaning-and-ranking/output/coffeeshop_ranked_places.csv
+   ```
+
+2. **Run the SQL script:**
+   ```bash
+   cd ../sql
+   sqlite3 ../output/places.db < run.sql
+   # Or use a unique database name:
+   sqlite3 ../output/billiard_places.db < run.sql
+   ```
 
 The SQL script will:
 - Create SQLite database
-- Import cleaned CSV data
+- Import cleaned CSV data from the specified path
 - Clean and extract category types
 - Generate ranked places by category using `RANK()` and `DENSE_RANK()` window functions
-- Export ranked results to `../output/ranked_places.csv`
+- Export ranked results to the specified output CSV path
 
 ---
 
@@ -241,6 +296,27 @@ The SQL script will:
 ---
 
 ## 📝 Notes
+
+### Important File Path Management
+
+⚠️ **When running with different queries, you MUST update file paths to avoid overwriting data:**
+
+1. **`crawl_places.py`**: Use `--output` argument to specify unique JSON filenames
+   ```bash
+   python crawl_places.py "query1" --output ../data/raw/query1_places.json
+   python crawl_places.py "query2" --output ../data/raw/query2_places.json
+   ```
+
+2. **`transform_data.py`**: Edit the script to change:
+   - `RAW_JSON_PATH` variable (line 17) → your JSON input file
+   - `output_csv_path` parameter in function call (line 19) → your CSV output file
+
+3. **`run.sql`**: Edit the SQL file to change:
+   - `.import` path (line 4) → your cleaned CSV file path
+   - `.output` path (line 43) → your ranked output CSV path
+   - Database name (optional) → use unique names like `query1_places.db`
+
+### Other Notes
 
 - The project uses SQLite for simplicity (no PostgreSQL setup required)
 - Window functions (`RANK()` and `DENSE_RANK()`) are used to rank places within each category
