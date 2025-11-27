@@ -27,7 +27,13 @@ week1/
 │   ├── python/
 │   │   ├── crawl_places.py      # Extract: Crawl Google Places data
 │   │   ├── transform_data.py    # Transform: Clean and process data
-│   │   └── config_loader.py     # Configuration loader utility
+│   │   ├── config_loader.py     # Configuration loader utility
+│   │   ├── run_tests.py         # Test runner script
+│   │   └── tests/               # Unit tests
+│   │       ├── test_config_loader.py
+│   │       ├── test_transform_data.py
+│   │       ├── test_crawl_places.py
+│   │       └── test_data.py     # Mock data and fixtures
 │   ├── sql/
 │   │   └── run.sql              # Load: SQLite operations and ranking
 │   └── config.yaml              # Configuration file for paths and settings
@@ -351,6 +357,54 @@ The SQL script will:
 
 ---
 
+## 🧪 Testing
+
+The project includes comprehensive unit tests using Python's `unittest` framework.
+
+### Running Tests
+
+**Run all tests:**
+```bash
+cd week1/google-places-cleaning-and-ranking/python
+python run_tests.py
+```
+
+**Run specific test file:**
+```bash
+python -m unittest tests.test_config_loader
+python -m unittest tests.test_transform_data
+python -m unittest tests.test_crawl_places
+```
+
+**Run with verbose output:**
+```bash
+python -m unittest discover tests -v
+```
+
+### Test Coverage
+
+The test suite includes:
+- ✅ **Config Loader Tests**: Test configuration file loading and path resolution
+- ✅ **Transform Data Tests**: Test data transformation, missing value handling, coordinate extraction
+- ✅ **Crawl Places Tests**: Test API integration with mocked Apify client
+
+### Test Structure
+
+```
+python/
+├── tests/
+│   ├── __init__.py
+│   ├── test_data.py          # Mock data and fixtures
+│   ├── test_config_loader.py # Config loader tests
+│   ├── test_transform_data.py # Transform function tests
+│   └── test_crawl_places.py  # Crawl function tests (with mocked API)
+└── run_tests.py              # Test runner script
+```
+
+> 💡 **Note**: Tests use mock data and mocked API calls, so no actual API calls are made during testing.
+
+---
+
 ## ✅ Learning Outcomes
 
 This project demonstrates:
@@ -361,6 +415,8 @@ This project demonstrates:
 - ✅ API integration (Apify)
 - ✅ File I/O (JSON, CSV, SQLite)
 - ✅ CLI argument parsing with argparse
+- ✅ Configuration management with YAML
+- ✅ Unit testing with unittest and mocking
 
 ---
 

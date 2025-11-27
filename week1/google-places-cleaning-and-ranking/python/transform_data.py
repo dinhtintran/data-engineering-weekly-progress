@@ -127,7 +127,6 @@ if __name__ == "__main__":
     
     # Reload config if custom path provided
     if args.config:
-        global config
         config = load_config(args.config)
     
     transform_data(

@@ -152,7 +152,6 @@ Examples:
     
     # Reload config if custom path provided
     if args.config:
-        global config
         config = load_config(args.config)
     
     # If query is not provided, prompt user for input
