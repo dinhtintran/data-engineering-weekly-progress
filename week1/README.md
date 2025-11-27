@@ -215,12 +215,24 @@ python transform_data.py --input ../data/raw/billiard_places.json --output ../da
 
 # Using custom config file
 python transform_data.py --config ../custom_config.yaml
+
+# Override columns and fill values on the fly
+python transform_data.py \
+  --input ../data/raw/spa_places.json \
+  --output-name spa_clean.csv \
+  --columns place_id,name,rating,user_ratings_total,address \
+  --default-rating 3.5 \
+  --default-reviews 10
 ```
 
 **CLI Arguments:**
 - `--input` (optional, default from config): Path to raw JSON file
 - `--output` (optional, default from config): Path to save cleaned CSV file
+- `--output-name` (optional): File name to save inside clean data directory (used when `--output` not provided)
 - `--config` (optional): Path to custom config.yaml file
+- `--columns` (optional): Comma-separated columns to save (override config)
+- `--default-rating` (optional): Value to fill missing ratings (override config)
+- `--default-reviews` (optional): Value to fill missing user rating totals (override config)
 
 > 💡 **Note**: You can now use CLI arguments instead of editing the script! The script reads default paths from `config.yaml`, but CLI arguments override them.
 

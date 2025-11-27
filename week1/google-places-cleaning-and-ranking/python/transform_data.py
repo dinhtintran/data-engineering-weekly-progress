@@ -19,7 +19,14 @@ logger = logging.getLogger(__name__)
 # Load configuration
 config = load_config()
 
-def transform_data(raw_json_path=None, output_csv_path=None):
+def transform_data(
+    raw_json_path=None,
+    output_csv_path=None,
+    output_file_name=None,
+    columns_to_save_override=None,
+    default_rating_override=None,
+    default_reviews_override=None,
+):
     """
     Transform raw JSON data to cleaned CSV format
     
@@ -36,7 +43,10 @@ def transform_data(raw_json_path=None, output_csv_path=None):
     if output_csv_path is None:
         clean_data_dir = get_path(config, 'paths', 'clean_data_dir', default='../data/clean')
         default_clean_csv = get_path(config, 'paths', 'default_clean_csv', default='clean_places.csv')
-        output_csv_path = os.path.join(clean_data_dir, default_clean_csv)
+        file_name = output_file_name or default_clean_csv
+        output_csv_path = os.path.join(clean_data_dir, file_name)
+    elif output_file_name:
+        logger.warning("--output-name is ignored because --output is provided.")
     
     logger.info(f"Starting data transformation from {raw_json_path}")
     
@@ -55,8 +65,16 @@ def transform_data(raw_json_path=None, output_csv_path=None):
 
     # Handle missing values
     logger.info("Handling missing values...")
-    default_rating = get_path(config, 'processing', 'default_rating', default=0)
-    default_reviews = get_path(config, 'processing', 'default_user_ratings_total', default=0)
+    default_rating = (
+        default_rating_override
+        if default_rating_override is not None
+        else get_path(config, 'processing', 'default_rating', default=0)
+    )
+    default_reviews = (
+        default_reviews_override
+        if default_reviews_override is not None
+        else get_path(config, 'processing', 'default_user_ratings_total', default=0)
+    )
     
     df['user_ratings_total'] = df['user_ratings_total'].fillna(default_reviews)
     df['rating'] = df['rating'].fillna(default_rating)
@@ -80,10 +98,13 @@ def transform_data(raw_json_path=None, output_csv_path=None):
     logger.info(f"Extracted coordinates for {coordinates_extracted} places")
 
     # Get columns to save from config
-    columns_to_save = get_path(config, 'processing', 'columns_to_save', default=[
-        'place_id', 'name', 'rating', 'user_ratings_total', 
-        'latitude', 'longitude', 'address', 'types'
-    ])
+    if columns_to_save_override:
+        columns_to_save = columns_to_save_override
+    else:
+        columns_to_save = get_path(config, 'processing', 'columns_to_save', default=[
+            'place_id', 'name', 'rating', 'user_ratings_total', 
+            'latitude', 'longitude', 'address', 'types'
+        ])
     
     # Check if all columns exist
     missing_cols = [col for col in columns_to_save if col not in df.columns]
@@ -117,10 +138,34 @@ if __name__ == "__main__":
         help="Path to save cleaned CSV file (default: from config.yaml)"
     )
     parser.add_argument(
+        "--output-name",
+        type=str,
+        default=None,
+        help="File name to save in clean data directory (used when --output is not provided)"
+    )
+    parser.add_argument(
         "--config",
         type=str,
         default=None,
         help="Path to config.yaml file (default: ../config.yaml)"
+    )
+    parser.add_argument(
+        "--columns",
+        type=str,
+        default=None,
+        help="Comma-separated list of columns to save (override config)"
+    )
+    parser.add_argument(
+        "--default-rating",
+        type=float,
+        default=None,
+        help="Value to fill missing ratings (override config)"
+    )
+    parser.add_argument(
+        "--default-reviews",
+        type=int,
+        default=None,
+        help="Value to fill missing user_ratings_total (override config)"
     )
     
     args = parser.parse_args()
@@ -129,7 +174,16 @@ if __name__ == "__main__":
     if args.config:
         config = load_config(args.config)
     
+    columns_override = (
+        [col.strip() for col in args.columns.split(',') if col.strip()]
+        if args.columns else None
+    )
+    
     transform_data(
         raw_json_path=args.input,
-        output_csv_path=args.output
+        output_csv_path=args.output,
+        output_file_name=args.output_name,
+        columns_to_save_override=columns_override,
+        default_rating_override=args.default_rating,
+        default_reviews_override=args.default_reviews,
     )
