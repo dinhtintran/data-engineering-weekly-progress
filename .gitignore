@@ -205,3 +205,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+docker_sql/ny_taxi_postgres_data
+
+week1/docker_sql/ny_taxi_postgres_data
