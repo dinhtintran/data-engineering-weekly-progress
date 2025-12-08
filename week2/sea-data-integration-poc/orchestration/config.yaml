@@ -1,0 +1,22 @@
+# World Bank GDP per capita pipeline configuration
+api:
+  base_url: "https://api.worldbank.org/v2"
+  endpoint: "/country/all/indicator/NY.GDP.PCAP.CD"
+  format: "json"
+  per_page: 1000
+  timeout_sec: 30
+
+output:
+  raw_jsonl_path: "data/raw/worldbank_gdp_per_capita.jsonl"
+  clean_csv_path: "data/clean/worldbank_gdp_per_capita.csv"
+
+filter:
+  # Optionally restrict years or countries (ISO2 or ISO3 codes)
+  start_year: 1990
+  end_year: 2024
+  countries: []  # empty means all
+
+logging:
+  level: "INFO"          # DEBUG, INFO, WARNING, ERROR
+  to_file: true           # write logs to file instead of console
+  file_path: "orchestration/pipeline.log"  # relative to project root
