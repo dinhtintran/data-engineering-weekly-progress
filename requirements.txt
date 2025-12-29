@@ -6,3 +6,5 @@ matplotlib
 seaborn 
 folium
 pyyaml
+apache-airflow
+apache-airflow-providers-sqlite
