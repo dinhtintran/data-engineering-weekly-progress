@@ -1,0 +1,61 @@
+services:
+    postgres:
+        image: postgres:13
+        environment:
+            POSTGRES_USER: root
+            POSTGRES_PASSWORD: 123456
+            POSTGRES_DB: ny_taxi
+        volumes:
+            - postgres-db-volume: /var/lib/postgresql/data
+        healthcheck:
+            test: ["CMD", "pg_isready", "-U", "ny_taxi"]
+            interval: 5s
+            retries: 5
+        restart: always
+
+docker run -it \
+    -e POSTGRES_USER="root" \
+    -e POSTGRES_PASSWORD="123456" \
+    -e POSTGRES_DB="ny_taxi" \ 
+    -v /Users/tin/Desktop/data-engineer-weekly-progress/data-engineering-weekly-progress/week1/docker_sql/ny_taxi_postgres_data:/var/lib/postgresql/data \
+    -p 5432:5432 \
+    postgres:13
+
+docker run -it \
+    -e POSTGRES_USER="root" \
+    -e POSTGRES_PASSWORD=" 123456" \
+    -e POSTGRES_DB="ny_taxi" \ 
+    -v $(pwd)/ny_taxi_postgres_data:/var/lib/postgresql/data \
+    -p 5432:5432 \
+    postgres:13
+
+
+docker run -it \
+    -e PGADMIN_DEFAULT_EMAIL="admin@admin.com" \
+    -e PGADMIN_DEFAULT_PASSWORD="123456" \
+    -p 8080:80 \
+    dpage/pgadmin4
+
+// Network
+
+docker create network <name>
+
+a4c9cd0a4c576ed08a3612859846eb8f1ecebb71101745f9422bec0575d50a7e
+
+docker run -it \
+    -e POSTGRES_USER="root" \
+    -e POSTGRES_PASSWORD="123456" \
+    -e POSTGRES_DB="ny_taxi" \ 
+    -v /Users/tin/Desktop/data-engineer-weekly-progress/data-engineering-weekly-progress/week1/docker_sql/ny_taxi_postgres_data:/var/lib/postgresql/data \
+    -p 5432:5432 \
+    --network=pg-network \
+    --name pg-database \
+    postgres:13
+
+docker run -it \
+    -e PGADMIN_DEFAULT_EMAIL="admin@admin.com" \
+    -e PGADMIN_DEFAULT_PASSWORD="123456" \
+    -p 8080:80 \
+    --network=pg-network \
+    --name pg-admin \
+    dpage/pgadmin4
