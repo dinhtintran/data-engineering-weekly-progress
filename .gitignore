@@ -209,3 +209,11 @@ __marimo__/
 docker_sql/ny_taxi_postgres_data
 
 week1/docker_sql/ny_taxi_postgres_data
+
+week3/week3/airflow/logs
+
+# Spark
+metastore_db/
+.spark-warehouse/
+spark-warehouse/
+derby.log
