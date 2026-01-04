@@ -30,7 +30,7 @@ This repository documents my **Data Engineering Internship Journey**, including:
 | **Week 2** | Data Modeling + Data Warehouse | [📄 View details](./week2/Data%20Engineering%20-%20Project.md) | [🛠 Data Integration POC](./week2/sea-data-integration-poc/) |
 | **Week 3** | Airflow Orchestration | [📄 View details](./week3/README.md) | [🛠 Airflow DAG: Place Metrics](./week3/airflow/) |
 | **Week 4** | Apache Spark Analytics | [📄 View details](./week4/README.md) | [🛠 Spark Place Reviews Analysis](./week4/spark-reviews-week4/) |
-| **Week 5** | Advanced Data Pipelines | *updating* | *updating* |
+| **Week 5** | Cloud-Native ETL on GCP | [📄 View details](./week5/README.md) | [🛠 Cloud ETL Pipeline](./week5/) |
 | **Week 6** | Kafka + Streaming | *updating* | *updating* |
 | ... | ... | ... | ... |
 
@@ -44,5 +44,6 @@ This repository documents my **Data Engineering Internship Journey**, including:
 | **WorldBank Data Integration** | Data ingestion pipeline for GDP per capita analysis | [`week2/sea-data-integration-poc/`](./week2/sea-data-integration-poc/) |
 | **Airflow Orchestration** | Automated DAG for place metrics ingestion with database integration | [`week3/airflow/`](./week3/airflow/) |
 | **Spark Reviews Analytics** | Distributed processing to aggregate 5-star reviews by region with schema validation & logging | [`week4/spark-reviews-week4/`](./week4/spark-reviews-week4/) |
+| **GCP Cloud ETL Pipeline** | Event-driven serverless ingestion with Cloud Functions, Eventarc triggers, GCS staging, and BigQuery loading | [`week5/`](./week5/) |
 
 ---
